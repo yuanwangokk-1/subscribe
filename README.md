@@ -1,10 +1,10 @@
 # subscription
 
-订阅面板转换链接：https://https://sub.v1.mk/
+订阅面板转换链接：https://sub.ariesver.shop/
 
-前端订阅面板：https://https://sub.v1.mk/
+前端订阅面板：https://sub.ariesver.shop/
 
-后端订阅链接：https://url.v1.mk
+后端订阅链接：https://url.v1.mk/
 
 cloudflare邮箱：yuanwangokk@proton.me
 
