@@ -13,3 +13,5 @@ speedtest网址：https://v2.ariesver.shop/
 服务器监控：https://kuma.ariesver.shop/
 
 GitHub 文件加速：https://proxy.ariesver.shop/
+
+x-ui面板地址：https://v2.ariesver.shop/xui
