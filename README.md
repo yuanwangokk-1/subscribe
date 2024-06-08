@@ -6,9 +6,9 @@
 
 # subscription
 
-订阅面板转换链接：https://sub.ariesver.shop/
+订阅面板转换链接：https://sub.v1.mk/
 
-前端订阅面板：https://sub.ariesver.shop/
+前端订阅面板：https://acl4ssr-sub.github.io/
 
 后端订阅链接：https://url.v1.mk/
 
