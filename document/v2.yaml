@@ -15,53 +15,69 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: visa, server: visa.com, port: 2096, client-fingerprint: randomized, type: vless, uuid: e8899a8e-729a-43bc-aebf-95e12c6c6db6, tls: true, tfo: false, skip-cert-verify: false, servername: vless.443888.xyz, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vless.443888.xyz}}}
+  - {name: arise, server: v2.ariesver.shop, port: 443, client-fingerprint: randomized, type: vless, uuid: 99280094-e683-476b-a3cd-0d37c3892c6f, tls: true, tfo: false, skip-cert-verify: false, servername: v2.ariesver.shop, network: ws, ws-opts: {path: /arise, headers: {Host: v2.ariesver.shop}}}
+  - {name: syarise, server: v2.ariesver.shop, port: 443, client-fingerprint: chrome, type: vmess, uuid: 99280094-e683-476b-a3cd-0d37c3892c6f, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: v2.ariesver.shop, network: ws, ws-opts: {path: /syarise, headers: {Host: v2.ariesver.shop}}}
+  - {name: alise, server: v2.ariesver.shop, port: 443, client-fingerprint: randomized, type: vless, uuid: 99280094-e683-476b-a3cd-0d37c3892c6f, tls: true, tfo: false, skip-cert-verify: false, servername: v2.ariesver.shop, network: ws, ws-opts: {path: /alise, headers: {Host: v2.ariesver.shop}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - visa
+      - arise
+      - syarise
+      - alise
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - visa
+      - arise
+      - syarise
+      - alise
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - visa
+      - arise
+      - syarise
+      - alise
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - visa
+      - arise
+      - syarise
+      - alise
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - visa
+      - arise
+      - syarise
+      - alise
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - visa
+      - arise
+      - syarise
+      - alise
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - visa
+      - arise
+      - syarise
+      - alise
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -84,7 +100,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - visa
+      - arise
+      - syarise
+      - alise
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
