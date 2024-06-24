@@ -21,12 +21,12 @@
     "servers": [
       {
         "tag": "proxyDns",
-        "address": "https://dns.google/dns-query",
+        "address": "tls://8.8.8.8",
         "detour": "Proxy"
       },
       {
         "tag": "localDns",
-        "address": "https://dns.alidns.com/dns-query",
+        "address": "https://223.5.5.5/dns-query",
         "detour": "direct"
       },
       {
@@ -99,9 +99,8 @@
         "direct",
         "a",
         "b",
-        "c",
         "d",
-        "e",
+        "c",
         "f"
       ]
     },
@@ -352,9 +351,8 @@
       "outbounds": [
         "a",
         "b",
-        "c",
         "d",
-        "e",
+        "c",
         "f"
       ]
     },
@@ -364,9 +362,8 @@
       "outbounds": [
         "a",
         "b",
-        "c",
         "d",
-        "e",
+        "c",
         "f"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -403,34 +400,57 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/?proxyip=oracle.gitgoogle.com",
         "headers": {
           "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
+        }
       }
     },
     {
       "tag": "b",
-      "type": "trojan",
+      "type": "vless",
       "server": "visa.cn",
       "server_port": 2096,
-      "password": "google",
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "sytrojan.6516789.xyz",
+        "server_name": "syvless.6516789.xyz",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "random"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/proxyIP=oracle.gitgoogle.com",
+        "path": "/?proxyip=oracle.gitgoogle.com",
         "headers": {
-          "Host": "sytrojan.6516789.xyz"
+          "Host": "syvless.6516789.xyz"
+        }
+      }
+    },
+    {
+      "tag": "d",
+      "type": "vless",
+      "server": "visa.cn",
+      "server_port": 2096,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?proxyip=oracle.gitgoogle.com",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
         }
       }
     },
@@ -438,68 +458,23 @@
       "tag": "c",
       "type": "vless",
       "server": "visa.cn",
-      "server_port": 443,
+      "server_port": 2096,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "sy.skvless.us.kg"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "sy.skvless.us.kg"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "d",
-      "type": "trojan",
-      "server": "visa.cn",
-      "server_port": 443,
-      "password": "google",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "sk.skvless.us.kg",
+        "server_name": "syvless.6516789.xyz",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "random"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/?proxyip=oracle.gitgoogle.com",
         "headers": {
-          "Host": "sk.skvless.us.kg"
-        }
-      }
-    },
-    {
-      "tag": "e",
-      "type": "vless",
-      "server": "visa.cn",
-      "server_port": 443,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "v2.ariesver.shop",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/arise",
-        "headers": {
-          "Host": "v2.ariesver.shop"
+          "Host": "syvless.6516789.xyz"
         }
       }
     },
@@ -507,23 +482,23 @@
       "tag": "f",
       "type": "vless",
       "server": "visa.cn",
-      "server_port": 443,
+      "server_port": 2096,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "v2.ariesver.shop",
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "random"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/arises",
+        "path": "/?proxyip=oracle.gitgoogle.com",
         "headers": {
-          "Host": "v2.ariesver.shop"
+          "Host": "syvless.6516789.xyz"
         }
       }
     }
