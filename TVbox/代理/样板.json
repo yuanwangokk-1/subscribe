@@ -1,0 +1,16 @@
+{
+    "spider": "http://666.ewwe.gq/xiaolinshao/linshao/main/代理/pg.jar",
+    "sites": [
+        {
+            "key": "内置代理样板",
+            "name": "内置代理样板",
+            "type": 3,
+            "api": "csp_Market",
+            "ext":[{
+    "name": "代理模版",
+    "list": [
+      {
+        "url": "http://666.ewwe.gq/xiaolinshao/linshao/main/代理/样版.zip ",
+        "icon": "http://666.ewwe.gq/xiaolinshao/linshao/main/代理/icon.png",
+        "copy":"file://Download/模版.json"
+      }]}]}]}
