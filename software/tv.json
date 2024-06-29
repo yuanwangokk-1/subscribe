@@ -611,10 +611,19 @@
 			"type": 3,
 			"api": "csp_Config",
 			"ext": {
+				"wgcf_xray_url": "https://down.nigx.cn/raw.githubusercontent.com/xiaolinshao/linshao/main/xray.gz",
+				"wgcf_json_url": "https://down.nigx.cn/dpaste.com/CZB324YYE.txt",
+				"wgcf_vless_id": "de44b044-8f90-4e18-b742-16591667ff96",
+				"wgcf_vless_optname": "edgetunnel-free.pages.dev:2087",
+				"wgcf_vless_worker": "edgetunnel-free.pages.dev",
+				"wgcf_vless_path": "/?ed=2048",
+				"wgcf_vless_protocol": "vless",
+				"wgcf_vless_network": "ws",
+				"wgcf_vless_tls": true,
 				"singbox_url": "https://mirror.ghproxy.com/https://github.com/yuanwangokk-1/subscribe/raw/main/TVbox/box/lib/sing-box.gz",
-				"singbox_subscribe_url": "",
+				"singbox_subscribe_url": "https://mirror.ghproxy.com/https://github.com/yuanwangokk-1/subscribe/raw/main/singbox/wXfZ.json",
 				"singbox_clash2singbox_url": "https://mirror.ghproxy.com/https://github.com/yuanwangokk-1/subscribe/raw/main/TVbox/box/lib/clash2singbox.gz",
-				"singbox_template_url": "https://mirror.ghproxy.com/https://github.com/yuanwangokk-1/subscribe/raw/main/singbox/wXfZ.json"
+				"singbox_template_url": "https://mirror.ghproxy.com/https://github.com/yuanwangokk-1/subscribe/raw/main/TVbox/box/lib/singbox.json"
 			}
 		},
 		{
