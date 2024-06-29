@@ -604,208 +604,171 @@
 			"url": "https://down.nigx.cn/raw.githubusercontent.com/ssili126/tv/main/itvlist.txt"
 		}
 	],
-	"sites": [
 		{
-			"key": "配置",
-			"name": "YouTube代理设置",
-			"type": 3,
-			"api": "csp_Config",
-			"ext": {
-				"wgcf_xray_url": "https://down.nigx.cn/raw.githubusercontent.com/xiaolinshao/linshao/main/xray.gz",
-				"wgcf_json_url": "https://down.nigx.cn/dpaste.com/CZB324YYE.txt",
-				"wgcf_vless_id": "de44b044-8f90-4e18-b742-16591667ff96",
-				"wgcf_vless_optname": "edgetunnel-free.pages.dev:2087",
-				"wgcf_vless_worker": "edgetunnel-free.pages.dev",
-				"wgcf_vless_path": "/?ed=2048",
-				"wgcf_vless_protocol": "vless",
-				"wgcf_vless_network": "ws",
-				"wgcf_vless_tls": true,
-				"singbox_url": "https://mirror.ghproxy.com/https://github.com/yuanwangokk-1/subscribe/raw/main/TVbox/box/lib/sing-box.gz",
-				"singbox_subscribe_url": "https://mirror.ghproxy.com/https://github.com/yuanwangokk-1/subscribe/raw/main/singbox/wXfZ.json",
-				"singbox_clash2singbox_url": "https://mirror.ghproxy.com/https://github.com/yuanwangokk-1/subscribe/raw/main/TVbox/box/lib/clash2singbox.gz",
-				"singbox_template_url": "https://mirror.ghproxy.com/https://github.com/yuanwangokk-1/subscribe/raw/main/TVbox/box/lib/singbox.json"
-			}
-		},
-		{
-			"key": "Youtube",
-			"name": "YouTube_Premium",
-			"type": 3,
-			"style": {
-				"type": "rect",
-				"ratio": 1.5
-			},
-			"api": "csp_Youtube",
-			"ext": {
-				"keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,邁克爾傑克遜,張瑋伽",
-				"codecs": "av",
-				"json": "https://down.nigx.cn/dpaste.com/A3W46R3ZU.txt",
-				"proxy": "127.0.0.1:10072"
-			}
-		},
-		{
-			"key": "hipy_js_360影视[官]",
-			"name": "360影视[官]",
-			"type": 3,
-			"api": "https://down.nigx.cn/qu.ax/MmwO.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "https://down.nigx.cn/qu.ax/jblc.js"
-		},
-		{
-			"key": "hipy_js_菜狗[官]",
-			"name": "菜狗[官]",
-			"type": 3,
-			"api": "https://down.nigx.cn/qu.ax/MmwO.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "https://down.nigx.cn/qu.ax/jeSt.js"
-		},
-		{
-			"key": "hipy_js_奇珍异兽[官]",
-			"name": "奇珍异兽[官]",
-			"type": 3,
-			"api": "https://down.nigx.cn/qu.ax/MmwO.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "https://down.nigx.cn/qu.ax/CinJ.js"
-		},
-		{
-			"key": "hipy_js_优酷[官]",
-			"name": "优酷[官]",
-			"type": 3,
-			"api": "https://down.nigx.cn/qu.ax/MmwO.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "https://down.nigx.cn/qu.ax/GikX.js"
-		},
-		{
-			"key": "hipy_js_腾云驾雾[官]",
-			"name": "腾云驾雾[官]",
-			"type": 3,
-			"api": "https://down.nigx.cn/qu.ax/MmwO.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "https://down.nigx.cn/qu.ax/ENpF.js"
-		},
-		{
-			"key": "hipy_js_百忙无果[官]",
-			"name": "百忙无果[官]",
-			"type": 3,
-			"api": "https://down.nigx.cn/qu.ax/MmwO.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "https://down.nigx.cn/qu.ax/BFas.js"
-		},
-		{
-			"key": "hipy_js_哔哩影视[官]",
-			"name": "哔哩影视[官]",
-			"type": 3,
-			"api": "https://down.nigx.cn/qu.ax/MmwO.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "https://down.nigx.cn/qu.ax/nDVJ.js"
-		},
-		{
-			"key": "hipy_js_58动漫[漫]",
-			"name": "58动漫[漫]",
-			"type": 3,
-			"api": "https://down.nigx.cn/qu.ax/MmwO.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "https://down.nigx.cn/qu.ax/neaY.js"
-		},
-		{
-			"key": "hipy_js_动漫巴士[漫]",
-			"name": "动漫巴士[漫]",
-			"type": 3,
-			"api": "https://down.nigx.cn/qu.ax/MmwO.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "https://down.nigx.cn/qu.ax/dYJL.js"
-		},
-		{
-			"key": "hipy_js_我的哔哩[官]",
-			"name": "我的哔哩[官]",
-			"type": 3,
-			"api": "https://down.nigx.cn/qu.ax/MmwO.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "https://down.nigx.cn/qu.ax/CsYQ.js"
-		},
-		{
-			"key": "hipy_js_往往影视[慢]",
-			"name": "往往影视[慢]",
-			"type": 3,
-			"api": "https://down.nigx.cn/qu.ax/MmwO.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "https://down.nigx.cn/qu.ax/FXYr.js"
-		},
-		{
-			"key": "hipy_js_驴番[漫]",
-			"name": "驴番[漫]",
-			"type": 3,
-			"api": "https://down.nigx.cn/qu.ax/MmwO.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "https://down.nigx.cn/qu.ax/TTs.js"
-		},
-		{
-			"key": "hipy_js_剧圈圈",
-			"name": "剧圈圈",
-			"type": 3,
-			"api": "https://down.nigx.cn/qu.ax/MmwO.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "https://down.nigx.cn/qu.ax/GXas.js"
-		},
-		{
-			"key": "hipy_js_剧圈圈[自动]",
-			"name": "剧圈圈[自动]",
-			"type": 3,
-			"api": "https://down.nigx.cn/qu.ax/MmwO.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "https://down.nigx.cn/qu.ax/gsYS.js"
-		},
-		{
-			"key": "hipy_js_哔哩直播[官]",
-			"name": "哔哩直播[官]",
-			"type": 3,
-			"api": "https://down.nigx.cn/qu.ax/MmwO.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "https://down.nigx.cn/qu.ax/XgOX.js"
+		    "key": "Youtube",
+		    "name": "YouTube_Premium",
+		    "type": 3,
+		    "style": {
+		        "type": "rect",
+		        "ratio": 1.5
+		    },
+		    "api": "csp_Youtube",
+		    "ext": {
+		        "keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,邁克爾傑克遜,張瑋伽",
+		        "codecs": "av",
+		        "json": "https://down.nigx.cn/dpaste.com/A3W46R3ZU.txt",
+		        "proxy": "proxy"
+		    }
+		}, {
+		    "key": "hipy_js_360影视[官]",
+		    "name": "360影视[官]",
+		    "type": 3,
+		    "api": "https://down.nigx.cn/qu.ax/MmwO.js",
+		    "searchable": 1,
+		    "quickSearch": 1,
+		    "filterable": 1,
+		    "order_num": 0,
+		    "ext": "https://down.nigx.cn/qu.ax/jblc.js"
+		}, {
+		    "key": "hipy_js_菜狗[官]",
+		    "name": "菜狗[官]",
+		    "type": 3,
+		    "api": "https://down.nigx.cn/qu.ax/MmwO.js",
+		    "searchable": 1,
+		    "quickSearch": 1,
+		    "filterable": 1,
+		    "order_num": 0,
+		    "ext": "https://down.nigx.cn/qu.ax/jeSt.js"
+		}, {
+		    "key": "hipy_js_奇珍异兽[官]",
+		    "name": "奇珍异兽[官]",
+		    "type": 3,
+		    "api": "https://down.nigx.cn/qu.ax/MmwO.js",
+		    "searchable": 1,
+		    "quickSearch": 1,
+		    "filterable": 1,
+		    "order_num": 0,
+		    "ext": "https://down.nigx.cn/qu.ax/CinJ.js"
+		}, {
+		    "key": "hipy_js_优酷[官]",
+		    "name": "优酷[官]",
+		    "type": 3,
+		    "api": "https://down.nigx.cn/qu.ax/MmwO.js",
+		    "searchable": 1,
+		    "quickSearch": 1,
+		    "filterable": 1,
+		    "order_num": 0,
+		    "ext": "https://down.nigx.cn/qu.ax/GikX.js"
+		}, {
+		    "key": "hipy_js_腾云驾雾[官]",
+		    "name": "腾云驾雾[官]",
+		    "type": 3,
+		    "api": "https://down.nigx.cn/qu.ax/MmwO.js",
+		    "searchable": 1,
+		    "quickSearch": 1,
+		    "filterable": 1,
+		    "order_num": 0,
+		    "ext": "https://down.nigx.cn/qu.ax/ENpF.js"
+		}, {
+		    "key": "hipy_js_百忙无果[官]",
+		    "name": "百忙无果[官]",
+		    "type": 3,
+		    "api": "https://down.nigx.cn/qu.ax/MmwO.js",
+		    "searchable": 1,
+		    "quickSearch": 1,
+		    "filterable": 1,
+		    "order_num": 0,
+		    "ext": "https://down.nigx.cn/qu.ax/BFas.js"
+		}, {
+		    "key": "hipy_js_哔哩影视[官]",
+		    "name": "哔哩影视[官]",
+		    "type": 3,
+		    "api": "https://down.nigx.cn/qu.ax/MmwO.js",
+		    "searchable": 1,
+		    "quickSearch": 1,
+		    "filterable": 1,
+		    "order_num": 0,
+		    "ext": "https://down.nigx.cn/qu.ax/nDVJ.js"
+		}, {
+		    "key": "hipy_js_58动漫[漫]",
+		    "name": "58动漫[漫]",
+		    "type": 3,
+		    "api": "https://down.nigx.cn/qu.ax/MmwO.js",
+		    "searchable": 1,
+		    "quickSearch": 1,
+		    "filterable": 1,
+		    "order_num": 0,
+		    "ext": "https://down.nigx.cn/qu.ax/neaY.js"
+		}, {
+		    "key": "hipy_js_动漫巴士[漫]",
+		    "name": "动漫巴士[漫]",
+		    "type": 3,
+		    "api": "https://down.nigx.cn/qu.ax/MmwO.js",
+		    "searchable": 1,
+		    "quickSearch": 1,
+		    "filterable": 1,
+		    "order_num": 0,
+		    "ext": "https://down.nigx.cn/qu.ax/dYJL.js"
+		}, {
+		    "key": "hipy_js_我的哔哩[官]",
+		    "name": "我的哔哩[官]",
+		    "type": 3,
+		    "api": "https://down.nigx.cn/qu.ax/MmwO.js",
+		    "searchable": 1,
+		    "quickSearch": 1,
+		    "filterable": 1,
+		    "order_num": 0,
+		    "ext": "https://down.nigx.cn/qu.ax/CsYQ.js"
+		}, {
+		    "key": "hipy_js_往往影视[慢]",
+		    "name": "往往影视[慢]",
+		    "type": 3,
+		    "api": "https://down.nigx.cn/qu.ax/MmwO.js",
+		    "searchable": 1,
+		    "quickSearch": 1,
+		    "filterable": 1,
+		    "order_num": 0,
+		    "ext": "https://down.nigx.cn/qu.ax/FXYr.js"
+		}, {
+		    "key": "hipy_js_驴番[漫]",
+		    "name": "驴番[漫]",
+		    "type": 3,
+		    "api": "https://down.nigx.cn/qu.ax/MmwO.js",
+		    "searchable": 1,
+		    "quickSearch": 1,
+		    "filterable": 1,
+		    "order_num": 0,
+		    "ext": "https://down.nigx.cn/qu.ax/TTs.js"
+		}, {
+		    "key": "hipy_js_剧圈圈",
+		    "name": "剧圈圈",
+		    "type": 3,
+		    "api": "https://down.nigx.cn/qu.ax/MmwO.js",
+		    "searchable": 1,
+		    "quickSearch": 1,
+		    "filterable": 1,
+		    "order_num": 0,
+		    "ext": "https://down.nigx.cn/qu.ax/GXas.js"
+		}, {
+		    "key": "hipy_js_剧圈圈[自动]",
+		    "name": "剧圈圈[自动]",
+		    "type": 3,
+		    "api": "https://down.nigx.cn/qu.ax/MmwO.js",
+		    "searchable": 1,
+		    "quickSearch": 1,
+		    "filterable": 1,
+		    "order_num": 0,
+		    "ext": "https://down.nigx.cn/qu.ax/gsYS.js"
+		}, {
+		    "key": "hipy_js_哔哩直播[官]",
+		    "name": "哔哩直播[官]",
+		    "type": 3,
+		    "api": "https://down.nigx.cn/qu.ax/MmwO.js",
+		    "searchable": 1,
+		    "quickSearch": 1,
+		    "filterable": 1,
+		    "order_num": 0,
+		    "ext": "https://down.nigx.cn/qu.ax/XgOX.js"
 		}
-	]
-}
+		]
+		}
