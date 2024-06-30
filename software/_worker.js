@@ -25,7 +25,7 @@ const 尝嚑嚒嚓 = '/?ed=2560' //一般不用改 '/?ed=2560' 使用这个代�
 const 堼堽堾堼 = 'visa.cn' //CF的节点，填域名或IP，由于CFcdn大多都是通用端口开放，所以好用的域名一个就够，会生成4个notls节点和4个tls的。
 const 塴尘塶塷塸堑塺 = 'visa.cn' //CF的节点，IPV6的，改了双栈优先IPV6，填域名或IP
 
-const 垛垜垝垞垟垠 = '' //非CF的节点，填域名或IP，可以挂自建的VPS节点啥的，走策略访问特殊需求网站
+const 垛垜垝垞垟垠 = 'visa.cn' //非CF的节点，填域名或IP，可以挂自建的VPS节点啥的，走策略访问特殊需求网站
 const 垨垩垪垫垬垭 = '443' //非CF的节点端口
 const 垩堋堌堍 = 'true' //非CF的节点TLS开关，true，false
 
@@ -33,7 +33,7 @@ const 姃姄姅姆姇 = 'ts.skvless.us.kg' //备用节点，可以填自己的wo
 const 姷姸姹 = '2096' //端口
 const 嫐嫑嫒嫓嫔 = 'true' //TLS开关，true，false
 
-const 実宥宧宨宩 = '' //IPV6备用节点，改了双栈优先IPV6，意思同上，都是自定义的，想填备份的也行，想填别人的或自己的vps也行
+const 実宥宧宨宩 = 'visa.cn' //IPV6备用节点，改了双栈优先IPV6，意思同上，都是自定义的，想填备份的也行，想填别人的或自己的vps也行
 const 宺宻宼寀寁 = '443' //端口
 const 寏寔寕寖寗 = 'true' //TLS开关，true，false
 
