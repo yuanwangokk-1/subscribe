@@ -1,0 +1,74 @@
+﻿IP地址,端口,TLS,数据中心,地区,城市,网络延迟,下载速度
+192.243.121.236,59156,true,KIX,Asia Pacific,Osaka,66 ms,20723 kB/s
+47.238.131.39,2096,true,HKG,Asia Pacific,Hong Kong,76 ms,18783 kB/s
+47.76.189.102,2096,true,HKG,Asia Pacific,Hong Kong,65 ms,18416 kB/s
+35.229.179.98,25775,true,TPE,Asia Pacific,Taipei,84 ms,16594 kB/s
+60.249.89.74,23555,true,KHH,Asia Pacific,Kaohsiung City,75 ms,16108 kB/s
+211.72.156.10,23555,true,KHH,Asia Pacific,Kaohsiung City,89 ms,15823 kB/s
+211.72.156.17,23555,true,KHH,Asia Pacific,Kaohsiung City,93 ms,13357 kB/s
+47.76.225.255,2096,true,HKG,Asia Pacific,Hong Kong,69 ms,12851 kB/s
+150.66.24.104,34237,true,KIX,Asia Pacific,Osaka,87 ms,12576 kB/s
+211.72.156.20,23555,true,KHH,Asia Pacific,Kaohsiung City,92 ms,12228 kB/s
+65.75.194.96,23190,true,SJC,North America,San Jose,172 ms,11521 kB/s
+202.81.235.17,443,true,HKG,Asia Pacific,Hong Kong,243 ms,11156 kB/s
+154.17.21.196,443,true,LAX,North America,Los Angeles,171 ms,9748 kB/s
+154.21.91.6,15390,true,LAX,North America,Los Angeles,185 ms,9671 kB/s
+203.69.248.40,27381,true,KHH,Asia Pacific,Kaohsiung City,108 ms,9534 kB/s
+199.19.109.205,8080,true,LAX,North America,Los Angeles,175 ms,9460 kB/s
+211.72.156.12,23555,true,KHH,Asia Pacific,Kaohsiung City,74 ms,8067 kB/s
+154.17.30.48,23232,true,LAX,North America,Los Angeles,169 ms,7717 kB/s
+103.170.233.160,4308,true,NRT,Asia Pacific,Tokyo,77 ms,7711 kB/s
+47.76.204.76,2053,true,HKG,Asia Pacific,Hong Kong,60 ms,7574 kB/s
+104.20.27.133,2096,true,IAD,North America,Ashburn,234 ms,6972 kB/s
+47.236.164.215,2096,true,SIN,Asia Pacific,Singapore,298 ms,6395 kB/s
+8.219.222.98,2096,true,SIN,Asia Pacific,Singapore,280 ms,6142 kB/s
+52.49.41.80,2053,true,DUB,Europe,Dublin,185 ms,5097 kB/s
+176.31.34.19,2053,true,CDG,Europe,Paris,268 ms,5093 kB/s
+8.219.174.213,2096,true,SIN,Asia Pacific,Singapore,282 ms,4701 kB/s
+47.236.75.152,2096,true,SIN,Asia Pacific,Singapore,286 ms,4460 kB/s
+47.236.253.41,2096,true,SIN,Asia Pacific,Singapore,306 ms,3107 kB/s
+167.172.40.90,443,true,AMS,Europe,Amsterdam,274 ms,2955 kB/s
+104.40.244.228,443,true,AMS,Europe,Amsterdam,275 ms,2860 kB/s
+146.56.171.182,11659,true,NRT,Asia Pacific,Tokyo,69 ms,2763 kB/s
+47.242.183.7,2053,true,HKG,Asia Pacific,Hong Kong,61 ms,2710 kB/s
+194.24.161.146,4090,true,CDG,Europe,Paris,259 ms,2122 kB/s
+104.20.27.224,2096,true,IAD,North America,Ashburn,254 ms,2100 kB/s
+119.28.189.227,32079,true,HKG,Asia Pacific,Hong Kong,69 ms,1988 kB/s
+47.238.5.0,2053,true,HKG,Asia Pacific,Hong Kong,58 ms,1884 kB/s
+47.243.74.220,2053,true,HKG,Asia Pacific,Hong Kong,60 ms,1618 kB/s
+140.238.8.194,15800,true,NRT,Asia Pacific,Tokyo,127 ms,1463 kB/s
+47.76.26.26,2096,true,HKG,Asia Pacific,Hong Kong,62 ms,1461 kB/s
+152.70.245.66,12693,true,NRT,Asia Pacific,Tokyo,72 ms,1135 kB/s
+123.202.145.26,443,true,HKG,Asia Pacific,Hong Kong,83 ms,783 kB/s
+198.23.223.178,2053,true,BUF,North America,Buffalo,248 ms,329 kB/s
+170.64.165.229,20443,true,SYD,Oceania,Sydney,355 ms,323 kB/s
+45.86.229.176,8443,true,MAD,Europe,Madrid,268 ms,308 kB/s
+99.83.209.185,443,true,IAD,North America,Ashburn,172 ms,302 kB/s
+43.156.119.123,58000,true,SIN,Asia Pacific,Singapore,108 ms,198 kB/s
+75.2.32.4,443,true,IAD,North America,Ashburn,179 ms,185 kB/s
+129.154.50.159,443,true,ICN,Asia Pacific,Seoul,150 ms,134 kB/s
+185.114.72.67,443,true,MAD,Europe,Madrid,283 ms,128 kB/s
+54.194.162.247,443,true,DUB,Europe,Dublin,184 ms,121 kB/s
+43.134.189.122,34237,true,SIN,Asia Pacific,Singapore,99 ms,121 kB/s
+198.244.244.129,8443,true,LHR,Europe,London,241 ms,99 kB/s
+172.84.92.152,58723,true,NRT,Asia Pacific,Tokyo,69 ms,83 kB/s
+146.56.99.255,56789,true,NRT,Asia Pacific,Tokyo,152 ms,73 kB/s
+8.210.200.31,11991,true,HKG,Asia Pacific,Hong Kong,60 ms,67 kB/s
+38.180.10.150,443,true,TLL,Europe,Tallinn,256 ms,61 kB/s
+154.204.56.238,34237,true,HKG,Asia Pacific,Hong Kong,98 ms,57 kB/s
+167.114.153.39,8443,true,YYZ,North America,Toronto,247 ms,49 kB/s
+38.180.45.222,2053,true,TLL,Europe,Tallinn,255 ms,49 kB/s
+51.38.69.149,2053,true,LHR,Europe,London,254 ms,39 kB/s
+47.76.203.101,2053,true,HKG,Asia Pacific,Hong Kong,55 ms,38 kB/s
+43.156.6.97,10392,true,SIN,Asia Pacific,Singapore,108 ms,33 kB/s
+172.84.92.108,42304,true,NRT,Asia Pacific,Tokyo,91 ms,33 kB/s
+172.84.92.174,8526,true,NRT,Asia Pacific,Tokyo,171 ms,14 kB/s
+158.180.68.56,443,true,NRT,Asia Pacific,Tokyo,148 ms,8 kB/s
+154.204.60.218,29876,true,HKG,Asia Pacific,Hong Kong,290 ms,0 kB/s
+64.110.74.46,45929,true,NRT,Asia Pacific,Tokyo,80 ms,0 kB/s
+211.72.156.11,23555,true,KHH,Asia Pacific,Kaohsiung City,98 ms,0 kB/s
+43.134.166.213,10444,true,SIN,Asia Pacific,Singapore,101 ms,0 kB/s
+150.109.94.144,8900,true,SIN,Asia Pacific,Singapore,103 ms,0 kB/s
+211.75.223.83,23555,true,KHH,Asia Pacific,Kaohsiung City,96 ms,0 kB/s
+192.9.165.253,20001,true,SYD,Oceania,Sydney,322 ms,0 kB/s
+146.56.42.31,48652,true,HKG,Asia Pacific,Hong Kong,69 ms,0 kB/s
