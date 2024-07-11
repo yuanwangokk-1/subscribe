@@ -15,7 +15,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: arise, server: 47.238.131.39, port: 443, client-fingerprint: randomized, type: vless, uuid: 99280094-e683-476b-a3cd-0d37c3892c6f, tls: true, tfo: false, skip-cert-verify: false, servername: v2.ariesver.shop, network: ws, ws-opts: {path: /arise, headers: {Host: v2.ariesver.shop}}}
+  - {name: arise, server: VLESS.fxxk.dedyn.io, port: 443, client-fingerprint: randomized, type: vless, uuid: 99280094-e683-476b-a3cd-0d37c3892c6f, tls: true, tfo: false, skip-cert-verify: false, servername: v2.ariesver.shop, network: ws, ws-opts: {path: /arise, headers: {Host: v2.ariesver.shop}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
