@@ -70,7 +70,7 @@
       "inet4_address": "172.19.0.1/30",
       "mtu": 9000,
       "auto_route": true,
-      "strict_route": false,
+      "strict_route": true,
       "sniff": true,
       "endpoint_independent_nat": false,
       "stack": "system",
@@ -97,12 +97,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f"
+        "arise"
       ]
     },
     {
@@ -208,7 +203,7 @@
       "default": "Japan"
     },
     {
-      "tag": "NETFLIX",
+      "tag": "Netflix",
       "type": "selector",
       "outbounds": [
         "HongKong",
@@ -350,24 +345,14 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f"
+        "arise"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f"
+        "arise"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -386,103 +371,9 @@
       "tag": "block"
     },
     {
-      "tag": "a",
+      "tag": "arise",
       "type": "vless",
-      "server": "visa.cn",
-      "server_port": 2096,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "b",
-      "type": "trojan",
-      "server": "visa.cn",
-      "server_port": 2096,
-      "password": "google",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "sytrojan.6516789.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/proxyIP=oracle.gitgoogle.com",
-        "headers": {
-          "Host": "sytrojan.6516789.xyz"
-        }
-      }
-    },
-    {
-      "tag": "c",
-      "type": "vless",
-      "server": "visa.cn",
-      "server_port": 443,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "sy.skvless.us.kg"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "sy.skvless.us.kg"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "d",
-      "type": "trojan",
-      "server": "visa.cn",
-      "server_port": 443,
-      "password": "google",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "sk.skvless.us.kg",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "sk.skvless.us.kg"
-        }
-      }
-    },
-    {
-      "tag": "e",
-      "type": "vless",
-      "server": "visa.cn",
+      "server": "VLESS.fxxk.dedyn.io",
       "server_port": 443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
@@ -498,30 +389,6 @@
       "transport": {
         "type": "ws",
         "path": "/arise",
-        "headers": {
-          "Host": "v2.ariesver.shop"
-        }
-      }
-    },
-    {
-      "tag": "f",
-      "type": "vless",
-      "server": "visa.cn",
-      "server_port": 443,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "v2.ariesver.shop",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/arises",
         "headers": {
           "Host": "v2.ariesver.shop"
         }
@@ -567,6 +434,10 @@
         "outbound": "direct"
       },
       {
+        "ip_is_private": true,
+        "outbound": "direct"
+      },
+      {
         "rule_set": "geosite-openai",
         "outbound": "OpenAI"
       },
@@ -601,10 +472,7 @@
         "outbound": "Facebook"
       },
       {
-        "rule_set": [
-          "geoip-bilibili",
-          "geosite-bilibili"
-        ],
+        "rule_set": "geosite-bilibili",
         "outbound": "BiliBili"
       },
       {
@@ -624,7 +492,7 @@
           "geoip-netflix",
           "geosite-netflix"
         ],
-        "outbound": "NETFLIX"
+        "outbound": "Netflix"
       },
       {
         "rule_set": "geosite-disney",
@@ -643,7 +511,10 @@
         "outbound": "Microsoft"
       },
       {
-        "rule_set": "geosite-category-games",
+        "rule_set": [
+          "geosite-category-games",
+          "geosite-dmm"
+        ],
         "outbound": "Games"
       },
       {
@@ -658,14 +529,6 @@
         "outbound": "Global"
       },
       {
-        "rule_set": "geosite-private",
-        "outbound": "direct"
-      },
-      {
-        "ip_is_private": true,
-        "outbound": "direct"
-      },
-      {
         "rule_set": [
           "geoip-cn",
           "geosite-cn"
@@ -675,73 +538,17 @@
     ],
     "rule_set": [
       {
-        "tag": "geoip-google",
+        "tag": "geosite-category-ads-all",
         "type": "remote",
         "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/google.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geoip-telegram",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/telegram.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geoip-twitter",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/twitter.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geoip-facebook",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/facebook.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geoip-netflix",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/netflix.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geoip-apple",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo-lite/geoip/apple.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geoip-bilibili",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo-lite/geoip/bilibili.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geoip-cn",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/cn.srs",
-        "download_detour": "direct"
-      },
-      {
-        "tag": "geosite-private",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/private.srs",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-ads-all.srs",
         "download_detour": "direct"
       },
       {
         "tag": "geosite-openai",
         "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/openai.srs",
+        "format": "source",
+        "url": "https://testingcf.jsdelivr.net/gh/Toperlock/sing-box-geosite@main/rule/OpenAI.json",
         "download_detour": "direct"
       },
       {
@@ -749,6 +556,13 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/youtube.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-google",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/google.srs",
         "download_detour": "direct"
       },
       {
@@ -766,6 +580,13 @@
         "download_detour": "direct"
       },
       {
+        "tag": "geoip-telegram",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/telegram.srs",
+        "download_detour": "direct"
+      },
+      {
         "tag": "geosite-telegram",
         "type": "remote",
         "format": "binary",
@@ -773,10 +594,24 @@
         "download_detour": "direct"
       },
       {
+        "tag": "geoip-twitter",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/twitter.srs",
+        "download_detour": "direct"
+      },
+      {
         "tag": "geosite-twitter",
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/twitter.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-facebook",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/facebook.srs",
         "download_detour": "direct"
       },
       {
@@ -815,6 +650,13 @@
         "download_detour": "direct"
       },
       {
+        "tag": "geoip-netflix",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/netflix.srs",
+        "download_detour": "direct"
+      },
+      {
         "tag": "geosite-netflix",
         "type": "remote",
         "format": "binary",
@@ -826,6 +668,13 @@
         "type": "remote",
         "format": "binary",
         "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/disney.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-apple",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo-lite/geoip/apple.srs",
         "download_detour": "direct"
       },
       {
@@ -857,6 +706,13 @@
         "download_detour": "direct"
       },
       {
+        "tag": "geosite-dmm",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/dmm.srs",
+        "download_detour": "direct"
+      },
+      {
         "tag": "geosite-hbo",
         "type": "remote",
         "format": "binary",
@@ -871,13 +727,6 @@
         "download_detour": "direct"
       },
       {
-        "tag": "geosite-cn",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/cn.srs",
-        "download_detour": "direct"
-      },
-      {
         "tag": "geosite-geolocation-!cn",
         "type": "remote",
         "format": "binary",
@@ -885,10 +734,17 @@
         "download_detour": "direct"
       },
       {
-        "tag": "geosite-category-ads-all",
+        "tag": "geoip-cn",
         "type": "remote",
         "format": "binary",
-        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/category-ads-all.srs",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geoip/cn.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@sing/geo/geosite/cn.srs",
         "download_detour": "direct"
       }
     ]
