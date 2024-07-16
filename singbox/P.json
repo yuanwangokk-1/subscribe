@@ -385,8 +385,8 @@
     {
       "tag": "p5",
       "type": "vmess",
-      "server": "103.210.237.224",
-      "server_port": 80,
+      "server": "183.238.202.171",
+      "server_port": 32133,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
       "alter_id": 64,
@@ -395,8 +395,8 @@
     {
       "tag": "p4",
       "type": "vmess",
-      "server": "120.232.153.8",
-      "server_port": 40944,
+      "server": "183.237.20.158",
+      "server_port": 40595,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
       "alter_id": 64,
@@ -405,8 +405,8 @@
     {
       "tag": "p3",
       "type": "vmess",
-      "server": "120.210.205.236",
-      "server_port": 47459,
+      "server": "183.238.90.3",
+      "server_port": 40890,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
       "alter_id": 64,
@@ -425,8 +425,8 @@
     {
       "tag": "p1",
       "type": "vmess",
-      "server": "183.238.202.171",
-      "server_port": 32133,
+      "server": "120.232.153.8",
+      "server_port": 40944,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "security": "auto",
       "alter_id": 64,
