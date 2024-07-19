@@ -97,95 +97,130 @@
       "outbounds": [
         "auto",
         "direct",
-        "☁️🐉",
-        "☁️🐉 2",
-        "☁️🐉 3",
-        "☁️🐉 4",
-        "☁️🐉 5",
-        "🇭🇰 HK🐉",
-        "🇭🇰 HK🐉 2",
-        "🇭🇰 HK🐉 3",
-        "🇭🇰 HK🐉 4",
-        "🇭🇰 HK🐉 5",
-        "🇭🇰 HK🐉 6",
-        "🇭🇰 HK🐉 7",
-        "🇸🇬 SG🐉",
-        "🇸🇬 SG🐉 2",
-        "🇸🇬 SG🐉 3",
-        "🇸🇬 SG🐉 4",
-        "🇸🇬 SG🐉 5",
-        "🇸🇬 SG🐉 6",
-        "🇸🇬 SG🐉 7",
-        "🇸🇬 SG🐉 8",
-        "🇯🇵 JP🐉",
-        "🇯🇵 JP🐉 2",
-        "🇯🇵 JP🐉 3",
-        "🇯🇵 JP🐉 4",
-        "🇯🇵 JP🐉 5",
-        "🇹🇼 🇨🇳 TW🐉",
-        "🇹🇼 🇨🇳 TW🐉 2",
-        "🇹🇼 🇨🇳 TW🐉 3",
-        "🇰🇷 KR🐉",
-        "🇰🇷 KR🐉 2",
-        "🇰🇷 KR🐉 3",
-        "🇰🇷 KR🐉 4",
-        "🇺🇸 US🐉",
-        "🇺🇸 US🐉 2",
-        "🇺🇸 US🐉 3",
-        "🇺🇸 US🐉 4",
-        "🇺🇸 US🐉 5",
-        "🇺🇸 US🐉 6",
-        "🇺🇸 US🐉 7",
-        "🇺🇸 US🐉 8",
-        "🇺🇸 US🐉 9",
-        "🇺🇸 US🐉 10",
-        "🇭🇰 HKG🐉",
-        "🇭🇰 HKG🐉 2",
-        "KIX🐉",
-        "🇵🇪 TPE🐉",
-        "NRT🐉",
-        "🇭🇰 HKG🐉 3",
-        "KIX🐉 2",
-        "NRT🐉 2",
-        "🇸🇯 SJC🐉",
-        "🇮🇳 SIN🐉",
-        "🇸🇯 SJC🐉 2",
-        "NRT🐉 3",
-        "🇦🇩 IAD🐉",
-        "🇸🇯 SJC🐉 3",
-        "🇭🇰 HKG🐉 4",
-        "DUB🐉",
-        "🇦🇽 LAX🐉",
-        "🇦🇽 LAX🐉 2",
-        "EWR🐉",
-        "🇦🇩 IAD🐉 2",
-        "🇦🇩 IAD🐉 3",
-        "🇦🇩 IAD🐉 4",
-        "DUB🐉 2",
-        "🇭🇰 HKG🐉 5",
-        "🇦🇲 AMS🐉",
-        "🇰🇭 KHH🐉",
-        "🇮🇳 SIN🐉 2",
-        "🇦🇩 MAD🐉",
-        "🇸🇾 SYD🐉",
-        "🇮🇳 SIN🐉 3",
-        "🇮🇳 SIN🐉 4",
-        "🇮🇳 SIN🐉 5",
-        "🇮🇳 SIN🐉 6",
-        "🇮🇳 SIN🐉 7",
-        "KIX🐉 3",
-        "🇦🇩 IAD🐉 5",
-        "YYZ🐉",
-        "🇹🇱 TLL🐉",
-        "🇭🇰 HKG🐉 6",
-        "🇮🇳 SIN🐉 8",
-        "NRT🐉 4",
-        "🇸🇪 SEA🐉",
-        "BUF🐉",
-        "NRT🐉 5",
-        "NRT🐉 6",
-        "🇭🇰 HKG🐉 7",
-        "🇸🇯 SJC🐉 4"
+        "🐉🌊",
+        "🐉🌊 2",
+        "🐉🌊 3",
+        "🐉🌊 4",
+        "🐉🌊 5",
+        "🐉🌊 6",
+        "🇭🇰 HK🌊",
+        "🇭🇰 HK🌊 2",
+        "🇭🇰 HK🌊 3",
+        "🇭🇰 HK🌊 4",
+        "🇭🇰 HK🌊 5",
+        "🇭🇰 HK🌊 6",
+        "🇭🇰 HK🌊 7",
+        "🇭🇰 HK🌊 8",
+        "🇭🇰 HK🌊 9",
+        "🇸🇬 SG🌊",
+        "🇸🇬 SG🌊 2",
+        "🇸🇬 SG🌊 3",
+        "🇸🇬 SG🌊 4",
+        "🇸🇬 SG🌊 5",
+        "🇸🇬 SG🌊 6",
+        "🇸🇬 SG🌊 7",
+        "🇸🇬 SG🌊 8",
+        "🇸🇬 SG🌊 9",
+        "🇸🇬 SG🌊 10",
+        "🇯🇵 JP🌊",
+        "🇯🇵 JP🌊 2",
+        "🇯🇵 JP🌊 3",
+        "🇯🇵 JP🌊 4",
+        "🇯🇵 JP🌊 5",
+        "🇹🇼 🇨🇳 TW🌊",
+        "🇹🇼 🇨🇳 TW🌊 2",
+        "🇰🇷 KR🌊",
+        "🇰🇷 KR🌊 2",
+        "🇰🇷 KR🌊 3",
+        "🇰🇷 KR🌊 4",
+        "🇰🇷 KR🌊 5",
+        "🇰🇷 KR🌊 6",
+        "🇰🇷 KR🌊 7",
+        "🇺🇸 US🌊",
+        "🇺🇸 US🌊 2",
+        "🇺🇸 US🌊 3",
+        "🇺🇸 US🌊 4",
+        "🇺🇸 US🌊 5",
+        "🇺🇸 US🌊 6",
+        "🇺🇸 US🌊 7",
+        "🇺🇸 US🌊 8",
+        "🇺🇸 US🌊 9",
+        "🇺🇸 US🌊 10",
+        "优选IPv6🌊",
+        "优选IPv6🌊 2",
+        "优选IPv6🌊 3",
+        "优选IPv6🌊 4",
+        "优选IPv6🌊 5",
+        "优选IPv6🌊 6",
+        "优选IPv6🌊 7",
+        "优选IPv6🌊 8",
+        "优选IPv6🌊 9",
+        "优选IPv6🌊 10",
+        "🇭🇰 HKG🌊",
+        "🇭🇰 HKG🌊 2",
+        "🇭🇰 HKG🌊 3",
+        "NRT🌊",
+        "🇮🇳 SIN🌊",
+        "🇸🇯 SJC🌊",
+        "🇸🇯 SJC🌊 2",
+        "🇸🇯 SJC🌊 3",
+        "🇦🇽 LAX🌊",
+        "NRT🌊 2",
+        "🇦🇽 LAX🌊 2",
+        "🇸🇯 SJC🌊 4",
+        "KIX🌊",
+        "EWR🌊",
+        "🇨🇳 ICN🌊",
+        "🇭🇷 LHR🌊",
+        "🇸🇯 SJC🌊 5",
+        "🇨🇳 ICN🌊 2",
+        "🇸🇯 SJC🌊 6",
+        "🇭🇷 LHR🌊 2",
+        "🇸🇯 SJC🌊 7",
+        "🇨🇳 ICN🌊 3",
+        "🇮🇳 SIN🌊 2",
+        "🇭🇷 LHR🌊 3",
+        "DUB🌊",
+        "🇫🇷 FRA🌊",
+        "🇭🇰 HKG🌊 4",
+        "🇦🇲 AMS🌊",
+        "🇮🇳 SIN🌊 3",
+        "🇮🇳 SIN🌊 4",
+        "🇭🇷 LHR🌊 4",
+        "🇦🇩 IAD🌊",
+        "CDG🌊",
+        "🇴🇲 BOM🌊",
+        "🇨🇳 ICN🌊 4",
+        "CDG🌊 2",
+        "🇮🇳 SIN🌊 5",
+        "🇸🇾 SYD🌊",
+        "🇮🇳 SIN🌊 6",
+        "YYZ🌊",
+        "🇮🇳 SIN🌊 7",
+        "🇸🇾 SYD🌊 2",
+        "🇨🇳 ICN🌊 5",
+        "NRT🌊 3",
+        "🇮🇳 SIN🌊 8",
+        "🇭🇰 HKG🌊 5",
+        "NRT🌊 4",
+        "DUB🌊 2",
+        "🇰🇭 KHH🌊",
+        "🇮🇳 SIN🌊 9",
+        "🇫🇷 FRA🌊 2",
+        "🇭🇰 HKG🌊 6",
+        "🇸🇯 SJC🌊 8",
+        "🇮🇳 SIN🌊 10",
+        "🇦🇩 IAD🌊 2",
+        "NRT🌊 5",
+        "🇭🇰 HKG🌊 7",
+        "🇮🇳 SIN🌊 11",
+        "🇦🇲 AMS🌊 2",
+        "🇴🇲 BOM🌊 2",
+        "BUF🌊",
+        "KIX🌊 2",
+        "🇭🇰 HKG🌊 8",
+        "🇭🇰 HKG🌊 9",
+        "NRT🌊 6"
       ]
     },
     {
@@ -398,220 +433,290 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
-        "🇭🇰 HK🐉",
-        "🇭🇰 HK🐉 2",
-        "🇭🇰 HK🐉 3",
-        "🇭🇰 HK🐉 4",
-        "🇭🇰 HK🐉 5",
-        "🇭🇰 HK🐉 6",
-        "🇭🇰 HK🐉 7",
-        "🇭🇰 HKG🐉",
-        "🇭🇰 HKG🐉 2",
-        "🇭🇰 HKG🐉 3",
-        "🇭🇰 HKG🐉 4",
-        "🇭🇰 HKG🐉 5",
-        "🇭🇰 HKG🐉 6",
-        "🇭🇰 HKG🐉 7"
+        "🇭🇰 HK🌊",
+        "🇭🇰 HK🌊 2",
+        "🇭🇰 HK🌊 3",
+        "🇭🇰 HK🌊 4",
+        "🇭🇰 HK🌊 5",
+        "🇭🇰 HK🌊 6",
+        "🇭🇰 HK🌊 7",
+        "🇭🇰 HK🌊 8",
+        "🇭🇰 HK🌊 9",
+        "🇭🇰 HKG🌊",
+        "🇭🇰 HKG🌊 2",
+        "🇭🇰 HKG🌊 3",
+        "🇭🇰 HKG🌊 4",
+        "🇭🇰 HKG🌊 5",
+        "🇭🇰 HKG🌊 6",
+        "🇭🇰 HKG🌊 7",
+        "🇭🇰 HKG🌊 8",
+        "🇭🇰 HKG🌊 9"
       ]
     },
     {
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
-        "🇹🇼 🇨🇳 TW🐉",
-        "🇹🇼 🇨🇳 TW🐉 2",
-        "🇹🇼 🇨🇳 TW🐉 3"
+        "🇹🇼 🇨🇳 TW🌊",
+        "🇹🇼 🇨🇳 TW🌊 2"
       ]
     },
     {
       "tag": "Singapore",
       "type": "selector",
       "outbounds": [
-        "🇸🇬 SG🐉",
-        "🇸🇬 SG🐉 2",
-        "🇸🇬 SG🐉 3",
-        "🇸🇬 SG🐉 4",
-        "🇸🇬 SG🐉 5",
-        "🇸🇬 SG🐉 6",
-        "🇸🇬 SG🐉 7",
-        "🇸🇬 SG🐉 8"
+        "🇸🇬 SG🌊",
+        "🇸🇬 SG🌊 2",
+        "🇸🇬 SG🌊 3",
+        "🇸🇬 SG🌊 4",
+        "🇸🇬 SG🌊 5",
+        "🇸🇬 SG🌊 6",
+        "🇸🇬 SG🌊 7",
+        "🇸🇬 SG🌊 8",
+        "🇸🇬 SG🌊 9",
+        "🇸🇬 SG🌊 10"
       ]
     },
     {
       "tag": "Japan",
       "type": "selector",
       "outbounds": [
-        "🇯🇵 JP🐉",
-        "🇯🇵 JP🐉 2",
-        "🇯🇵 JP🐉 3",
-        "🇯🇵 JP🐉 4",
-        "🇯🇵 JP🐉 5"
+        "🇯🇵 JP🌊",
+        "🇯🇵 JP🌊 2",
+        "🇯🇵 JP🌊 3",
+        "🇯🇵 JP🌊 4",
+        "🇯🇵 JP🌊 5"
       ]
     },
     {
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 US🐉",
-        "🇺🇸 US🐉 2",
-        "🇺🇸 US🐉 3",
-        "🇺🇸 US🐉 4",
-        "🇺🇸 US🐉 5",
-        "🇺🇸 US🐉 6",
-        "🇺🇸 US🐉 7",
-        "🇺🇸 US🐉 8",
-        "🇺🇸 US🐉 9",
-        "🇺🇸 US🐉 10"
+        "🇺🇸 US🌊",
+        "🇺🇸 US🌊 2",
+        "🇺🇸 US🌊 3",
+        "🇺🇸 US🌊 4",
+        "🇺🇸 US🌊 5",
+        "🇺🇸 US🌊 6",
+        "🇺🇸 US🌊 7",
+        "🇺🇸 US🌊 8",
+        "🇺🇸 US🌊 9",
+        "🇺🇸 US🌊 10"
       ]
     },
     {
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "☁️🐉",
-        "☁️🐉 2",
-        "☁️🐉 3",
-        "☁️🐉 4",
-        "☁️🐉 5",
-        "🇰🇷 KR🐉",
-        "🇰🇷 KR🐉 2",
-        "🇰🇷 KR🐉 3",
-        "🇰🇷 KR🐉 4",
-        "KIX🐉",
-        "🇵🇪 TPE🐉",
-        "NRT🐉",
-        "KIX🐉 2",
-        "NRT🐉 2",
-        "🇸🇯 SJC🐉",
-        "🇮🇳 SIN🐉",
-        "🇸🇯 SJC🐉 2",
-        "NRT🐉 3",
-        "🇦🇩 IAD🐉",
-        "🇸🇯 SJC🐉 3",
-        "DUB🐉",
-        "🇦🇽 LAX🐉",
-        "🇦🇽 LAX🐉 2",
-        "EWR🐉",
-        "🇦🇩 IAD🐉 2",
-        "🇦🇩 IAD🐉 3",
-        "🇦🇩 IAD🐉 4",
-        "DUB🐉 2",
-        "🇦🇲 AMS🐉",
-        "🇰🇭 KHH🐉",
-        "🇮🇳 SIN🐉 2",
-        "🇦🇩 MAD🐉",
-        "🇸🇾 SYD🐉",
-        "🇮🇳 SIN🐉 3",
-        "🇮🇳 SIN🐉 4",
-        "🇮🇳 SIN🐉 5",
-        "🇮🇳 SIN🐉 6",
-        "🇮🇳 SIN🐉 7",
-        "KIX🐉 3",
-        "🇦🇩 IAD🐉 5",
-        "YYZ🐉",
-        "🇹🇱 TLL🐉",
-        "🇮🇳 SIN🐉 8",
-        "NRT🐉 4",
-        "🇸🇪 SEA🐉",
-        "BUF🐉",
-        "NRT🐉 5",
-        "NRT🐉 6",
-        "🇸🇯 SJC🐉 4"
+        "🐉🌊",
+        "🐉🌊 2",
+        "🐉🌊 3",
+        "🐉🌊 4",
+        "🐉🌊 5",
+        "🐉🌊 6",
+        "🇰🇷 KR🌊",
+        "🇰🇷 KR🌊 2",
+        "🇰🇷 KR🌊 3",
+        "🇰🇷 KR🌊 4",
+        "🇰🇷 KR🌊 5",
+        "🇰🇷 KR🌊 6",
+        "🇰🇷 KR🌊 7",
+        "优选IPv6🌊",
+        "优选IPv6🌊 2",
+        "优选IPv6🌊 3",
+        "优选IPv6🌊 4",
+        "优选IPv6🌊 5",
+        "优选IPv6🌊 6",
+        "优选IPv6🌊 7",
+        "优选IPv6🌊 8",
+        "优选IPv6🌊 9",
+        "优选IPv6🌊 10",
+        "NRT🌊",
+        "🇮🇳 SIN🌊",
+        "🇸🇯 SJC🌊",
+        "🇸🇯 SJC🌊 2",
+        "🇸🇯 SJC🌊 3",
+        "🇦🇽 LAX🌊",
+        "NRT🌊 2",
+        "🇦🇽 LAX🌊 2",
+        "🇸🇯 SJC🌊 4",
+        "KIX🌊",
+        "EWR🌊",
+        "🇨🇳 ICN🌊",
+        "🇭🇷 LHR🌊",
+        "🇸🇯 SJC🌊 5",
+        "🇨🇳 ICN🌊 2",
+        "🇸🇯 SJC🌊 6",
+        "🇭🇷 LHR🌊 2",
+        "🇸🇯 SJC🌊 7",
+        "🇨🇳 ICN🌊 3",
+        "🇮🇳 SIN🌊 2",
+        "🇭🇷 LHR🌊 3",
+        "DUB🌊",
+        "🇫🇷 FRA🌊",
+        "🇦🇲 AMS🌊",
+        "🇮🇳 SIN🌊 3",
+        "🇮🇳 SIN🌊 4",
+        "🇭🇷 LHR🌊 4",
+        "🇦🇩 IAD🌊",
+        "CDG🌊",
+        "🇴🇲 BOM🌊",
+        "🇨🇳 ICN🌊 4",
+        "CDG🌊 2",
+        "🇮🇳 SIN🌊 5",
+        "🇸🇾 SYD🌊",
+        "🇮🇳 SIN🌊 6",
+        "YYZ🌊",
+        "🇮🇳 SIN🌊 7",
+        "🇸🇾 SYD🌊 2",
+        "🇨🇳 ICN🌊 5",
+        "NRT🌊 3",
+        "🇮🇳 SIN🌊 8",
+        "NRT🌊 4",
+        "DUB🌊 2",
+        "🇰🇭 KHH🌊",
+        "🇮🇳 SIN🌊 9",
+        "🇫🇷 FRA🌊 2",
+        "🇸🇯 SJC🌊 8",
+        "🇮🇳 SIN🌊 10",
+        "🇦🇩 IAD🌊 2",
+        "NRT🌊 5",
+        "🇮🇳 SIN🌊 11",
+        "🇦🇲 AMS🌊 2",
+        "🇴🇲 BOM🌊 2",
+        "BUF🌊",
+        "KIX🌊 2",
+        "NRT🌊 6"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "☁️🐉",
-        "☁️🐉 2",
-        "☁️🐉 3",
-        "☁️🐉 4",
-        "☁️🐉 5",
-        "🇭🇰 HK🐉",
-        "🇭🇰 HK🐉 2",
-        "🇭🇰 HK🐉 3",
-        "🇭🇰 HK🐉 4",
-        "🇭🇰 HK🐉 5",
-        "🇭🇰 HK🐉 6",
-        "🇭🇰 HK🐉 7",
-        "🇸🇬 SG🐉",
-        "🇸🇬 SG🐉 2",
-        "🇸🇬 SG🐉 3",
-        "🇸🇬 SG🐉 4",
-        "🇸🇬 SG🐉 5",
-        "🇸🇬 SG🐉 6",
-        "🇸🇬 SG🐉 7",
-        "🇸🇬 SG🐉 8",
-        "🇯🇵 JP🐉",
-        "🇯🇵 JP🐉 2",
-        "🇯🇵 JP🐉 3",
-        "🇯🇵 JP🐉 4",
-        "🇯🇵 JP🐉 5",
-        "🇹🇼 🇨🇳 TW🐉",
-        "🇹🇼 🇨🇳 TW🐉 2",
-        "🇹🇼 🇨🇳 TW🐉 3",
-        "🇰🇷 KR🐉",
-        "🇰🇷 KR🐉 2",
-        "🇰🇷 KR🐉 3",
-        "🇰🇷 KR🐉 4",
-        "🇺🇸 US🐉",
-        "🇺🇸 US🐉 2",
-        "🇺🇸 US🐉 3",
-        "🇺🇸 US🐉 4",
-        "🇺🇸 US🐉 5",
-        "🇺🇸 US🐉 6",
-        "🇺🇸 US🐉 7",
-        "🇺🇸 US🐉 8",
-        "🇺🇸 US🐉 9",
-        "🇺🇸 US🐉 10",
-        "🇭🇰 HKG🐉",
-        "🇭🇰 HKG🐉 2",
-        "KIX🐉",
-        "🇵🇪 TPE🐉",
-        "NRT🐉",
-        "🇭🇰 HKG🐉 3",
-        "KIX🐉 2",
-        "NRT🐉 2",
-        "🇸🇯 SJC🐉",
-        "🇮🇳 SIN🐉",
-        "🇸🇯 SJC🐉 2",
-        "NRT🐉 3",
-        "🇦🇩 IAD🐉",
-        "🇸🇯 SJC🐉 3",
-        "🇭🇰 HKG🐉 4",
-        "DUB🐉",
-        "🇦🇽 LAX🐉",
-        "🇦🇽 LAX🐉 2",
-        "EWR🐉",
-        "🇦🇩 IAD🐉 2",
-        "🇦🇩 IAD🐉 3",
-        "🇦🇩 IAD🐉 4",
-        "DUB🐉 2",
-        "🇭🇰 HKG🐉 5",
-        "🇦🇲 AMS🐉",
-        "🇰🇭 KHH🐉",
-        "🇮🇳 SIN🐉 2",
-        "🇦🇩 MAD🐉",
-        "🇸🇾 SYD🐉",
-        "🇮🇳 SIN🐉 3",
-        "🇮🇳 SIN🐉 4",
-        "🇮🇳 SIN🐉 5",
-        "🇮🇳 SIN🐉 6",
-        "🇮🇳 SIN🐉 7",
-        "KIX🐉 3",
-        "🇦🇩 IAD🐉 5",
-        "YYZ🐉",
-        "🇹🇱 TLL🐉",
-        "🇭🇰 HKG🐉 6",
-        "🇮🇳 SIN🐉 8",
-        "NRT🐉 4",
-        "🇸🇪 SEA🐉",
-        "BUF🐉",
-        "NRT🐉 5",
-        "NRT🐉 6",
-        "🇭🇰 HKG🐉 7",
-        "🇸🇯 SJC🐉 4"
+        "🐉🌊",
+        "🐉🌊 2",
+        "🐉🌊 3",
+        "🐉🌊 4",
+        "🐉🌊 5",
+        "🐉🌊 6",
+        "🇭🇰 HK🌊",
+        "🇭🇰 HK🌊 2",
+        "🇭🇰 HK🌊 3",
+        "🇭🇰 HK🌊 4",
+        "🇭🇰 HK🌊 5",
+        "🇭🇰 HK🌊 6",
+        "🇭🇰 HK🌊 7",
+        "🇭🇰 HK🌊 8",
+        "🇭🇰 HK🌊 9",
+        "🇸🇬 SG🌊",
+        "🇸🇬 SG🌊 2",
+        "🇸🇬 SG🌊 3",
+        "🇸🇬 SG🌊 4",
+        "🇸🇬 SG🌊 5",
+        "🇸🇬 SG🌊 6",
+        "🇸🇬 SG🌊 7",
+        "🇸🇬 SG🌊 8",
+        "🇸🇬 SG🌊 9",
+        "🇸🇬 SG🌊 10",
+        "🇯🇵 JP🌊",
+        "🇯🇵 JP🌊 2",
+        "🇯🇵 JP🌊 3",
+        "🇯🇵 JP🌊 4",
+        "🇯🇵 JP🌊 5",
+        "🇹🇼 🇨🇳 TW🌊",
+        "🇹🇼 🇨🇳 TW🌊 2",
+        "🇰🇷 KR🌊",
+        "🇰🇷 KR🌊 2",
+        "🇰🇷 KR🌊 3",
+        "🇰🇷 KR🌊 4",
+        "🇰🇷 KR🌊 5",
+        "🇰🇷 KR🌊 6",
+        "🇰🇷 KR🌊 7",
+        "🇺🇸 US🌊",
+        "🇺🇸 US🌊 2",
+        "🇺🇸 US🌊 3",
+        "🇺🇸 US🌊 4",
+        "🇺🇸 US🌊 5",
+        "🇺🇸 US🌊 6",
+        "🇺🇸 US🌊 7",
+        "🇺🇸 US🌊 8",
+        "🇺🇸 US🌊 9",
+        "🇺🇸 US🌊 10",
+        "优选IPv6🌊",
+        "优选IPv6🌊 2",
+        "优选IPv6🌊 3",
+        "优选IPv6🌊 4",
+        "优选IPv6🌊 5",
+        "优选IPv6🌊 6",
+        "优选IPv6🌊 7",
+        "优选IPv6🌊 8",
+        "优选IPv6🌊 9",
+        "优选IPv6🌊 10",
+        "🇭🇰 HKG🌊",
+        "🇭🇰 HKG🌊 2",
+        "🇭🇰 HKG🌊 3",
+        "NRT🌊",
+        "🇮🇳 SIN🌊",
+        "🇸🇯 SJC🌊",
+        "🇸🇯 SJC🌊 2",
+        "🇸🇯 SJC🌊 3",
+        "🇦🇽 LAX🌊",
+        "NRT🌊 2",
+        "🇦🇽 LAX🌊 2",
+        "🇸🇯 SJC🌊 4",
+        "KIX🌊",
+        "EWR🌊",
+        "🇨🇳 ICN🌊",
+        "🇭🇷 LHR🌊",
+        "🇸🇯 SJC🌊 5",
+        "🇨🇳 ICN🌊 2",
+        "🇸🇯 SJC🌊 6",
+        "🇭🇷 LHR🌊 2",
+        "🇸🇯 SJC🌊 7",
+        "🇨🇳 ICN🌊 3",
+        "🇮🇳 SIN🌊 2",
+        "🇭🇷 LHR🌊 3",
+        "DUB🌊",
+        "🇫🇷 FRA🌊",
+        "🇭🇰 HKG🌊 4",
+        "🇦🇲 AMS🌊",
+        "🇮🇳 SIN🌊 3",
+        "🇮🇳 SIN🌊 4",
+        "🇭🇷 LHR🌊 4",
+        "🇦🇩 IAD🌊",
+        "CDG🌊",
+        "🇴🇲 BOM🌊",
+        "🇨🇳 ICN🌊 4",
+        "CDG🌊 2",
+        "🇮🇳 SIN🌊 5",
+        "🇸🇾 SYD🌊",
+        "🇮🇳 SIN🌊 6",
+        "YYZ🌊",
+        "🇮🇳 SIN🌊 7",
+        "🇸🇾 SYD🌊 2",
+        "🇨🇳 ICN🌊 5",
+        "NRT🌊 3",
+        "🇮🇳 SIN🌊 8",
+        "🇭🇰 HKG🌊 5",
+        "NRT🌊 4",
+        "DUB🌊 2",
+        "🇰🇭 KHH🌊",
+        "🇮🇳 SIN🌊 9",
+        "🇫🇷 FRA🌊 2",
+        "🇭🇰 HKG🌊 6",
+        "🇸🇯 SJC🌊 8",
+        "🇮🇳 SIN🌊 10",
+        "🇦🇩 IAD🌊 2",
+        "NRT🌊 5",
+        "🇭🇰 HKG🌊 7",
+        "🇮🇳 SIN🌊 11",
+        "🇦🇲 AMS🌊 2",
+        "🇴🇲 BOM🌊 2",
+        "BUF🌊",
+        "KIX🌊 2",
+        "🇭🇰 HKG🌊 8",
+        "🇭🇰 HKG🌊 9",
+        "NRT🌊 6"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -630,10 +735,120 @@
       "tag": "block"
     },
     {
-      "tag": "☁️🐉",
+      "tag": "🐉🌊",
+      "type": "vless",
+      "server": "visa.com",
+      "server_port": 2096,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🐉🌊 2",
+      "type": "vless",
+      "server": "visa.co.jp",
+      "server_port": 2096,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🐉🌊 3",
+      "type": "vless",
+      "server": "visa.com.sg",
+      "server_port": 2096,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🐉🌊 4",
+      "type": "vless",
+      "server": "whoer.net",
+      "server_port": 443,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🐉🌊 5",
+      "type": "vless",
+      "server": "csgo.com",
+      "server_port": 443,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🐉🌊 6",
       "type": "vless",
       "server": "time.is",
-      "server_port": 2096,
+      "server_port": 443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -652,10 +867,10 @@
       }
     },
     {
-      "tag": "☁️🐉 2",
+      "tag": "🇭🇰 HK🌊",
       "type": "vless",
-      "server": "ip.sb",
-      "server_port": 2096,
+      "server": "47.243.173.187",
+      "server_port": 8443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -674,97 +889,9 @@
       }
     },
     {
-      "tag": "☁️🐉 3",
+      "tag": "🇭🇰 HK🌊 2",
       "type": "vless",
-      "server": "icook.hk",
-      "server_port": 2096,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "☁️🐉 4",
-      "type": "vless",
-      "server": "www.visa.com.hk",
-      "server_port": 2096,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "☁️🐉 5",
-      "type": "vless",
-      "server": "www.shopify.com",
-      "server_port": 2096,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇭🇰 HK🐉",
-      "type": "vless",
-      "server": "47.243.74.220",
-      "server_port": 2083,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇭🇰 HK🐉 2",
-      "type": "vless",
-      "server": "8.210.65.1",
+      "server": "8.217.123.243",
       "server_port": 2053,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
@@ -784,10 +911,10 @@
       }
     },
     {
-      "tag": "🇭🇰 HK🐉 3",
+      "tag": "🇭🇰 HK🌊 3",
       "type": "vless",
-      "server": "20.205.131.206",
-      "server_port": 54043,
+      "server": "47.243.18.199",
+      "server_port": 2096,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -806,7 +933,7 @@
       }
     },
     {
-      "tag": "🇭🇰 HK🐉 4",
+      "tag": "🇭🇰 HK🌊 4",
       "type": "vless",
       "server": "38.147.188.171",
       "server_port": 8005,
@@ -828,29 +955,7 @@
       }
     },
     {
-      "tag": "🇭🇰 HK🐉 5",
-      "type": "vless",
-      "server": "47.76.204.76",
-      "server_port": 2053,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇭🇰 HK🐉 6",
+      "tag": "🇭🇰 HK🌊 5",
       "type": "vless",
       "server": "8.210.142.146",
       "server_port": 12346,
@@ -872,7 +977,73 @@
       }
     },
     {
-      "tag": "🇭🇰 HK🐉 7",
+      "tag": "🇭🇰 HK🌊 6",
+      "type": "vless",
+      "server": "47.76.204.76",
+      "server_port": 2053,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇰 HK🌊 7",
+      "type": "vless",
+      "server": "47.243.255.224",
+      "server_port": 2053,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇰 HK🌊 8",
+      "type": "vless",
+      "server": "123.202.145.26",
+      "server_port": 443,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇰 HK🌊 9",
       "type": "vless",
       "server": "119.28.189.227",
       "server_port": 32079,
@@ -894,7 +1065,7 @@
       }
     },
     {
-      "tag": "🇸🇬 SG🐉",
+      "tag": "🇸🇬 SG🌊",
       "type": "vless",
       "server": "89.28.239.142",
       "server_port": 8443,
@@ -916,10 +1087,10 @@
       }
     },
     {
-      "tag": "🇸🇬 SG🐉 2",
+      "tag": "🇸🇬 SG🌊 2",
       "type": "vless",
-      "server": "129.226.158.125",
-      "server_port": 8088,
+      "server": "8.219.174.142",
+      "server_port": 2096,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -938,10 +1109,10 @@
       }
     },
     {
-      "tag": "🇸🇬 SG🐉 3",
+      "tag": "🇸🇬 SG🌊 3",
       "type": "vless",
-      "server": "43.134.181.60",
-      "server_port": 53417,
+      "server": "47.236.10.182",
+      "server_port": 8443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -960,10 +1131,10 @@
       }
     },
     {
-      "tag": "🇸🇬 SG🐉 4",
+      "tag": "🇸🇬 SG🌊 4",
       "type": "vless",
-      "server": "119.28.113.40",
-      "server_port": 34237,
+      "server": "47.236.189.92",
+      "server_port": 2083,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -982,7 +1153,7 @@
       }
     },
     {
-      "tag": "🇸🇬 SG🐉 5",
+      "tag": "🇸🇬 SG🌊 5",
       "type": "vless",
       "server": "47.236.180.51",
       "server_port": 2083,
@@ -1004,9 +1175,31 @@
       }
     },
     {
-      "tag": "🇸🇬 SG🐉 6",
+      "tag": "🇸🇬 SG🌊 6",
       "type": "vless",
-      "server": "43.159.43.107",
+      "server": "43.134.181.60",
+      "server_port": 53417,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇸🇬 SG🌊 7",
+      "type": "vless",
+      "server": "119.28.113.40",
       "server_port": 34237,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
@@ -1026,29 +1219,7 @@
       }
     },
     {
-      "tag": "🇸🇬 SG🐉 7",
-      "type": "vless",
-      "server": "43.159.55.220",
-      "server_port": 34237,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇸🇬 SG🐉 8",
+      "tag": "🇸🇬 SG🌊 8",
       "type": "vless",
       "server": "43.156.143.198",
       "server_port": 40809,
@@ -1070,7 +1241,51 @@
       }
     },
     {
-      "tag": "🇯🇵 JP🐉",
+      "tag": "🇸🇬 SG🌊 9",
+      "type": "vless",
+      "server": "43.159.43.107",
+      "server_port": 34237,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇸🇬 SG🌊 10",
+      "type": "vless",
+      "server": "43.159.55.220",
+      "server_port": 34237,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇯🇵 JP🌊",
       "type": "vless",
       "server": "38.47.98.53",
       "server_port": 4379,
@@ -1092,73 +1307,7 @@
       }
     },
     {
-      "tag": "🇯🇵 JP🐉 2",
-      "type": "vless",
-      "server": "150.66.24.104",
-      "server_port": 34237,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇯🇵 JP🐉 3",
-      "type": "vless",
-      "server": "34.146.166.62",
-      "server_port": 51131,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇯🇵 JP🐉 4",
-      "type": "vless",
-      "server": "45.78.61.49",
-      "server_port": 10484,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇯🇵 JP🐉 5",
+      "tag": "🇯🇵 JP🌊 2",
       "type": "vless",
       "server": "43.153.181.217",
       "server_port": 443,
@@ -1180,10 +1329,10 @@
       }
     },
     {
-      "tag": "🇹🇼 🇨🇳 TW🐉",
+      "tag": "🇯🇵 JP🌊 3",
       "type": "vless",
-      "server": "35.201.236.40",
-      "server_port": 10501,
+      "server": "34.146.166.62",
+      "server_port": 51131,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -1202,7 +1351,51 @@
       }
     },
     {
-      "tag": "🇹🇼 🇨🇳 TW🐉 2",
+      "tag": "🇯🇵 JP🌊 4",
+      "type": "vless",
+      "server": "45.251.240.229",
+      "server_port": 34237,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇯🇵 JP🌊 5",
+      "type": "vless",
+      "server": "150.66.24.104",
+      "server_port": 34237,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇹🇼 🇨🇳 TW🌊",
       "type": "vless",
       "server": "211.75.243.91",
       "server_port": 16764,
@@ -1224,7 +1417,7 @@
       }
     },
     {
-      "tag": "🇹🇼 🇨🇳 TW🐉 3",
+      "tag": "🇹🇼 🇨🇳 TW🌊 2",
       "type": "vless",
       "server": "203.69.248.40",
       "server_port": 27381,
@@ -1246,10 +1439,10 @@
       }
     },
     {
-      "tag": "🇰🇷 KR🐉",
+      "tag": "🇰🇷 KR🌊",
       "type": "vless",
-      "server": "146.56.37.60",
-      "server_port": 20017,
+      "server": "222.108.18.150",
+      "server_port": 19013,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -1268,7 +1461,95 @@
       }
     },
     {
-      "tag": "🇰🇷 KR🐉 2",
+      "tag": "🇰🇷 KR🌊 2",
+      "type": "vless",
+      "server": "175.125.207.253",
+      "server_port": 12534,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇰🇷 KR🌊 3",
+      "type": "vless",
+      "server": "211.224.115.109",
+      "server_port": 10084,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇰🇷 KR🌊 4",
+      "type": "vless",
+      "server": "183.98.120.11",
+      "server_port": 12266,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇰🇷 KR🌊 5",
+      "type": "vless",
+      "server": "175.211.129.76",
+      "server_port": 17182,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇰🇷 KR🌊 6",
       "type": "vless",
       "server": "140.238.20.223",
       "server_port": 35913,
@@ -1290,7 +1571,7 @@
       }
     },
     {
-      "tag": "🇰🇷 KR🐉 3",
+      "tag": "🇰🇷 KR🌊 7",
       "type": "vless",
       "server": "146.56.46.84",
       "server_port": 443,
@@ -1312,29 +1593,7 @@
       }
     },
     {
-      "tag": "🇰🇷 KR🐉 4",
-      "type": "vless",
-      "server": "146.56.132.247",
-      "server_port": 443,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇺🇸 US🐉",
+      "tag": "🇺🇸 US🌊",
       "type": "vless",
       "server": "172.84.92.174",
       "server_port": 8526,
@@ -1356,51 +1615,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US🐉 2",
-      "type": "vless",
-      "server": "99.83.209.185",
-      "server_port": 443,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇺🇸 US🐉 3",
-      "type": "vless",
-      "server": "65.75.194.96",
-      "server_port": 23190,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇺🇸 US🐉 4",
+      "tag": "🇺🇸 US🌊 2",
       "type": "vless",
       "server": "154.17.16.155",
       "server_port": 38548,
@@ -1422,7 +1637,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US🐉 5",
+      "tag": "🇺🇸 US🌊 3",
       "type": "vless",
       "server": "154.17.2.49",
       "server_port": 26558,
@@ -1444,9 +1659,31 @@
       }
     },
     {
-      "tag": "🇺🇸 US🐉 6",
+      "tag": "🇺🇸 US🌊 4",
       "type": "vless",
-      "server": "75.2.32.4",
+      "server": "65.75.194.96",
+      "server_port": 23190,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇺🇸 US🌊 5",
+      "type": "vless",
+      "server": "99.83.209.185",
       "server_port": 443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
@@ -1466,73 +1703,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US🐉 7",
-      "type": "vless",
-      "server": "198.23.223.178",
-      "server_port": 2053,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇺🇸 US🐉 8",
-      "type": "vless",
-      "server": "172.84.92.152",
-      "server_port": 58723,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇺🇸 US🐉 9",
-      "type": "vless",
-      "server": "172.84.92.108",
-      "server_port": 42304,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇺🇸 US🐉 10",
+      "tag": "🇺🇸 US🌊 6",
       "type": "vless",
       "server": "174.136.206.95",
       "server_port": 57757,
@@ -1554,10 +1725,10 @@
       }
     },
     {
-      "tag": "🇭🇰 HKG🐉",
+      "tag": "🇺🇸 US🌊 7",
       "type": "vless",
-      "server": "47.243.74.220",
-      "server_port": 2083,
+      "server": "75.2.32.4",
+      "server_port": 443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -1576,9 +1747,9 @@
       }
     },
     {
-      "tag": "🇭🇰 HKG🐉 2",
+      "tag": "🇺🇸 US🌊 8",
       "type": "vless",
-      "server": "8.210.65.1",
+      "server": "198.23.223.178",
       "server_port": 2053,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
@@ -1598,10 +1769,10 @@
       }
     },
     {
-      "tag": "KIX🐉",
+      "tag": "🇺🇸 US🌊 9",
       "type": "vless",
-      "server": "38.47.98.53",
-      "server_port": 4379,
+      "server": "172.84.92.152",
+      "server_port": 58723,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -1620,10 +1791,10 @@
       }
     },
     {
-      "tag": "🇵🇪 TPE🐉",
+      "tag": "🇺🇸 US🌊 10",
       "type": "vless",
-      "server": "35.201.236.40",
-      "server_port": 10501,
+      "server": "172.84.92.108",
+      "server_port": 42304,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -1642,7 +1813,293 @@
       }
     },
     {
-      "tag": "NRT🐉",
+      "tag": "优选IPv6🌊",
+      "type": "vless",
+      "server": "2606:4700:3037:e1:a64b:6580:941f:e09",
+      "server_port": 80,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "优选IPv6🌊 2",
+      "type": "vless",
+      "server": "2606:4700:3035:d692:2d67:7f9:cf4b:162b",
+      "server_port": 80,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "优选IPv6🌊 3",
+      "type": "vless",
+      "server": "2606:4700:3038:0:aa27:d7c9:4240:90e0",
+      "server_port": 80,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "优选IPv6🌊 4",
+      "type": "vless",
+      "server": "2606:4700:3035:1249:bf57:9983:fba9:2108",
+      "server_port": 80,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "优选IPv6🌊 5",
+      "type": "vless",
+      "server": "2606:4700:3038:0:a2:c0ff:1c7b:9958",
+      "server_port": 80,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "优选IPv6🌊 6",
+      "type": "vless",
+      "server": "2606:4700:3035:1249:bfe2:dd:1d08:2554",
+      "server_port": 80,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "优选IPv6🌊 7",
+      "type": "vless",
+      "server": "2606:4700:3038:0:f1f0:3da1:2768:ca09",
+      "server_port": 80,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "优选IPv6🌊 8",
+      "type": "vless",
+      "server": "2606:4700:3037:0:d5d5:b929:61b7:f322",
+      "server_port": 80,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "优选IPv6🌊 9",
+      "type": "vless",
+      "server": "2606:4700:3036::71:65db:29e5",
+      "server_port": 80,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "优选IPv6🌊 10",
+      "type": "vless",
+      "server": "2606:4700:3036:d295:9da4:d2ed:ea7b:bc3b",
+      "server_port": 80,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇰 HKG🌊",
+      "type": "vless",
+      "server": "47.243.173.187",
+      "server_port": 8443,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇰 HKG🌊 2",
+      "type": "vless",
+      "server": "8.217.123.243",
+      "server_port": 2053,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇰 HKG🌊 3",
+      "type": "vless",
+      "server": "47.243.18.199",
+      "server_port": 2096,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "NRT🌊",
       "type": "vless",
       "server": "172.84.92.174",
       "server_port": 8526,
@@ -1664,95 +2121,7 @@
       }
     },
     {
-      "tag": "🇭🇰 HKG🐉 3",
-      "type": "vless",
-      "server": "20.205.131.206",
-      "server_port": 54043,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "KIX🐉 2",
-      "type": "vless",
-      "server": "150.66.24.104",
-      "server_port": 34237,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "NRT🐉 2",
-      "type": "vless",
-      "server": "34.146.166.62",
-      "server_port": 51131,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇸🇯 SJC🐉",
-      "type": "vless",
-      "server": "162.159.142.252",
-      "server_port": 2096,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇮🇳 SIN🐉",
+      "tag": "🇮🇳 SIN🌊",
       "type": "vless",
       "server": "89.28.239.142",
       "server_port": 8443,
@@ -1774,10 +2143,10 @@
       }
     },
     {
-      "tag": "🇸🇯 SJC🐉 2",
+      "tag": "🇸🇯 SJC🌊",
       "type": "vless",
-      "server": "162.159.58.157",
-      "server_port": 2053,
+      "server": "154.197.121.127",
+      "server_port": 2096,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -1796,10 +2165,10 @@
       }
     },
     {
-      "tag": "NRT🐉 3",
+      "tag": "🇸🇯 SJC🌊 2",
       "type": "vless",
-      "server": "211.75.243.91",
-      "server_port": 16764,
+      "server": "162.159.142.252",
+      "server_port": 2096,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -1818,53 +2187,9 @@
       }
     },
     {
-      "tag": "🇦🇩 IAD🐉",
+      "tag": "🇸🇯 SJC🌊 3",
       "type": "vless",
-      "server": "99.83.209.185",
-      "server_port": 443,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇸🇯 SJC🐉 3",
-      "type": "vless",
-      "server": "65.75.194.96",
-      "server_port": 23190,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇭🇰 HKG🐉 4",
-      "type": "vless",
-      "server": "172.64.154.219",
+      "server": "162.159.138.178",
       "server_port": 8443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
@@ -1884,29 +2209,7 @@
       }
     },
     {
-      "tag": "DUB🐉",
-      "type": "vless",
-      "server": "54.194.162.247",
-      "server_port": 443,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇦🇽 LAX🐉",
+      "tag": "🇦🇽 LAX🌊",
       "type": "vless",
       "server": "154.17.16.155",
       "server_port": 38548,
@@ -1928,7 +2231,29 @@
       }
     },
     {
-      "tag": "🇦🇽 LAX🐉 2",
+      "tag": "NRT🌊 2",
+      "type": "vless",
+      "server": "211.75.243.91",
+      "server_port": 16764,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇦🇽 LAX🌊 2",
       "type": "vless",
       "server": "154.17.2.49",
       "server_port": 26558,
@@ -1950,7 +2275,51 @@
       }
     },
     {
-      "tag": "EWR🐉",
+      "tag": "🇸🇯 SJC🌊 4",
+      "type": "vless",
+      "server": "65.75.194.96",
+      "server_port": 23190,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "KIX🌊",
+      "type": "vless",
+      "server": "38.47.98.53",
+      "server_port": 4379,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "EWR🌊",
       "type": "vless",
       "server": "38.147.188.171",
       "server_port": 8005,
@@ -1972,10 +2341,10 @@
       }
     },
     {
-      "tag": "🇦🇩 IAD🐉 2",
+      "tag": "🇨🇳 ICN🌊",
       "type": "vless",
-      "server": "104.20.27.224",
-      "server_port": 2096,
+      "server": "222.108.18.150",
+      "server_port": 19013,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -1994,29 +2363,7 @@
       }
     },
     {
-      "tag": "🇦🇩 IAD🐉 3",
-      "type": "vless",
-      "server": "198.41.212.2",
-      "server_port": 2053,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇦🇩 IAD🐉 4",
+      "tag": "🇭🇷 LHR🌊",
       "type": "vless",
       "server": "104.20.27.133",
       "server_port": 2096,
@@ -2038,7 +2385,183 @@
       }
     },
     {
-      "tag": "DUB🐉 2",
+      "tag": "🇸🇯 SJC🌊 5",
+      "type": "vless",
+      "server": "162.159.58.157",
+      "server_port": 2053,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇨🇳 ICN🌊 2",
+      "type": "vless",
+      "server": "175.125.207.253",
+      "server_port": 12534,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇸🇯 SJC🌊 6",
+      "type": "vless",
+      "server": "154.197.121.123",
+      "server_port": 2096,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇷 LHR🌊 2",
+      "type": "vless",
+      "server": "104.20.27.224",
+      "server_port": 2096,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇸🇯 SJC🌊 7",
+      "type": "vless",
+      "server": "162.159.141.161",
+      "server_port": 2053,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇨🇳 ICN🌊 3",
+      "type": "vless",
+      "server": "211.224.115.109",
+      "server_port": 10084,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇮🇳 SIN🌊 2",
+      "type": "vless",
+      "server": "8.219.174.142",
+      "server_port": 2096,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇷 LHR🌊 3",
+      "type": "vless",
+      "server": "51.195.169.106",
+      "server_port": 8443,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "DUB🌊",
       "type": "vless",
       "server": "52.49.41.80",
       "server_port": 2053,
@@ -2060,10 +2583,10 @@
       }
     },
     {
-      "tag": "🇭🇰 HKG🐉 5",
+      "tag": "🇫🇷 FRA🌊",
       "type": "vless",
-      "server": "47.76.204.76",
-      "server_port": 2053,
+      "server": "49.13.173.157",
+      "server_port": 2087,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -2082,9 +2605,31 @@
       }
     },
     {
-      "tag": "🇦🇲 AMS🐉",
+      "tag": "🇭🇰 HKG🌊 4",
       "type": "vless",
-      "server": "167.172.40.90",
+      "server": "172.64.154.218",
+      "server_port": 8443,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇦🇲 AMS🌊",
+      "type": "vless",
+      "server": "104.40.244.228",
       "server_port": 443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
@@ -2104,10 +2649,10 @@
       }
     },
     {
-      "tag": "🇰🇭 KHH🐉",
+      "tag": "🇮🇳 SIN🌊 3",
       "type": "vless",
-      "server": "203.69.248.40",
-      "server_port": 27381,
+      "server": "47.236.10.182",
+      "server_port": 8443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -2126,10 +2671,10 @@
       }
     },
     {
-      "tag": "🇮🇳 SIN🐉 2",
+      "tag": "🇮🇳 SIN🌊 4",
       "type": "vless",
-      "server": "129.226.158.125",
-      "server_port": 8088,
+      "server": "47.236.189.92",
+      "server_port": 2083,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -2148,9 +2693,31 @@
       }
     },
     {
-      "tag": "🇦🇩 MAD🐉",
+      "tag": "🇭🇷 LHR🌊 4",
       "type": "vless",
-      "server": "185.114.72.67",
+      "server": "51.89.241.53",
+      "server_port": 8443,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇦🇩 IAD🌊",
+      "type": "vless",
+      "server": "99.83.209.185",
       "server_port": 443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
@@ -2170,10 +2737,10 @@
       }
     },
     {
-      "tag": "🇸🇾 SYD🐉",
+      "tag": "CDG🌊",
       "type": "vless",
-      "server": "170.64.165.229",
-      "server_port": 20443,
+      "server": "162.19.66.30",
+      "server_port": 8443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -2192,10 +2759,10 @@
       }
     },
     {
-      "tag": "🇮🇳 SIN🐉 3",
+      "tag": "🇴🇲 BOM🌊",
       "type": "vless",
-      "server": "43.134.181.60",
-      "server_port": 53417,
+      "server": "20.233.254.155",
+      "server_port": 8443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -2214,10 +2781,10 @@
       }
     },
     {
-      "tag": "🇮🇳 SIN🐉 4",
+      "tag": "🇨🇳 ICN🌊 4",
       "type": "vless",
-      "server": "119.28.113.40",
-      "server_port": 34237,
+      "server": "183.98.120.11",
+      "server_port": 12266,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -2236,7 +2803,29 @@
       }
     },
     {
-      "tag": "🇮🇳 SIN🐉 5",
+      "tag": "CDG🌊 2",
+      "type": "vless",
+      "server": "137.74.157.158",
+      "server_port": 8443,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇮🇳 SIN🌊 5",
       "type": "vless",
       "server": "47.236.180.51",
       "server_port": 2083,
@@ -2258,75 +2847,9 @@
       }
     },
     {
-      "tag": "🇮🇳 SIN🐉 6",
+      "tag": "🇸🇾 SYD🌊",
       "type": "vless",
-      "server": "43.159.43.107",
-      "server_port": 34237,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇮🇳 SIN🐉 7",
-      "type": "vless",
-      "server": "43.159.55.220",
-      "server_port": 34237,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "KIX🐉 3",
-      "type": "vless",
-      "server": "45.78.61.49",
-      "server_port": 10484,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇦🇩 IAD🐉 5",
-      "type": "vless",
-      "server": "75.2.32.4",
+      "server": "192.9.172.26",
       "server_port": 443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
@@ -2346,7 +2869,29 @@
       }
     },
     {
-      "tag": "YYZ🐉",
+      "tag": "🇮🇳 SIN🌊 6",
+      "type": "vless",
+      "server": "43.134.181.60",
+      "server_port": 53417,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "YYZ🌊",
       "type": "vless",
       "server": "167.114.153.39",
       "server_port": 8443,
@@ -2368,10 +2913,10 @@
       }
     },
     {
-      "tag": "🇹🇱 TLL🐉",
+      "tag": "🇮🇳 SIN🌊 7",
       "type": "vless",
-      "server": "38.180.45.222",
-      "server_port": 2053,
+      "server": "119.28.113.40",
+      "server_port": 34237,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -2390,10 +2935,10 @@
       }
     },
     {
-      "tag": "🇭🇰 HKG🐉 6",
+      "tag": "🇸🇾 SYD🌊 2",
       "type": "vless",
-      "server": "8.210.142.146",
-      "server_port": 12346,
+      "server": "170.64.165.229",
+      "server_port": 20443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -2412,10 +2957,10 @@
       }
     },
     {
-      "tag": "🇮🇳 SIN🐉 8",
+      "tag": "🇨🇳 ICN🌊 5",
       "type": "vless",
-      "server": "43.156.143.198",
-      "server_port": 40809,
+      "server": "175.211.129.76",
+      "server_port": 17182,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -2434,7 +2979,7 @@
       }
     },
     {
-      "tag": "NRT🐉 4",
+      "tag": "NRT🌊 3",
       "type": "vless",
       "server": "43.153.181.217",
       "server_port": 443,
@@ -2456,10 +3001,10 @@
       }
     },
     {
-      "tag": "🇸🇪 SEA🐉",
+      "tag": "🇮🇳 SIN🌊 8",
       "type": "vless",
-      "server": "146.56.37.60",
-      "server_port": 20017,
+      "server": "43.156.143.198",
+      "server_port": 40809,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -2478,7 +3023,337 @@
       }
     },
     {
-      "tag": "BUF🐉",
+      "tag": "🇭🇰 HKG🌊 5",
+      "type": "vless",
+      "server": "8.210.142.146",
+      "server_port": 12346,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "NRT🌊 4",
+      "type": "vless",
+      "server": "140.238.20.223",
+      "server_port": 35913,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "DUB🌊 2",
+      "type": "vless",
+      "server": "54.194.162.247",
+      "server_port": 443,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇰🇭 KHH🌊",
+      "type": "vless",
+      "server": "203.69.248.40",
+      "server_port": 27381,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇮🇳 SIN🌊 9",
+      "type": "vless",
+      "server": "43.159.43.107",
+      "server_port": 34237,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇫🇷 FRA🌊 2",
+      "type": "vless",
+      "server": "18.194.180.78",
+      "server_port": 443,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇰 HKG🌊 6",
+      "type": "vless",
+      "server": "47.76.204.76",
+      "server_port": 2053,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇸🇯 SJC🌊 8",
+      "type": "vless",
+      "server": "174.136.206.95",
+      "server_port": 57757,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇮🇳 SIN🌊 10",
+      "type": "vless",
+      "server": "43.159.55.220",
+      "server_port": 34237,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇦🇩 IAD🌊 2",
+      "type": "vless",
+      "server": "75.2.32.4",
+      "server_port": 443,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "NRT🌊 5",
+      "type": "vless",
+      "server": "34.146.166.62",
+      "server_port": 51131,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇰 HKG🌊 7",
+      "type": "vless",
+      "server": "47.243.255.224",
+      "server_port": 2053,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇮🇳 SIN🌊 11",
+      "type": "vless",
+      "server": "43.134.187.193",
+      "server_port": 8989,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇦🇲 AMS🌊 2",
+      "type": "vless",
+      "server": "167.172.40.90",
+      "server_port": 443,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇴🇲 BOM🌊 2",
+      "type": "vless",
+      "server": "20.21.241.69",
+      "server_port": 8002,
+      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "syvless.6516789.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "syvless.6516789.xyz"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "BUF🌊",
       "type": "vless",
       "server": "198.23.223.178",
       "server_port": 2053,
@@ -2500,10 +3375,10 @@
       }
     },
     {
-      "tag": "NRT🐉 5",
+      "tag": "KIX🌊 2",
       "type": "vless",
-      "server": "172.84.92.152",
-      "server_port": 58723,
+      "server": "45.251.240.229",
+      "server_port": 34237,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -2522,10 +3397,10 @@
       }
     },
     {
-      "tag": "NRT🐉 6",
+      "tag": "🇭🇰 HKG🌊 8",
       "type": "vless",
-      "server": "172.84.92.108",
-      "server_port": 42304,
+      "server": "123.202.145.26",
+      "server_port": 443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -2544,7 +3419,7 @@
       }
     },
     {
-      "tag": "🇭🇰 HKG🐉 7",
+      "tag": "🇭🇰 HKG🌊 9",
       "type": "vless",
       "server": "119.28.189.227",
       "server_port": 32079,
@@ -2566,10 +3441,10 @@
       }
     },
     {
-      "tag": "🇸🇯 SJC🐉 4",
+      "tag": "NRT🌊 6",
       "type": "vless",
-      "server": "174.136.206.95",
-      "server_port": 57757,
+      "server": "172.84.92.152",
+      "server_port": 58723,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
