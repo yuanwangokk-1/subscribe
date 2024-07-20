@@ -219,8 +219,7 @@
         "BUF🌊",
         "KIX🌊 2",
         "🇭🇰 HKG🌊 8",
-        "🇭🇰 HKG🌊 9",
-        "NRT🌊 6"
+        "🇭🇰 HKG🌊 9"
       ]
     },
     {
@@ -585,8 +584,7 @@
         "🇦🇲 AMS🌊 2",
         "🇴🇲 BOM🌊 2",
         "BUF🌊",
-        "KIX🌊 2",
-        "NRT🌊 6"
+        "KIX🌊 2"
       ]
     },
     {
@@ -715,8 +713,7 @@
         "BUF🌊",
         "KIX🌊 2",
         "🇭🇰 HKG🌊 8",
-        "🇭🇰 HKG🌊 9",
-        "NRT🌊 6"
+        "🇭🇰 HKG🌊 9"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -1816,7 +1813,7 @@
       "tag": "优选IPv6🌊",
       "type": "vless",
       "server": "2606:4700:3037:e1:a64b:6580:941f:e09",
-      "server_port": 80,
+      "server_port": 443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -1838,7 +1835,7 @@
       "tag": "优选IPv6🌊 2",
       "type": "vless",
       "server": "2606:4700:3035:d692:2d67:7f9:cf4b:162b",
-      "server_port": 80,
+      "server_port": 443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -1860,7 +1857,7 @@
       "tag": "优选IPv6🌊 3",
       "type": "vless",
       "server": "2606:4700:3038:0:aa27:d7c9:4240:90e0",
-      "server_port": 80,
+      "server_port": 443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -1882,7 +1879,7 @@
       "tag": "优选IPv6🌊 4",
       "type": "vless",
       "server": "2606:4700:3035:1249:bf57:9983:fba9:2108",
-      "server_port": 80,
+      "server_port": 443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -1904,7 +1901,7 @@
       "tag": "优选IPv6🌊 5",
       "type": "vless",
       "server": "2606:4700:3038:0:a2:c0ff:1c7b:9958",
-      "server_port": 80,
+      "server_port": 443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -1926,7 +1923,7 @@
       "tag": "优选IPv6🌊 6",
       "type": "vless",
       "server": "2606:4700:3035:1249:bfe2:dd:1d08:2554",
-      "server_port": 80,
+      "server_port": 443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -1948,7 +1945,7 @@
       "tag": "优选IPv6🌊 7",
       "type": "vless",
       "server": "2606:4700:3038:0:f1f0:3da1:2768:ca09",
-      "server_port": 80,
+      "server_port": 443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -1970,7 +1967,7 @@
       "tag": "优选IPv6🌊 8",
       "type": "vless",
       "server": "2606:4700:3037:0:d5d5:b929:61b7:f322",
-      "server_port": 80,
+      "server_port": 443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -1992,7 +1989,7 @@
       "tag": "优选IPv6🌊 9",
       "type": "vless",
       "server": "2606:4700:3036::71:65db:29e5",
-      "server_port": 80,
+      "server_port": 443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -2014,7 +2011,7 @@
       "tag": "优选IPv6🌊 10",
       "type": "vless",
       "server": "2606:4700:3036:d295:9da4:d2ed:ea7b:bc3b",
-      "server_port": 80,
+      "server_port": 443,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
@@ -3423,28 +3420,6 @@
       "type": "vless",
       "server": "119.28.189.227",
       "server_port": 32079,
-      "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "syvless.6516789.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "syvless.6516789.xyz"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "NRT🌊 6",
-      "type": "vless",
-      "server": "172.84.92.152",
-      "server_port": 58723,
       "uuid": "99280094-e683-476b-a3cd-0d37c3892c6f",
       "packet_encoding": "xudp",
       "tls": {
