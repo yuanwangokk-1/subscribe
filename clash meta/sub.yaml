@@ -16,9 +16,9 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: a, server: visa.com.sg, port: 443, client-fingerprint: chrome, type: vless, uuid: b0895f2e-56fd-4c57-ab77-503d0a20b4f1, tls: true, tfo: false, skip-cert-verify: false, servername: v2.ariesver.shop, network: ws, ws-opts: {path: /arises, headers: {Host: v2.ariesver.shop}}}
-  - {name: b, server: visa.com, port: 443, client-fingerprint: chrome, type: vless, uuid: b0895f2e-56fd-4c57-ab77-503d0a20b4f1, tls: true, tfo: false, skip-cert-verify: false, servername: v2.ariesver.shop, network: ws, ws-opts: {path: /arises, headers: {Host: v2.ariesver.shop}}}
+  - {name: b, server: skvless.us.kg, port: 443, client-fingerprint: chrome, type: vless, uuid: b0895f2e-56fd-4c57-ab77-503d0a20b4f1, tls: true, tfo: false, skip-cert-verify: false, servername: v2.ariesver.shop, network: ws, ws-opts: {path: /arises, headers: {Host: v2.ariesver.shop}}}
   - {name: c, server: visa.com.sg, port: 443, client-fingerprint: chrome, type: vless, uuid: b0895f2e-56fd-4c57-ab77-503d0a20b4f1, tls: true, tfo: false, skip-cert-verify: false, servername: v2.ariesver.shop, network: ws, ws-opts: {path: /arise, headers: {Host: v2.ariesver.shop}}}
-  - {name: d, server: visa.com, port: 443, client-fingerprint: chrome, type: vless, uuid: b0895f2e-56fd-4c57-ab77-503d0a20b4f1, tls: true, tfo: false, skip-cert-verify: false, servername: v2.ariesver.shop, network: ws, ws-opts: {path: /arise, headers: {Host: v2.ariesver.shop}}}
+  - {name: d, server: skvless.us.kg, port: 443, client-fingerprint: chrome, type: vless, uuid: b0895f2e-56fd-4c57-ab77-503d0a20b4f1, tls: true, tfo: false, skip-cert-verify: false, servername: v2.ariesver.shop, network: ws, ws-opts: {path: /arise, headers: {Host: v2.ariesver.shop}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
