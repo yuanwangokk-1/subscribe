@@ -15,7 +15,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: aries, server: 74.48.151.91, port: 53250, client-fingerprint: chrome, type: vless, uuid: 0c5c6e55-ec5e-42a5-836a-9f1c814b36c6, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries}}
+  - {name: aries|Pqct.love@xray.com, server: 74.48.39.198, port: 16624, client-fingerprint: chrome, type: vless, uuid: c5058e19-3e2c-4c74-910b-41934b691385, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -31,7 +31,7 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - aries
+      - aries|Pqct.love@xray.com
   - name: 📲 电报消息
     type: select
     proxies:
