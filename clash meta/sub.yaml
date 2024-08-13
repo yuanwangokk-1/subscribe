@@ -15,10 +15,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: a, server: visa.com.sg, port: 443, client-fingerprint: chrome, type: vless, uuid: b0895f2e-56fd-4c57-ab77-503d0a20b4f1, tls: true, tfo: false, skip-cert-verify: false, servername: v2.ariesver.shop, network: ws, ws-opts: {path: /arises, headers: {Host: v2.ariesver.shop}}}
-  - {name: b, server: skvless.us.kg, port: 443, client-fingerprint: chrome, type: vless, uuid: b0895f2e-56fd-4c57-ab77-503d0a20b4f1, tls: true, tfo: false, skip-cert-verify: false, servername: v2.ariesver.shop, network: ws, ws-opts: {path: /arises, headers: {Host: v2.ariesver.shop}}}
-  - {name: c, server: visa.com.sg, port: 443, client-fingerprint: chrome, type: vless, uuid: b0895f2e-56fd-4c57-ab77-503d0a20b4f1, tls: true, tfo: false, skip-cert-verify: false, servername: v2.ariesver.shop, network: ws, ws-opts: {path: /arise, headers: {Host: v2.ariesver.shop}}}
-  - {name: d, server: skvless.us.kg, port: 443, client-fingerprint: chrome, type: vless, uuid: b0895f2e-56fd-4c57-ab77-503d0a20b4f1, tls: true, tfo: false, skip-cert-verify: false, servername: v2.ariesver.shop, network: ws, ws-opts: {path: /arise, headers: {Host: v2.ariesver.shop}}}
+  - {name: aries, server: 74.48.151.91, port: 53250, client-fingerprint: chrome, type: vless, uuid: 0c5c6e55-ec5e-42a5-836a-9f1c814b36c6, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -34,10 +31,7 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - a
-      - b
-      - c
-      - d
+      - aries
   - name: 📲 电报消息
     type: select
     proxies:
