@@ -15,7 +15,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇺🇸 socks5.skvless.us.kg, server: www.visa.com.hk, port: 443, client-fingerprint: randomized, type: vless, uuid: 1f38428a-c99f-4c28-b895-d29eb6c6a742, tls: true, tfo: false, skip-cert-verify: false, servername: socks5.skvless.us.kg, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: socks5.skvless.us.kg}}}
+  - {name: 🇺🇸 socks5.skvless.us.kg, server: 193.122.101.195, port: 443, client-fingerprint: randomized, type: vless, uuid: 1f38428a-c99f-4c28-b895-d29eb6c6a742, tls: true, tfo: false, skip-cert-verify: false, servername: socks5.skvless.us.kg, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: socks5.skvless.us.kg}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
