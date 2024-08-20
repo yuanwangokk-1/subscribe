@@ -15,7 +15,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇺🇸 socks5.skvless.us.kg, server: visa.com, port: 2096, client-fingerprint: randomized, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, tfo: false, skip-cert-verify: false, servername: socks5.skvless.us.kg, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: socks5.skvless.us.kg}}}
+  - {name: 🇺🇸 socks5.skvless.us.kg, server: ssvless.tcorg.us.kg, port: 8443, client-fingerprint: randomized, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, tfo: false, skip-cert-verify: false, servername: socks5.skvless.us.kg, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: socks5.skvless.us.kg}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
