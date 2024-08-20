@@ -16,6 +16,7 @@ dns:
     - tls://dns.google:853
 proxies:
   - {name: 🇺🇸 socks5.skvless.us.kg, server: ssvless.tcorg.us.kg, port: 8443, client-fingerprint: randomized, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, tfo: false, skip-cert-verify: false, servername: socks5.skvless.us.kg, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: socks5.skvless.us.kg}}}
+  - {name: 🇺🇸 橘子的美国高速01, server: ssvless.tcorg.us.kg, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7b583797-ca7b-45b9-9a64-a511cc126e74, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cc, headers: {Host: juzi.zdzdzd.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -32,6 +33,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇺🇸 socks5.skvless.us.kg
+      - 🇺🇸 橘子的美国高速01
   - name: 📲 电报消息
     type: select
     proxies:
@@ -230,7 +232,7 @@ proxy-groups:
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - DIRECT
+      - 🇺🇸 橘子的美国高速01
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
