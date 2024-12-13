@@ -97,8 +97,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "reality|l1nx.love@xray.com",
-        "专用|vegs.love@xray.com"
+        "vl-reality-racknerd-52e2fb2"
       ]
     },
     {
@@ -346,16 +345,14 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "reality|l1nx.love@xray.com",
-        "专用|vegs.love@xray.com"
+        "vl-reality-racknerd-52e2fb2"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "reality|l1nx.love@xray.com",
-        "专用|vegs.love@xray.com"
+        "vl-reality-racknerd-52e2fb2"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -374,40 +371,21 @@
       "tag": "block"
     },
     {
-      "tag": "reality|l1nx.love@xray.com",
+      "tag": "vl-reality-racknerd-52e2fb2",
       "type": "vless",
-      "server": "xui.009022.xyz",
-      "server_port": 53578,
-      "uuid": "c995b5ec-c130-4a50-91af-5a62eaea4a3c",
+      "server": "107.172.72.164",
+      "server_port": 33274,
+      "uuid": "c3d21d3c-4897-429f-9e6e-b0fbe1c30368",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "c995b5ec.com",
+        "server_name": "www.jetbrains.com",
         "reality": {
           "enabled": true,
-          "public_key": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "专用|vegs.love@xray.com",
-      "type": "vless",
-      "server": "xui.009022.xyz",
-      "server_port": 26430,
-      "uuid": "53ed0ea6-404e-411a-ce2e-cb7c98cb9171",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "53ed0ea6.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY"
+          "public_key": "b8ZuR153LIQHKY_4YWKjgYzioRWCD1dLB0hcvAMBBW4",
+          "short_id": "e7c4f3b4"
         },
         "utls": {
           "enabled": true,
