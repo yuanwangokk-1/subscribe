@@ -376,7 +376,7 @@
     {
       "tag": "vless|0R0K.love@xray.com",
       "type": "vless",
-      "server": "107.172.108.241",
+      "server": "visa.com",
       "server_port": 44052,
       "uuid": "3d41b739-8a47-4501-afb2-73f6a58d3140",
       "packet_encoding": "xudp",
@@ -398,7 +398,7 @@
     {
       "tag": "drpys|a@xray.com",
       "type": "vless",
-      "server": "107.172.108.241",
+      "server": "visa.com",
       "server_port": 35783,
       "uuid": "93333b53-c014-4e09-b719-dd3e3cca1f84",
       "packet_encoding": "xudp",
