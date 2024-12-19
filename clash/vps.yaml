@@ -15,8 +15,8 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: vless|0R0K.love@xray.com, server: 107.172.108.241, port: 44052, reality-opts: {public-key: R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU}, client-fingerprint: chrome, type: vless, uuid: 3d41b739-8a47-4501-afb2-73f6a58d3140, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: 107-172-108-241.nip.io, network: tcp}
-  - {name: drpys|a@xray.com, server: 107.172.108.241, port: 35783, reality-opts: {public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w}, client-fingerprint: chrome, type: vless, uuid: 93333b53-c014-4e09-b719-dd3e3cca1f84, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: 107-172-108-241.nip.io, network: tcp}
+  - {name: vless|0R0K.love@xray.com, server: visa.com, port: 44052, reality-opts: {public-key: R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU}, client-fingerprint: chrome, type: vless, uuid: 3d41b739-8a47-4501-afb2-73f6a58d3140, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: 107-172-108-241.nip.io, network: tcp}
+  - {name: drpys|a@xray.com, server: visa.com, port: 35783, reality-opts: {public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w}, client-fingerprint: chrome, type: vless, uuid: 93333b53-c014-4e09-b719-dd3e3cca1f84, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: 107-172-108-241.nip.io, network: tcp}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
