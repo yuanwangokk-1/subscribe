@@ -97,8 +97,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "vless|0R0K.love@xray.com",
-        "drpys|a@xray.com"
+        "a",
+        "b"
       ]
     },
     {
@@ -346,16 +346,16 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "vless|0R0K.love@xray.com",
-        "drpys|a@xray.com"
+        "a",
+        "b"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "vless|0R0K.love@xray.com",
-        "drpys|a@xray.com"
+        "a",
+        "b"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -374,31 +374,9 @@
       "tag": "block"
     },
     {
-      "tag": "vless|0R0K.love@xray.com",
+      "tag": "a",
       "type": "vless",
-      "server": "visa.com",
-      "server_port": 44052,
-      "uuid": "3d41b739-8a47-4501-afb2-73f6a58d3140",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "107-172-108-241.nip.io",
-        "reality": {
-          "enabled": true,
-          "public_key": "R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "drpys|a@xray.com",
-      "type": "vless",
-      "server": "visa.com",
+      "server": "107.172.108.241",
       "server_port": 35783,
       "uuid": "93333b53-c014-4e09-b719-dd3e3cca1f84",
       "packet_encoding": "xudp",
@@ -410,6 +388,28 @@
         "reality": {
           "enabled": true,
           "public_key": "rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "b",
+      "type": "vless",
+      "server": "107.172.108.241",
+      "server_port": 44052,
+      "uuid": "3d41b739-8a47-4501-afb2-73f6a58d3140",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "107-172-108-241.nip.io",
+        "reality": {
+          "enabled": true,
+          "public_key": "R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU"
         },
         "utls": {
           "enabled": true,
