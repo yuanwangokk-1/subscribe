@@ -359,7 +359,7 @@
         }, {
             "tag": "🇨🇳 CN🐲™️",
             "type": "vless",
-            "server": "104.28.4.70",
+            "server": "ip.skk.moe",
             "server_port": 2096,
             "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
             "packet_encoding": "xudp",
@@ -380,7 +380,7 @@
         }, {
             "tag": "🇨🇳 CN🐲™️ 2",
             "type": "vless",
-            "server": "104.28.4.70",
+            "server": "ip.skk.moe",
             "server_port": 2096,
             "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
             "packet_encoding": "xudp",
@@ -401,7 +401,7 @@
         }, {
             "tag": "🇨🇳 CN🐲™️ 3",
             "type": "vless",
-            "server": "104.28.4.70",
+            "server": "ip.skk.moe",
             "server_port": 2096,
             "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
             "packet_encoding": "xudp",
@@ -498,7 +498,7 @@
         }, {
             "tag": "🇨🇳 CN🐲™️ 4",
             "type": "trojan",
-            "server": "104.28.4.70",
+            "server": "ip.skk.moe",
             "server_port": 2096,
             "password": "google",
             "tls": {
@@ -520,7 +520,7 @@
         }, {
             "tag": "🇨🇳 CN🐲™️ 5",
             "type": "trojan",
-            "server": "104.28.4.70",
+            "server": "ip.skk.moe",
             "server_port": 2096,
             "password": "google",
             "tls": {
@@ -542,7 +542,7 @@
         }, {
             "tag": "🇨🇳 CN🐲™️ 6",
             "type": "trojan",
-            "server": "104.28.4.70",
+            "server": "ip.skk.moe",
             "server_port": 2096,
             "password": "google",
             "tls": {

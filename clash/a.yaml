@@ -15,14 +15,14 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇨🇳 CN🐲™️, server: 104.28.4.70, port: 2096, client-fingerprint: chrome, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, tfo: false, skip-cert-verify: false, servername: a.arises.dynv6.net, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: a.arises.dynv6.net}}}
-  - {name: 🇨🇳 CN🐲™️ 2, server: 104.28.4.70, port: 2096, client-fingerprint: chrome, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, tfo: false, skip-cert-verify: false, servername: a.arises.dynv6.net, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: a.arises.dynv6.net}}}
-  - {name: 🇨🇳 CN🐲™️ 3, server: 104.28.4.70, port: 2096, client-fingerprint: chrome, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, tfo: false, skip-cert-verify: false, servername: a.arises.dynv6.net, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: a.arises.dynv6.net}}}
+  - {name: 🇨🇳 CN🐲™️, server: ip.skk.moe, port: 2096, client-fingerprint: chrome, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, tfo: false, skip-cert-verify: false, servername: a.arises.dynv6.net, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: a.arises.dynv6.net}}}
+  - {name: 🇨🇳 CN🐲™️ 2, server: ip.skk.moe, port: 2096, client-fingerprint: chrome, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, tfo: false, skip-cert-verify: false, servername: a.arises.dynv6.net, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: a.arises.dynv6.net}}}
+  - {name: 🇨🇳 CN🐲™️ 3, server: ip.skk.moe, port: 2096, client-fingerprint: chrome, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, tfo: false, skip-cert-verify: false, servername: a.arises.dynv6.net, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: a.arises.dynv6.net}}}
   - {name: arises.dynv6.net, server: a.arises.dynv6.net, port: 2096, client-fingerprint: chrome, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, tfo: false, skip-cert-verify: false, servername: a.arises.dynv6.net, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: a.arises.dynv6.net}}}
   - {name: tarjan.pages.dev, server: a.arises.dynv6.net, port: 2096, client-fingerprint: chrome, type: trojan, password: google, sni: tarjan.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tarjan.pages.dev}}}
-  - {name: 🇨🇳 CN🐲™️ 4, server: 104.28.4.70, port: 2096, client-fingerprint: chrome, type: trojan, password: google, sni: tarjan.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tarjan.pages.dev}}}
-  - {name: 🇨🇳 CN🐲™️ 5, server: 104.28.4.70, port: 2096, client-fingerprint: chrome, type: trojan, password: google, sni: tarjan.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tarjan.pages.dev}}}
-  - {name: 🇨🇳 CN🐲™️ 6, server: 104.28.4.70, port: 2096, client-fingerprint: chrome, type: trojan, password: google, sni: tarjan.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tarjan.pages.dev}}}
+  - {name: 🇨🇳 CN🐲™️ 4, server: ip.skk.moe, port: 2096, client-fingerprint: chrome, type: trojan, password: google, sni: tarjan.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tarjan.pages.dev}}}
+  - {name: 🇨🇳 CN🐲™️ 5, server: ip.skk.moe, port: 2096, client-fingerprint: chrome, type: trojan, password: google, sni: tarjan.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tarjan.pages.dev}}}
+  - {name: 🇨🇳 CN🐲™️ 6, server: ip.skk.moe, port: 2096, client-fingerprint: chrome, type: trojan, password: google, sni: tarjan.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tarjan.pages.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
