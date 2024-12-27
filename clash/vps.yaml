@@ -17,6 +17,7 @@ dns:
 proxies:
   - {name: a, server: 107.172.108.241, port: 35783, reality-opts: {public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w}, client-fingerprint: chrome, type: vless, uuid: 93333b53-c014-4e09-b719-dd3e3cca1f84, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: 107-172-108-241.nip.io, network: tcp}
   - {name: b, server: 107.172.108.241, port: 44052, reality-opts: {public-key: R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU}, client-fingerprint: chrome, type: vless, uuid: 3d41b739-8a47-4501-afb2-73f6a58d3140, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, servername: 107-172-108-241.nip.io, network: tcp}
+  - {name: c, server: 107.172.108.241, port: 50585, client-fingerprint: chrome, type: vless, uuid: b2fcdde0-3430-4bfe-bb67-446840660299, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /drpys, headers: {Host: xui.6516789.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -34,6 +35,7 @@ proxy-groups:
     proxies:
       - a
       - b
+      - c
   - name: 📲 电报消息
     type: select
     proxies:
