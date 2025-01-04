@@ -8,7 +8,7 @@
             "external_controller": "127.0.0.1:9090",
             "external_ui": "ui",
             "secret": "",
-            "external_ui_download_url": "https://mirror.ghproxy.com/https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+            "external_ui_download_url": "https://ghproxy.cn/https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
             "external_ui_download_detour": "direct",
             "default_mode": "rule"
         },
@@ -85,14 +85,210 @@
             "outbounds": [
                 "auto",
                 "direct",
-                "🇨🇳 CN🐲™️",
-                "🇨🇳 CN🐲™️ 2",
-                "🇨🇳 CN🐲™️ 3",
-                "arises.dynv6.net",
-                "tarjan.pages.dev",
-                "🇨🇳 CN🐲™️ 4",
-                "🇨🇳 CN🐲™️ 5",
-                "🇨🇳 CN🐲™️ 6"
+                "🇲🇱 加入我的频道t.me/CMLiussss解锁更多优选节点",
+                "CFnat",
+                "🇷🇺 RU",
+                "🇺🇸 US",
+                "🇺🇸 US 2",
+                "🇺🇸 US 3",
+                "🇮🇩 ID",
+                "🇿🇦 ZA",
+                "🇷🇺 RU 2",
+                "🇭🇰 HK",
+                "🇭🇰 HK 2",
+                "🇺🇸 US 4",
+                "🇺🇸 US 5",
+                "🇺🇸 US 6",
+                "🇸🇬 SG",
+                "🇭🇰 HK 3",
+                "🇭🇰 HK 4",
+                "🇯🇵 JP",
+                "🇸🇬 SG 2",
+                "🇸🇬 SG 3",
+                "🇯🇵 JP 2",
+                "🇭🇰 HK 5",
+                "🇰🇷 KR",
+                "🇰🇷 KR 2",
+                "🇰🇷 KR 3",
+                "🇰🇷 KR 4",
+                "🇺🇸 US 7",
+                "🇺🇸 US 8",
+                "🇺🇸 US 9",
+                "🇺🇸 US 10",
+                "🇺🇸 US 11",
+                "🇸🇪 SE",
+                "🇸🇪 SE 2",
+                "🇸🇪 SE 3",
+                "🇫🇷 FR",
+                "🇫🇷 FR 2",
+                "🇫🇷 FR 3",
+                "🇮🇳 IN",
+                "🇮🇱 IL",
+                "🇮🇱 IL 2",
+                "🇮🇳 IN 2",
+                "🇺🇸 US 12",
+                "🇺🇸 US 13",
+                "🇺🇸 US 14",
+                "🇨🇭 CH",
+                "🇨🇭 CH 2",
+                "🇨🇭 CH 3",
+                "🇨🇭 CH 4",
+                "🇨🇭 CH 5",
+                "🇫🇷 FR 4",
+                "🇮🇳 IN 3",
+                "🇮🇳 IN 4",
+                "GB",
+                "GB 2",
+                "🇺🇸 US 15",
+                "🇰🇷 KR 5",
+                "🇮🇳 IN 5",
+                "🇰🇷 KR 6",
+                "🇺🇸 US 16",
+                "🇸🇬 SG 4",
+                "🇺🇸 US 17",
+                "🇯🇵 JP 3",
+                "🇳🇱 NL",
+                "🇳🇱 NL 2",
+                "🇮🇹 IT",
+                "🇦🇺 AU",
+                "🇸🇬 SG 5",
+                "🇯🇵 JP 4",
+                "🇭🇰 HK 6",
+                "🇨🇦 CA",
+                "🇦🇺 AU 2",
+                "🇦🇪 AE",
+                "🇨🇦 CA 2",
+                "🇮🇹 IT 2",
+                "🇹🇼 TW",
+                "🇭🇰 HK 7",
+                "🇺🇸 US 18",
+                "🇺🇸 US 19",
+                "🇺🇸 US 20",
+                "🇺🇸 US 21",
+                "🇺🇸 US 22",
+                "🇹🇭 TH",
+                "🇰🇷 KR 7",
+                "🇸🇬 SG 6",
+                "CT",
+                "CT 2",
+                "CT 3",
+                "CT 4",
+                "CT 5",
+                "CT 6",
+                "🇲🇨 CMCC",
+                "🇲🇨 CMCC 2",
+                "🇲🇨 CMCC 3",
+                "🇲🇨 CMCC 4",
+                "🇲🇨 CMCC 5",
+                "🇲🇨 CMCC 6",
+                "🇲🇨 CMCC-IPV6",
+                "🇲🇨 CMCC-IPV6 2",
+                "🇲🇨 CMCC-IPV6 3",
+                "🇲🇨 CMCC-IPV6 4",
+                "🇲🇨 CMCC-IPV6 5",
+                "🇲🇨 CMCC-IPV6 6",
+                "🇲🇱 加入我的频道t.me/CMLiussss解锁更多优选节点 2",
+                "CFnat 2",
+                "🇧🇷 BR",
+                "🇷🇺 RU 3",
+                "🇸🇬 SG 7",
+                "🇷🇺 RU 4",
+                "🇺🇸 US 23",
+                "🇧🇷 BR 2",
+                "🇯🇵 JP 5",
+                "🇧🇷 BR 3",
+                "🇧🇷 BR 4",
+                "🇧🇷 BR 5",
+                "🇺🇸 US 24",
+                "🇺🇸 US 25",
+                "🇺🇸 US 26",
+                "🇫🇷 FR 5",
+                "🇺🇸 US 27",
+                "🇺🇸 US 28",
+                "🇸🇬 SG 8",
+                "🇸🇬 SG 9",
+                "🇯🇵 JP 6",
+                "🇭🇰 HK 8",
+                "🇰🇷 KR 8",
+                "🇰🇷 KR 9",
+                "🇰🇷 KR 10",
+                "🇰🇷 KR 11",
+                "🇺🇸 US 29",
+                "🇺🇸 US 30",
+                "🇺🇸 US 31",
+                "🇺🇸 US 32",
+                "🇺🇸 US 33",
+                "🇸🇪 SE 4",
+                "🇸🇪 SE 5",
+                "🇸🇪 SE 6",
+                "🇫🇷 FR 6",
+                "🇫🇷 FR 7",
+                "🇫🇷 FR 8",
+                "🇮🇳 IN 6",
+                "🇮🇱 IL 3",
+                "🇮🇱 IL 4",
+                "🇮🇳 IN 7",
+                "🇺🇸 US 34",
+                "🇺🇸 US 35",
+                "🇺🇸 US 36",
+                "🇨🇭 CH 6",
+                "🇨🇭 CH 7",
+                "🇨🇭 CH 8",
+                "🇨🇭 CH 9",
+                "🇨🇭 CH 10",
+                "🇫🇷 FR 9",
+                "🇮🇳 IN 8",
+                "🇮🇳 IN 9",
+                "GB 3",
+                "GB 4",
+                "🇺🇸 US 37",
+                "🇰🇷 KR 12",
+                "🇮🇳 IN 10",
+                "🇰🇷 KR 13",
+                "🇺🇸 US 38",
+                "🇸🇬 SG 10",
+                "🇺🇸 US 39",
+                "🇯🇵 JP 7",
+                "🇳🇱 NL 3",
+                "🇳🇱 NL 4",
+                "🇮🇹 IT 3",
+                "🇦🇺 AU 3",
+                "🇸🇬 SG 11",
+                "🇯🇵 JP 8",
+                "🇭🇰 HK 9",
+                "🇨🇦 CA 3",
+                "🇦🇺 AU 4",
+                "🇦🇪 AE 2",
+                "🇨🇦 CA 4",
+                "🇮🇹 IT 4",
+                "🇹🇼 TW 2",
+                "🇭🇰 HK 10",
+                "🇺🇸 US 40",
+                "🇺🇸 US 41",
+                "🇺🇸 US 42",
+                "🇺🇸 US 43",
+                "🇺🇸 US 44",
+                "🇹🇭 TH 2",
+                "🇰🇷 KR 14",
+                "🇸🇬 SG 12",
+                "CT 7",
+                "CT 8",
+                "CT 9",
+                "CT 10",
+                "CT 11",
+                "CT 12",
+                "🇲🇨 CMCC 7",
+                "🇲🇨 CMCC 8",
+                "🇲🇨 CMCC 9",
+                "🇲🇨 CMCC 10",
+                "🇲🇨 CMCC 11",
+                "🇲🇨 CMCC 12",
+                "🇲🇨 CMCC-IPV6 7",
+                "🇲🇨 CMCC-IPV6 8",
+                "🇲🇨 CMCC-IPV6 9",
+                "🇲🇨 CMCC-IPV6 10",
+                "🇲🇨 CMCC-IPV6 11",
+                "🇲🇨 CMCC-IPV6 12"
             ]
         }, {
             "tag": "OpenAI",
@@ -286,57 +482,444 @@
             "tag": "HongKong",
             "type": "selector",
             "outbounds": [
-                "Proxy"
+                "🇭🇰 HK",
+                "🇭🇰 HK 2",
+                "🇭🇰 HK 3",
+                "🇭🇰 HK 4",
+                "🇭🇰 HK 5",
+                "🇭🇰 HK 6",
+                "🇭🇰 HK 7",
+                "🇭🇰 HK 8",
+                "🇭🇰 HK 9",
+                "🇭🇰 HK 10"
             ]
         }, {
             "tag": "TaiWan",
             "type": "selector",
             "outbounds": [
-                "Proxy"
+                "🇹🇼 TW",
+                "🇹🇼 TW 2"
             ]
         }, {
             "tag": "Singapore",
             "type": "selector",
             "outbounds": [
-                "Proxy"
+                "🇸🇬 SG",
+                "🇸🇬 SG 2",
+                "🇸🇬 SG 3",
+                "🇸🇬 SG 4",
+                "🇸🇬 SG 5",
+                "🇸🇬 SG 6",
+                "🇸🇬 SG 7",
+                "🇸🇬 SG 8",
+                "🇸🇬 SG 9",
+                "🇸🇬 SG 10",
+                "🇸🇬 SG 11",
+                "🇸🇬 SG 12"
             ]
         }, {
             "tag": "Japan",
             "type": "selector",
             "outbounds": [
-                "Proxy"
+                "🇯🇵 JP",
+                "🇯🇵 JP 2",
+                "🇯🇵 JP 3",
+                "🇯🇵 JP 4",
+                "🇯🇵 JP 5",
+                "🇯🇵 JP 6",
+                "🇯🇵 JP 7",
+                "🇯🇵 JP 8"
             ]
         }, {
             "tag": "America",
             "type": "selector",
             "outbounds": [
-                "Proxy"
+                "🇲🇱 加入我的频道t.me/CMLiussss解锁更多优选节点",
+                "🇺🇸 US",
+                "🇺🇸 US 2",
+                "🇺🇸 US 3",
+                "🇺🇸 US 4",
+                "🇺🇸 US 5",
+                "🇺🇸 US 6",
+                "🇺🇸 US 7",
+                "🇺🇸 US 8",
+                "🇺🇸 US 9",
+                "🇺🇸 US 10",
+                "🇺🇸 US 11",
+                "🇺🇸 US 12",
+                "🇺🇸 US 13",
+                "🇺🇸 US 14",
+                "🇺🇸 US 15",
+                "🇺🇸 US 16",
+                "🇺🇸 US 17",
+                "🇺🇸 US 18",
+                "🇺🇸 US 19",
+                "🇺🇸 US 20",
+                "🇺🇸 US 21",
+                "🇺🇸 US 22",
+                "🇲🇱 加入我的频道t.me/CMLiussss解锁更多优选节点 2",
+                "🇺🇸 US 23",
+                "🇺🇸 US 24",
+                "🇺🇸 US 25",
+                "🇺🇸 US 26",
+                "🇺🇸 US 27",
+                "🇺🇸 US 28",
+                "🇺🇸 US 29",
+                "🇺🇸 US 30",
+                "🇺🇸 US 31",
+                "🇺🇸 US 32",
+                "🇺🇸 US 33",
+                "🇺🇸 US 34",
+                "🇺🇸 US 35",
+                "🇺🇸 US 36",
+                "🇺🇸 US 37",
+                "🇺🇸 US 38",
+                "🇺🇸 US 39",
+                "🇺🇸 US 40",
+                "🇺🇸 US 41",
+                "🇺🇸 US 42",
+                "🇺🇸 US 43",
+                "🇺🇸 US 44"
             ]
         }, {
             "tag": "Others",
             "type": "selector",
             "outbounds": [
-                "🇨🇳 CN🐲™️",
-                "🇨🇳 CN🐲™️ 2",
-                "🇨🇳 CN🐲™️ 3",
-                "arises.dynv6.net",
-                "tarjan.pages.dev",
-                "🇨🇳 CN🐲™️ 4",
-                "🇨🇳 CN🐲™️ 5",
-                "🇨🇳 CN🐲™️ 6"
+                "CFnat",
+                "🇷🇺 RU",
+                "🇮🇩 ID",
+                "🇿🇦 ZA",
+                "🇷🇺 RU 2",
+                "🇰🇷 KR",
+                "🇰🇷 KR 2",
+                "🇰🇷 KR 3",
+                "🇰🇷 KR 4",
+                "🇸🇪 SE",
+                "🇸🇪 SE 2",
+                "🇸🇪 SE 3",
+                "🇫🇷 FR",
+                "🇫🇷 FR 2",
+                "🇫🇷 FR 3",
+                "🇮🇳 IN",
+                "🇮🇱 IL",
+                "🇮🇱 IL 2",
+                "🇮🇳 IN 2",
+                "🇨🇭 CH",
+                "🇨🇭 CH 2",
+                "🇨🇭 CH 3",
+                "🇨🇭 CH 4",
+                "🇨🇭 CH 5",
+                "🇫🇷 FR 4",
+                "🇮🇳 IN 3",
+                "🇮🇳 IN 4",
+                "GB",
+                "GB 2",
+                "🇰🇷 KR 5",
+                "🇮🇳 IN 5",
+                "🇰🇷 KR 6",
+                "🇳🇱 NL",
+                "🇳🇱 NL 2",
+                "🇮🇹 IT",
+                "🇦🇺 AU",
+                "🇨🇦 CA",
+                "🇦🇺 AU 2",
+                "🇦🇪 AE",
+                "🇨🇦 CA 2",
+                "🇮🇹 IT 2",
+                "🇹🇭 TH",
+                "🇰🇷 KR 7",
+                "CT",
+                "CT 2",
+                "CT 3",
+                "CT 4",
+                "CT 5",
+                "CT 6",
+                "🇲🇨 CMCC",
+                "🇲🇨 CMCC 2",
+                "🇲🇨 CMCC 3",
+                "🇲🇨 CMCC 4",
+                "🇲🇨 CMCC 5",
+                "🇲🇨 CMCC 6",
+                "🇲🇨 CMCC-IPV6",
+                "🇲🇨 CMCC-IPV6 2",
+                "🇲🇨 CMCC-IPV6 3",
+                "🇲🇨 CMCC-IPV6 4",
+                "🇲🇨 CMCC-IPV6 5",
+                "🇲🇨 CMCC-IPV6 6",
+                "CFnat 2",
+                "🇧🇷 BR",
+                "🇷🇺 RU 3",
+                "🇷🇺 RU 4",
+                "🇧🇷 BR 2",
+                "🇧🇷 BR 3",
+                "🇧🇷 BR 4",
+                "🇧🇷 BR 5",
+                "🇫🇷 FR 5",
+                "🇰🇷 KR 8",
+                "🇰🇷 KR 9",
+                "🇰🇷 KR 10",
+                "🇰🇷 KR 11",
+                "🇸🇪 SE 4",
+                "🇸🇪 SE 5",
+                "🇸🇪 SE 6",
+                "🇫🇷 FR 6",
+                "🇫🇷 FR 7",
+                "🇫🇷 FR 8",
+                "🇮🇳 IN 6",
+                "🇮🇱 IL 3",
+                "🇮🇱 IL 4",
+                "🇮🇳 IN 7",
+                "🇨🇭 CH 6",
+                "🇨🇭 CH 7",
+                "🇨🇭 CH 8",
+                "🇨🇭 CH 9",
+                "🇨🇭 CH 10",
+                "🇫🇷 FR 9",
+                "🇮🇳 IN 8",
+                "🇮🇳 IN 9",
+                "GB 3",
+                "GB 4",
+                "🇰🇷 KR 12",
+                "🇮🇳 IN 10",
+                "🇰🇷 KR 13",
+                "🇳🇱 NL 3",
+                "🇳🇱 NL 4",
+                "🇮🇹 IT 3",
+                "🇦🇺 AU 3",
+                "🇨🇦 CA 3",
+                "🇦🇺 AU 4",
+                "🇦🇪 AE 2",
+                "🇨🇦 CA 4",
+                "🇮🇹 IT 4",
+                "🇹🇭 TH 2",
+                "🇰🇷 KR 14",
+                "CT 7",
+                "CT 8",
+                "CT 9",
+                "CT 10",
+                "CT 11",
+                "CT 12",
+                "🇲🇨 CMCC 7",
+                "🇲🇨 CMCC 8",
+                "🇲🇨 CMCC 9",
+                "🇲🇨 CMCC 10",
+                "🇲🇨 CMCC 11",
+                "🇲🇨 CMCC 12",
+                "🇲🇨 CMCC-IPV6 7",
+                "🇲🇨 CMCC-IPV6 8",
+                "🇲🇨 CMCC-IPV6 9",
+                "🇲🇨 CMCC-IPV6 10",
+                "🇲🇨 CMCC-IPV6 11",
+                "🇲🇨 CMCC-IPV6 12"
             ]
         }, {
             "tag": "auto",
             "type": "urltest",
             "outbounds": [
-                "🇨🇳 CN🐲™️",
-                "🇨🇳 CN🐲™️ 2",
-                "🇨🇳 CN🐲™️ 3",
-                "arises.dynv6.net",
-                "tarjan.pages.dev",
-                "🇨🇳 CN🐲™️ 4",
-                "🇨🇳 CN🐲™️ 5",
-                "🇨🇳 CN🐲™️ 6"
+                "🇲🇱 加入我的频道t.me/CMLiussss解锁更多优选节点",
+                "CFnat",
+                "🇷🇺 RU",
+                "🇺🇸 US",
+                "🇺🇸 US 2",
+                "🇺🇸 US 3",
+                "🇮🇩 ID",
+                "🇿🇦 ZA",
+                "🇷🇺 RU 2",
+                "🇭🇰 HK",
+                "🇭🇰 HK 2",
+                "🇺🇸 US 4",
+                "🇺🇸 US 5",
+                "🇺🇸 US 6",
+                "🇸🇬 SG",
+                "🇭🇰 HK 3",
+                "🇭🇰 HK 4",
+                "🇯🇵 JP",
+                "🇸🇬 SG 2",
+                "🇸🇬 SG 3",
+                "🇯🇵 JP 2",
+                "🇭🇰 HK 5",
+                "🇰🇷 KR",
+                "🇰🇷 KR 2",
+                "🇰🇷 KR 3",
+                "🇰🇷 KR 4",
+                "🇺🇸 US 7",
+                "🇺🇸 US 8",
+                "🇺🇸 US 9",
+                "🇺🇸 US 10",
+                "🇺🇸 US 11",
+                "🇸🇪 SE",
+                "🇸🇪 SE 2",
+                "🇸🇪 SE 3",
+                "🇫🇷 FR",
+                "🇫🇷 FR 2",
+                "🇫🇷 FR 3",
+                "🇮🇳 IN",
+                "🇮🇱 IL",
+                "🇮🇱 IL 2",
+                "🇮🇳 IN 2",
+                "🇺🇸 US 12",
+                "🇺🇸 US 13",
+                "🇺🇸 US 14",
+                "🇨🇭 CH",
+                "🇨🇭 CH 2",
+                "🇨🇭 CH 3",
+                "🇨🇭 CH 4",
+                "🇨🇭 CH 5",
+                "🇫🇷 FR 4",
+                "🇮🇳 IN 3",
+                "🇮🇳 IN 4",
+                "GB",
+                "GB 2",
+                "🇺🇸 US 15",
+                "🇰🇷 KR 5",
+                "🇮🇳 IN 5",
+                "🇰🇷 KR 6",
+                "🇺🇸 US 16",
+                "🇸🇬 SG 4",
+                "🇺🇸 US 17",
+                "🇯🇵 JP 3",
+                "🇳🇱 NL",
+                "🇳🇱 NL 2",
+                "🇮🇹 IT",
+                "🇦🇺 AU",
+                "🇸🇬 SG 5",
+                "🇯🇵 JP 4",
+                "🇭🇰 HK 6",
+                "🇨🇦 CA",
+                "🇦🇺 AU 2",
+                "🇦🇪 AE",
+                "🇨🇦 CA 2",
+                "🇮🇹 IT 2",
+                "🇹🇼 TW",
+                "🇭🇰 HK 7",
+                "🇺🇸 US 18",
+                "🇺🇸 US 19",
+                "🇺🇸 US 20",
+                "🇺🇸 US 21",
+                "🇺🇸 US 22",
+                "🇹🇭 TH",
+                "🇰🇷 KR 7",
+                "🇸🇬 SG 6",
+                "CT",
+                "CT 2",
+                "CT 3",
+                "CT 4",
+                "CT 5",
+                "CT 6",
+                "🇲🇨 CMCC",
+                "🇲🇨 CMCC 2",
+                "🇲🇨 CMCC 3",
+                "🇲🇨 CMCC 4",
+                "🇲🇨 CMCC 5",
+                "🇲🇨 CMCC 6",
+                "🇲🇨 CMCC-IPV6",
+                "🇲🇨 CMCC-IPV6 2",
+                "🇲🇨 CMCC-IPV6 3",
+                "🇲🇨 CMCC-IPV6 4",
+                "🇲🇨 CMCC-IPV6 5",
+                "🇲🇨 CMCC-IPV6 6",
+                "🇲🇱 加入我的频道t.me/CMLiussss解锁更多优选节点 2",
+                "CFnat 2",
+                "🇧🇷 BR",
+                "🇷🇺 RU 3",
+                "🇸🇬 SG 7",
+                "🇷🇺 RU 4",
+                "🇺🇸 US 23",
+                "🇧🇷 BR 2",
+                "🇯🇵 JP 5",
+                "🇧🇷 BR 3",
+                "🇧🇷 BR 4",
+                "🇧🇷 BR 5",
+                "🇺🇸 US 24",
+                "🇺🇸 US 25",
+                "🇺🇸 US 26",
+                "🇫🇷 FR 5",
+                "🇺🇸 US 27",
+                "🇺🇸 US 28",
+                "🇸🇬 SG 8",
+                "🇸🇬 SG 9",
+                "🇯🇵 JP 6",
+                "🇭🇰 HK 8",
+                "🇰🇷 KR 8",
+                "🇰🇷 KR 9",
+                "🇰🇷 KR 10",
+                "🇰🇷 KR 11",
+                "🇺🇸 US 29",
+                "🇺🇸 US 30",
+                "🇺🇸 US 31",
+                "🇺🇸 US 32",
+                "🇺🇸 US 33",
+                "🇸🇪 SE 4",
+                "🇸🇪 SE 5",
+                "🇸🇪 SE 6",
+                "🇫🇷 FR 6",
+                "🇫🇷 FR 7",
+                "🇫🇷 FR 8",
+                "🇮🇳 IN 6",
+                "🇮🇱 IL 3",
+                "🇮🇱 IL 4",
+                "🇮🇳 IN 7",
+                "🇺🇸 US 34",
+                "🇺🇸 US 35",
+                "🇺🇸 US 36",
+                "🇨🇭 CH 6",
+                "🇨🇭 CH 7",
+                "🇨🇭 CH 8",
+                "🇨🇭 CH 9",
+                "🇨🇭 CH 10",
+                "🇫🇷 FR 9",
+                "🇮🇳 IN 8",
+                "🇮🇳 IN 9",
+                "GB 3",
+                "GB 4",
+                "🇺🇸 US 37",
+                "🇰🇷 KR 12",
+                "🇮🇳 IN 10",
+                "🇰🇷 KR 13",
+                "🇺🇸 US 38",
+                "🇸🇬 SG 10",
+                "🇺🇸 US 39",
+                "🇯🇵 JP 7",
+                "🇳🇱 NL 3",
+                "🇳🇱 NL 4",
+                "🇮🇹 IT 3",
+                "🇦🇺 AU 3",
+                "🇸🇬 SG 11",
+                "🇯🇵 JP 8",
+                "🇭🇰 HK 9",
+                "🇨🇦 CA 3",
+                "🇦🇺 AU 4",
+                "🇦🇪 AE 2",
+                "🇨🇦 CA 4",
+                "🇮🇹 IT 4",
+                "🇹🇼 TW 2",
+                "🇭🇰 HK 10",
+                "🇺🇸 US 40",
+                "🇺🇸 US 41",
+                "🇺🇸 US 42",
+                "🇺🇸 US 43",
+                "🇺🇸 US 44",
+                "🇹🇭 TH 2",
+                "🇰🇷 KR 14",
+                "🇸🇬 SG 12",
+                "CT 7",
+                "CT 8",
+                "CT 9",
+                "CT 10",
+                "CT 11",
+                "CT 12",
+                "🇲🇨 CMCC 7",
+                "🇲🇨 CMCC 8",
+                "🇲🇨 CMCC 9",
+                "🇲🇨 CMCC 10",
+                "🇲🇨 CMCC 11",
+                "🇲🇨 CMCC 12",
+                "🇲🇨 CMCC-IPV6 7",
+                "🇲🇨 CMCC-IPV6 8",
+                "🇲🇨 CMCC-IPV6 9",
+                "🇲🇨 CMCC-IPV6 10",
+                "🇲🇨 CMCC-IPV6 11",
+                "🇲🇨 CMCC-IPV6 12"
             ],
             "url": "http://www.gstatic.com/generate_204",
             "interval": "10m",
@@ -351,73 +934,10 @@
             "type": "block",
             "tag": "block"
         }, {
-            "tag": "🇨🇳 CN🐲™️",
+            "tag": "🇲🇱 加入我的频道t.me/CMLiussss解锁更多优选节点",
             "type": "vless",
-            "server": "ip.skk.moe",
-            "server_port": 2096,
-            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "insecure": true,
-                "server_name": "a.arises.dynv6.net"
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "a.arises.dynv6.net"
-                },
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560
-            }
-        }, {
-            "tag": "🇨🇳 CN🐲™️ 2",
-            "type": "vless",
-            "server": "ip.skk.moe",
-            "server_port": 2096,
-            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "insecure": true,
-                "server_name": "a.arises.dynv6.net"
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "a.arises.dynv6.net"
-                },
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560
-            }
-        }, {
-            "tag": "🇨🇳 CN🐲™️ 3",
-            "type": "vless",
-            "server": "ip.skk.moe",
-            "server_port": 2096,
-            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "insecure": true,
-                "server_name": "a.arises.dynv6.net"
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "a.arises.dynv6.net"
-                },
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560
-            }
-        }, {
-            "tag": "arises.dynv6.net",
-            "type": "vless",
-            "server": "a.arises.dynv6.net",
-            "server_port": 2096,
+            "server": "Join.my.Telegram.channel.CMLiussss.to.unlock.more.premium.nodes.cf.090227.xyz",
+            "server_port": 443,
             "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
             "packet_encoding": "xudp",
             "tls": {
@@ -435,91 +955,4674 @@
                 "max_early_data": 2560
             }
         }, {
-            "tag": "tarjan.pages.dev",
-            "type": "trojan",
-            "server": "a.arises.dynv6.net",
-            "server_port": 2096,
-            "password": "google",
+            "tag": "CFnat",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 1234,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "insecure": true,
-                "server_name": "tarjan.pages.dev",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
             },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "tarjan.pages.dev"
-                }
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
             }
         }, {
-            "tag": "🇨🇳 CN🐲™️ 4",
+            "tag": "🇷🇺 RU",
+            "type": "vless",
+            "server": "45.67.215.250",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US",
+            "type": "vless",
+            "server": "130.250.137.107",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 2",
+            "type": "vless",
+            "server": "135.84.76.149",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 3",
+            "type": "vless",
+            "server": "63.141.128.124",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇮🇩 ID",
+            "type": "vless",
+            "server": "35.219.15.90",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇿🇦 ZA",
+            "type": "vless",
+            "server": "160.123.255.100",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇷🇺 RU 2",
+            "type": "vless",
+            "server": "45.67.215.138",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇭🇰 HK",
+            "type": "vless",
+            "server": "219.76.13.183",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇭🇰 HK 2",
+            "type": "vless",
+            "server": "8.218.26.21",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 4",
+            "type": "vless",
+            "server": "135.84.76.115",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 5",
+            "type": "vless",
+            "server": "63.141.128.159",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 6",
+            "type": "vless",
+            "server": "192.0.54.149",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇸🇬 SG",
+            "type": "vless",
+            "server": "206.238.237.99",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇭🇰 HK 3",
+            "type": "vless",
+            "server": "47.57.233.126",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇭🇰 HK 4",
+            "type": "vless",
+            "server": "47.57.14.118",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇯🇵 JP",
+            "type": "vless",
+            "server": "140.238.60.225",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇸🇬 SG 2",
+            "type": "vless",
+            "server": "124.156.203.197",
+            "server_port": 8825,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇸🇬 SG 3",
+            "type": "vless",
+            "server": "138.2.69.236",
+            "server_port": 23334,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇯🇵 JP 2",
+            "type": "vless",
+            "server": "38.47.127.14",
+            "server_port": 17185,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇭🇰 HK 5",
+            "type": "vless",
+            "server": "124.156.129.206",
+            "server_port": 6666,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇰🇷 KR",
+            "type": "vless",
+            "server": "1.223.51.202",
+            "server_port": 50000,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇰🇷 KR 2",
+            "type": "vless",
+            "server": "121.174.111.147",
+            "server_port": 10936,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇰🇷 KR 3",
+            "type": "vless",
+            "server": "175.117.167.94",
+            "server_port": 30037,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇰🇷 KR 4",
+            "type": "vless",
+            "server": "118.47.65.248",
+            "server_port": 30012,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 7",
+            "type": "vless",
+            "server": "204.110.220.6",
+            "server_port": 80,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 8",
+            "type": "vless",
+            "server": "107.174.247.25",
+            "server_port": 54021,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 9",
+            "type": "vless",
+            "server": "154.64.224.112",
+            "server_port": 2103,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 10",
+            "type": "vless",
+            "server": "18.236.13.188",
+            "server_port": 80,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 11",
+            "type": "vless",
+            "server": "129.146.254.39",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇸🇪 SE",
+            "type": "vless",
+            "server": "129.151.198.3",
+            "server_port": 2053,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇸🇪 SE 2",
+            "type": "vless",
+            "server": "129.151.198.3",
+            "server_port": 8443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇸🇪 SE 3",
+            "type": "vless",
+            "server": "129.151.204.91",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇫🇷 FR",
+            "type": "vless",
+            "server": "129.151.225.228",
+            "server_port": 2053,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇫🇷 FR 2",
+            "type": "vless",
+            "server": "129.151.225.228",
+            "server_port": 8443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇫🇷 FR 3",
+            "type": "vless",
+            "server": "129.151.254.48",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇮🇳 IN",
+            "type": "vless",
+            "server": "129.154.46.115",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇮🇱 IL",
+            "type": "vless",
+            "server": "129.159.129.107",
+            "server_port": 8443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇮🇱 IL 2",
+            "type": "vless",
+            "server": "129.159.143.171",
+            "server_port": 8443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇮🇳 IN 2",
+            "type": "vless",
+            "server": "129.159.22.4",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 12",
+            "type": "vless",
+            "server": "129.213.136.180",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 13",
+            "type": "vless",
+            "server": "129.213.202.222",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 14",
+            "type": "vless",
+            "server": "129.80.222.224",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇨🇭 CH",
+            "type": "vless",
+            "server": "140.238.173.181",
+            "server_port": 2053,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇨🇭 CH 2",
+            "type": "vless",
+            "server": "140.238.173.181",
+            "server_port": 8443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇨🇭 CH 3",
+            "type": "vless",
+            "server": "140.238.212.95",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇨🇭 CH 4",
+            "type": "vless",
+            "server": "140.238.218.65",
+            "server_port": 2053,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇨🇭 CH 5",
+            "type": "vless",
+            "server": "140.238.218.65",
+            "server_port": 8443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇫🇷 FR 4",
+            "type": "vless",
+            "server": "141.145.205.115",
+            "server_port": 8443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇮🇳 IN 3",
+            "type": "vless",
+            "server": "141.148.203.6",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇮🇳 IN 4",
+            "type": "vless",
+            "server": "141.148.220.141",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "GB",
+            "type": "vless",
+            "server": "143.47.243.144",
+            "server_port": 2053,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "GB 2",
+            "type": "vless",
+            "server": "144.21.52.119",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 15",
+            "type": "vless",
+            "server": "144.24.20.92",
+            "server_port": 8443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇰🇷 KR 5",
+            "type": "vless",
+            "server": "149.129.8.215",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇮🇳 IN 5",
+            "type": "vless",
+            "server": "152.67.190.105",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇰🇷 KR 6",
+            "type": "vless",
+            "server": "152.67.203.34",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 16",
+            "type": "vless",
+            "server": "152.67.249.123",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇸🇬 SG 4",
+            "type": "vless",
+            "server": "152.69.219.32",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 17",
+            "type": "vless",
+            "server": "154.17.21.134",
+            "server_port": 18446,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇯🇵 JP 3",
+            "type": "vless",
+            "server": "158.101.148.105",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇳🇱 NL",
+            "type": "vless",
+            "server": "158.101.199.249",
+            "server_port": 8443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇳🇱 NL 2",
+            "type": "vless",
+            "server": "158.101.209.76",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇮🇹 IT",
+            "type": "vless",
+            "server": "158.180.230.4",
+            "server_port": 2053,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇦🇺 AU",
+            "type": "vless",
+            "server": "168.138.13.201",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇸🇬 SG 5",
+            "type": "vless",
+            "server": "168.138.177.109",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇯🇵 JP 4",
+            "type": "vless",
+            "server": "168.138.46.67",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇭🇰 HK 6",
+            "type": "vless",
+            "server": "172.93.165.228",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇨🇦 CA",
+            "type": "vless",
+            "server": "192.18.159.129",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇦🇺 AU 2",
+            "type": "vless",
+            "server": "192.9.180.162",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇦🇪 AE",
+            "type": "vless",
+            "server": "193.123.81.105",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇨🇦 CA 2",
+            "type": "vless",
+            "server": "204.216.105.106",
+            "server_port": 8443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇮🇹 IT 2",
+            "type": "vless",
+            "server": "204.216.216.148",
+            "server_port": 2053,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇹🇼 TW",
+            "type": "vless",
+            "server": "210.61.97.241",
+            "server_port": 81,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇭🇰 HK 7",
+            "type": "vless",
+            "server": "43.135.44.101",
+            "server_port": 30002,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 18",
+            "type": "vless",
+            "server": "47.253.100.59",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 19",
+            "type": "vless",
+            "server": "47.253.105.131",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 20",
+            "type": "vless",
+            "server": "47.253.223.200",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 21",
+            "type": "vless",
+            "server": "47.88.24.237",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇺🇸 US 22",
+            "type": "vless",
+            "server": "47.90.141.204",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇹🇭 TH",
+            "type": "vless",
+            "server": "8.213.217.254",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇰🇷 KR 7",
+            "type": "vless",
+            "server": "8.220.204.23",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇸🇬 SG 6",
+            "type": "vless",
+            "server": "8.222.165.104",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "CT",
+            "type": "vless",
+            "server": "162.159.153.255",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "CT 2",
+            "type": "vless",
+            "server": "162.159.152.125",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "CT 3",
+            "type": "vless",
+            "server": "162.159.152.47",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "CT 4",
+            "type": "vless",
+            "server": "162.159.152.206",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "CT 5",
+            "type": "vless",
+            "server": "162.159.153.52",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "CT 6",
+            "type": "vless",
+            "server": "162.159.152.138",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇲🇨 CMCC",
+            "type": "vless",
+            "server": "104.19.32.161",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇲🇨 CMCC 2",
+            "type": "vless",
+            "server": "104.19.40.149",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇲🇨 CMCC 3",
+            "type": "vless",
+            "server": "104.19.32.178",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇲🇨 CMCC 4",
+            "type": "vless",
+            "server": "104.19.47.89",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇲🇨 CMCC 5",
+            "type": "vless",
+            "server": "104.19.32.244",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇲🇨 CMCC 6",
+            "type": "vless",
+            "server": "104.19.37.251",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇲🇨 CMCC-IPV6",
+            "type": "vless",
+            "server": "2606:4700:3036:0:a36a:4a23:4a60:9f3f",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇲🇨 CMCC-IPV6 2",
+            "type": "vless",
+            "server": "2606:4700:3036:6ed4:e1ed:36:7204:2031",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇲🇨 CMCC-IPV6 3",
+            "type": "vless",
+            "server": "2606:4700:3036:0:a36a:4af2:65e7:a0d6",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇲🇨 CMCC-IPV6 4",
+            "type": "vless",
+            "server": "2606:4700:3036:ef:3f32:9601:b705:e94b",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇲🇨 CMCC-IPV6 5",
+            "type": "vless",
+            "server": "2606:4700:3036:6ed4:ffdf:15bf:7d77:5f52",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇲🇨 CMCC-IPV6 6",
+            "type": "vless",
+            "server": "2606:4700:3036:0:a36a:4a94:8d40:c92c",
+            "server_port": 443,
+            "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "server_name": "a.arises.dynv6.net"
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "a.arises.dynv6.net"
+                },
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560
+            }
+        }, {
+            "tag": "🇲🇱 加入我的频道t.me/CMLiussss解锁更多优选节点 2",
             "type": "trojan",
-            "server": "ip.skk.moe",
-            "server_port": 2096,
+            "server": "Join.my.Telegram.channel.CMLiussss.to.unlock.more.premium.nodes.cf.090227.xyz",
+            "server_port": 443,
             "password": "google",
             "tls": {
                 "enabled": true,
                 "insecure": false,
-                "server_name": "tarjan.pages.dev",
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "randomized"
                 }
             },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "tarjan.pages.dev"
+                    "Host": "b.arises.dynv6.net"
                 }
             }
         }, {
-            "tag": "🇨🇳 CN🐲™️ 5",
+            "tag": "CFnat 2",
             "type": "trojan",
-            "server": "ip.skk.moe",
-            "server_port": 2096,
+            "server": "127.0.0.1",
+            "server_port": 1234,
             "password": "google",
             "tls": {
                 "enabled": true,
-                "insecure": true,
-                "server_name": "tarjan.pages.dev",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "randomized"
                 }
             },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "tarjan.pages.dev"
+                    "Host": "b.arises.dynv6.net"
                 }
             }
         }, {
-            "tag": "🇨🇳 CN🐲™️ 6",
+            "tag": "🇧🇷 BR",
             "type": "trojan",
-            "server": "ip.skk.moe",
-            "server_port": 2096,
+            "server": "185.133.35.78",
+            "server_port": 443,
             "password": "google",
             "tls": {
                 "enabled": true,
-                "insecure": true,
-                "server_name": "tarjan.pages.dev",
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "randomized"
                 }
             },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "tarjan.pages.dev"
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇷🇺 RU 3",
+            "type": "trojan",
+            "server": "45.67.215.138",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇸🇬 SG 7",
+            "type": "trojan",
+            "server": "8.219.49.204",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇷🇺 RU 4",
+            "type": "trojan",
+            "server": "45.67.215.152",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 23",
+            "type": "trojan",
+            "server": "192.0.54.0",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇧🇷 BR 2",
+            "type": "trojan",
+            "server": "185.133.35.46",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇯🇵 JP 5",
+            "type": "trojan",
+            "server": "13.230.34.30",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇧🇷 BR 3",
+            "type": "trojan",
+            "server": "185.133.35.61",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇧🇷 BR 4",
+            "type": "trojan",
+            "server": "185.133.35.99",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇧🇷 BR 5",
+            "type": "trojan",
+            "server": "185.133.35.224",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 24",
+            "type": "trojan",
+            "server": "63.141.128.108",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 25",
+            "type": "trojan",
+            "server": "170.39.66.155",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 26",
+            "type": "trojan",
+            "server": "192.0.54.133",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇫🇷 FR 5",
+            "type": "trojan",
+            "server": "185.16.110.107",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 27",
+            "type": "trojan",
+            "server": "135.84.76.149",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 28",
+            "type": "trojan",
+            "server": "63.141.128.56",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇸🇬 SG 8",
+            "type": "trojan",
+            "server": "124.156.203.197",
+            "server_port": 8825,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇸🇬 SG 9",
+            "type": "trojan",
+            "server": "138.2.69.236",
+            "server_port": 23334,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇯🇵 JP 6",
+            "type": "trojan",
+            "server": "38.47.127.14",
+            "server_port": 17185,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇭🇰 HK 8",
+            "type": "trojan",
+            "server": "124.156.129.206",
+            "server_port": 6666,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇰🇷 KR 8",
+            "type": "trojan",
+            "server": "1.223.51.202",
+            "server_port": 50000,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇰🇷 KR 9",
+            "type": "trojan",
+            "server": "121.174.111.147",
+            "server_port": 10936,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇰🇷 KR 10",
+            "type": "trojan",
+            "server": "175.117.167.94",
+            "server_port": 30037,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇰🇷 KR 11",
+            "type": "trojan",
+            "server": "118.47.65.248",
+            "server_port": 30012,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 29",
+            "type": "trojan",
+            "server": "204.110.220.6",
+            "server_port": 80,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 30",
+            "type": "trojan",
+            "server": "107.174.247.25",
+            "server_port": 54021,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 31",
+            "type": "trojan",
+            "server": "154.64.224.112",
+            "server_port": 2103,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 32",
+            "type": "trojan",
+            "server": "18.236.13.188",
+            "server_port": 80,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 33",
+            "type": "trojan",
+            "server": "129.146.254.39",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇸🇪 SE 4",
+            "type": "trojan",
+            "server": "129.151.198.3",
+            "server_port": 2053,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇸🇪 SE 5",
+            "type": "trojan",
+            "server": "129.151.198.3",
+            "server_port": 8443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇸🇪 SE 6",
+            "type": "trojan",
+            "server": "129.151.204.91",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇫🇷 FR 6",
+            "type": "trojan",
+            "server": "129.151.225.228",
+            "server_port": 2053,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇫🇷 FR 7",
+            "type": "trojan",
+            "server": "129.151.225.228",
+            "server_port": 8443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇫🇷 FR 8",
+            "type": "trojan",
+            "server": "129.151.254.48",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇮🇳 IN 6",
+            "type": "trojan",
+            "server": "129.154.46.115",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇮🇱 IL 3",
+            "type": "trojan",
+            "server": "129.159.129.107",
+            "server_port": 8443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇮🇱 IL 4",
+            "type": "trojan",
+            "server": "129.159.143.171",
+            "server_port": 8443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇮🇳 IN 7",
+            "type": "trojan",
+            "server": "129.159.22.4",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 34",
+            "type": "trojan",
+            "server": "129.213.136.180",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 35",
+            "type": "trojan",
+            "server": "129.213.202.222",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 36",
+            "type": "trojan",
+            "server": "129.80.222.224",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇨🇭 CH 6",
+            "type": "trojan",
+            "server": "140.238.173.181",
+            "server_port": 2053,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇨🇭 CH 7",
+            "type": "trojan",
+            "server": "140.238.173.181",
+            "server_port": 8443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇨🇭 CH 8",
+            "type": "trojan",
+            "server": "140.238.212.95",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇨🇭 CH 9",
+            "type": "trojan",
+            "server": "140.238.218.65",
+            "server_port": 2053,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇨🇭 CH 10",
+            "type": "trojan",
+            "server": "140.238.218.65",
+            "server_port": 8443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇫🇷 FR 9",
+            "type": "trojan",
+            "server": "141.145.205.115",
+            "server_port": 8443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇮🇳 IN 8",
+            "type": "trojan",
+            "server": "141.148.203.6",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇮🇳 IN 9",
+            "type": "trojan",
+            "server": "141.148.220.141",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "GB 3",
+            "type": "trojan",
+            "server": "143.47.243.144",
+            "server_port": 2053,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "GB 4",
+            "type": "trojan",
+            "server": "144.21.52.119",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 37",
+            "type": "trojan",
+            "server": "144.24.20.92",
+            "server_port": 8443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇰🇷 KR 12",
+            "type": "trojan",
+            "server": "149.129.8.215",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇮🇳 IN 10",
+            "type": "trojan",
+            "server": "152.67.190.105",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇰🇷 KR 13",
+            "type": "trojan",
+            "server": "152.67.203.34",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 38",
+            "type": "trojan",
+            "server": "152.67.249.123",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇸🇬 SG 10",
+            "type": "trojan",
+            "server": "152.69.219.32",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 39",
+            "type": "trojan",
+            "server": "154.17.21.134",
+            "server_port": 18446,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇯🇵 JP 7",
+            "type": "trojan",
+            "server": "158.101.148.105",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇳🇱 NL 3",
+            "type": "trojan",
+            "server": "158.101.199.249",
+            "server_port": 8443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇳🇱 NL 4",
+            "type": "trojan",
+            "server": "158.101.209.76",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇮🇹 IT 3",
+            "type": "trojan",
+            "server": "158.180.230.4",
+            "server_port": 2053,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇦🇺 AU 3",
+            "type": "trojan",
+            "server": "168.138.13.201",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇸🇬 SG 11",
+            "type": "trojan",
+            "server": "168.138.177.109",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇯🇵 JP 8",
+            "type": "trojan",
+            "server": "168.138.46.67",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇭🇰 HK 9",
+            "type": "trojan",
+            "server": "172.93.165.228",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇨🇦 CA 3",
+            "type": "trojan",
+            "server": "192.18.159.129",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇦🇺 AU 4",
+            "type": "trojan",
+            "server": "192.9.180.162",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇦🇪 AE 2",
+            "type": "trojan",
+            "server": "193.123.81.105",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇨🇦 CA 4",
+            "type": "trojan",
+            "server": "204.216.105.106",
+            "server_port": 8443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇮🇹 IT 4",
+            "type": "trojan",
+            "server": "204.216.216.148",
+            "server_port": 2053,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇹🇼 TW 2",
+            "type": "trojan",
+            "server": "210.61.97.241",
+            "server_port": 81,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇭🇰 HK 10",
+            "type": "trojan",
+            "server": "43.135.44.101",
+            "server_port": 30002,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 40",
+            "type": "trojan",
+            "server": "47.253.100.59",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 41",
+            "type": "trojan",
+            "server": "47.253.105.131",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 42",
+            "type": "trojan",
+            "server": "47.253.223.200",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 43",
+            "type": "trojan",
+            "server": "47.88.24.237",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇺🇸 US 44",
+            "type": "trojan",
+            "server": "47.90.141.204",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇹🇭 TH 2",
+            "type": "trojan",
+            "server": "8.213.217.254",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇰🇷 KR 14",
+            "type": "trojan",
+            "server": "8.220.204.23",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇸🇬 SG 12",
+            "type": "trojan",
+            "server": "8.222.165.104",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "CT 7",
+            "type": "trojan",
+            "server": "162.159.153.249",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "CT 8",
+            "type": "trojan",
+            "server": "162.159.152.163",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "CT 9",
+            "type": "trojan",
+            "server": "162.159.152.115",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "CT 10",
+            "type": "trojan",
+            "server": "162.159.152.185",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "CT 11",
+            "type": "trojan",
+            "server": "162.159.153.255",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "CT 12",
+            "type": "trojan",
+            "server": "162.159.152.158",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇲🇨 CMCC 7",
+            "type": "trojan",
+            "server": "104.19.32.244",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇲🇨 CMCC 8",
+            "type": "trojan",
+            "server": "104.19.40.149",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇲🇨 CMCC 9",
+            "type": "trojan",
+            "server": "104.19.32.178",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇲🇨 CMCC 10",
+            "type": "trojan",
+            "server": "104.19.40.234",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇲🇨 CMCC 11",
+            "type": "trojan",
+            "server": "104.19.32.161",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇲🇨 CMCC 12",
+            "type": "trojan",
+            "server": "104.19.37.251",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇲🇨 CMCC-IPV6 7",
+            "type": "trojan",
+            "server": "2606:4700:3036:6ed4:e1ed:36:8916:dace",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇲🇨 CMCC-IPV6 8",
+            "type": "trojan",
+            "server": "2606:4700:3036:ef:95e:7a29:2ccc:d331",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇲🇨 CMCC-IPV6 9",
+            "type": "trojan",
+            "server": "2606:4700:3036:6ed4:e1ed:36:7204:2031",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇲🇨 CMCC-IPV6 10",
+            "type": "trojan",
+            "server": "2606:4700:3036:6ed4:ff6e:712c:4953:87a5",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇲🇨 CMCC-IPV6 11",
+            "type": "trojan",
+            "server": "2606:4700:3036::ce:d6ea",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
+                }
+            }
+        }, {
+            "tag": "🇲🇨 CMCC-IPV6 12",
+            "type": "trojan",
+            "server": "2606:4700:3036:6ed4:ffdf:f2ba:820b:ed5c",
+            "server_port": 443,
+            "password": "google",
+            "tls": {
+                "enabled": true,
+                "insecure": false,
+                "alpn": [
+                    "h3"
+                ],
+                "server_name": "b.arises.dynv6.net",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "b.arises.dynv6.net"
                 }
             }
         }
@@ -644,181 +5747,181 @@
                 "tag": "geosite-category-ads-all",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ads-all.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ads-all.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-openai",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/OpenAI.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/Toperlock/sing-box-geosite/main/rule/OpenAI.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-youtube",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/youtube.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geoip-google",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/google.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/google.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-google",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/google.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/google.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-github",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/github.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/github.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geoip-telegram",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-telegram",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/telegram.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/telegram.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geoip-twitter",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/twitter.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/twitter.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-twitter",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/twitter.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/twitter.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geoip-facebook",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/facebook.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/facebook.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-facebook",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/facebook.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/facebook.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-bilibili",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/bilibili.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/bilibili.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-bahamut",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/bahamut.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/bahamut.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-spotify",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/spotify.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/spotify.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-tiktok",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/tiktok.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/tiktok.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geoip-netflix",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/netflix.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/netflix.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-netflix",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/netflix.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/netflix.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-disney",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/disney.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/disney.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geoip-apple",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geoip/apple.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo-lite/geoip/apple.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-apple",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/apple.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/apple.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-amazon",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/amazon.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/amazon.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-microsoft",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/microsoft.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/microsoft.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-category-games",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-games.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-games.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-dmm",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/dmm.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/dmm.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-hbo",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/hbo.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/hbo.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-primevideo",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/primevideo.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/primevideo.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-geolocation-!cn",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geoip-cn",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/cn.srs",
                 "download_detour": "direct"
             }, {
                 "tag": "geosite-cn",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs",
+                "url": "https://ghproxy.cn/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs",
                 "download_detour": "direct"
             }
         ]
