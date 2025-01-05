@@ -97,7 +97,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇱 加入我的频道t.me/CMLiussss解锁更多优选节点",
         "CFnat",
         "🇷🇺 RU",
         "🇺🇸 US",
@@ -199,7 +198,6 @@
         "🇲🇨 CMCC-IPV6 4",
         "🇲🇨 CMCC-IPV6 5",
         "🇲🇨 CMCC-IPV6 6",
-        "🇲🇱 加入我的频道t.me/CMLiussss解锁更多优选节点 2",
         "CFnat 2",
         "🇧🇷 BR",
         "🇷🇺 RU 3",
@@ -569,7 +567,6 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇲🇱 加入我的频道t.me/CMLiussss解锁更多优选节点",
         "🇺🇸 US",
         "🇺🇸 US 2",
         "🇺🇸 US 3",
@@ -592,7 +589,6 @@
         "🇺🇸 US 20",
         "🇺🇸 US 21",
         "🇺🇸 US 22",
-        "🇲🇱 加入我的频道t.me/CMLiussss解锁更多优选节点 2",
         "🇺🇸 US 23",
         "🇺🇸 US 24",
         "🇺🇸 US 25",
@@ -753,7 +749,6 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇲🇱 加入我的频道t.me/CMLiussss解锁更多优选节点",
         "CFnat",
         "🇷🇺 RU",
         "🇺🇸 US",
@@ -855,7 +850,6 @@
         "🇲🇨 CMCC-IPV6 4",
         "🇲🇨 CMCC-IPV6 5",
         "🇲🇨 CMCC-IPV6 6",
-        "🇲🇱 加入我的频道t.me/CMLiussss解锁更多优选节点 2",
         "CFnat 2",
         "🇧🇷 BR",
         "🇷🇺 RU 3",
@@ -973,28 +967,6 @@
     {
       "type": "block",
       "tag": "block"
-    },
-    {
-      "tag": "🇲🇱 加入我的频道t.me/CMLiussss解锁更多优选节点",
-      "type": "vless",
-      "server": "Join.my.Telegram.channel.CMLiussss.to.unlock.more.premium.nodes.cf.090227.xyz",
-      "server_port": 443,
-      "uuid": "ba55ef37-c33c-4a8f-aafa-2abc85312863",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "a.arises.dynv6.net"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "a.arises.dynv6.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
     },
     {
       "tag": "CFnat",
@@ -3216,32 +3188,6 @@
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇲🇱 加入我的频道t.me/CMLiussss解锁更多优选节点 2",
-      "type": "trojan",
-      "server": "Join.my.Telegram.channel.CMLiussss.to.unlock.more.premium.nodes.cf.090227.xyz",
-      "server_port": 443,
-      "password": "google",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "alpn": [
-          "h3"
-        ],
-        "server_name": "b.arises.dynv6.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "b.arises.dynv6.net"
-        }
       }
     },
     {
