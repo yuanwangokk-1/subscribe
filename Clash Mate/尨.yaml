@@ -15,7 +15,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 尨, server: qzs.trli.club, port: 2053, client-fingerprint: chrome, type: trojan, password: bdjxhrvjzgeckxgevzjcfvdnsdns, sni: qzs.trli.club, skip-cert-verify: false, network: ws, ws-opts: {path: /file/1G.txt, headers: {Host: qzs.trli.club}}}
+  - { name: 尨, server: qzs.trli.club, port: 2053, client-fingerprint: chrome, type: trojan, password: bdjxhrvjzgeckxgevzjcfvdnsdns, sni: qzs.trli.club, skip-cert-verify: false, network: ws, ws-opts: { path: /file/1G.txt, headers: { Host: qzs.trli.club } } }
 proxy-groups:
   - name: 🔰 节点选择
     type: select

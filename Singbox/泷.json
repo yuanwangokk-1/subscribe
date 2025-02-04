@@ -123,9 +123,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "a",
-        "b",
-        "c"
+        "尨"
       ]
     },
     {
@@ -365,18 +363,14 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "a",
-        "b",
-        "c"
+        "尨"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "a",
-        "b",
-        "c"
+        "尨"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -387,61 +381,25 @@
       "tag": "direct"
     },
     {
-      "tag": "a",
-      "type": "vless",
-      "server": "107.172.108.241",
-      "server_port": 35783,
-      "uuid": "93333b53-c014-4e09-b719-dd3e3cca1f84",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "tag": "尨",
+      "type": "trojan",
+      "server": "qzs.trli.club",
+      "server_port": 2053,
+      "password": "bdjxhrvjzgeckxgevzjcfvdnsdns",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "107-172-108-241.nip.io",
-        "reality": {
-          "enabled": true,
-          "public_key": "rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w"
-        },
+        "server_name": "qzs.trli.club",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      }
-    },
-    {
-      "tag": "b",
-      "type": "vless",
-      "server": "107.172.108.241",
-      "server_port": 44052,
-      "uuid": "3d41b739-8a47-4501-afb2-73f6a58d3140",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "107-172-108-241.nip.io",
-        "reality": {
-          "enabled": true,
-          "public_key": "R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "c",
-      "type": "vless",
-      "server": "107.172.108.241",
-      "server_port": 50585,
-      "uuid": "b2fcdde0-3430-4bfe-bb67-446840660299",
-      "packet_encoding": "xudp",
+      },
       "transport": {
         "type": "ws",
-        "path": "/drpys",
+        "path": "/file/1G.txt",
         "headers": {
-          "Host": ""
+          "Host": "qzs.trli.club"
         }
       }
     }
