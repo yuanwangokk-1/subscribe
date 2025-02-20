@@ -18,6 +18,7 @@ cloudflare邮箱：yuanwangokk@proton.me
 
 Clash meta 订阅链接：
 
+```
 https://igdux.top/
 
 https://dpaste.org/
@@ -25,14 +26,23 @@ https://dpaste.org/
 https://pastebin.mozilla.org/
 
 https://auto.classelivre.eu.org/sub?host=[域名]&uuid=[UUID]&path=[路径]
+```
 
 SingBox 订阅链接：
 
+```
 https://igdux.top/
 
 https://dpaste.org/
 
 https://pastebin.mozilla.org/
+```
+
+Acl4ssr配置文件:
+
+```
+https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FAcl4ssr%2Facl4ssr_with_antiad.ini
+```
 
 =====================================================
 
