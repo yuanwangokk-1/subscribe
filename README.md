@@ -25,7 +25,7 @@ https://dpaste.org/
 
 https://pastebin.mozilla.org/
 
-https://auto.classelivre.eu.org/sub?host=[域名]&uuid=[UUID]&path=[路径]
+https://URL/sub?host=[域名]&uuid=[UUID]&path=[路径]
 ```
 
 SingBox 订阅链接：
