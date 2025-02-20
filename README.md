@@ -41,7 +41,7 @@ https://pastebin.mozilla.org/
 Acl4ssr配置文件:
 
 ```
-https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FAcl4ssr%2Facl4ssr_with_antiad.ini
+https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini
 ```
 
 =====================================================
