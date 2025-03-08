@@ -14,7 +14,7 @@
 p: &p {type: http, interval: 86400, health-check: {enable: true, url: https://8.8.8.8/generate_204, interval: 1800, timeout: 5000}}
 proxy-providers:
   Subscribe: # 在此将 "http://your-service-provider" 替换为你的机场订阅，推荐使用 base64 或者 node list
-    url: http://156.225.20.237:10001/
+    url: http://1.116.162.163:10090/
     <<: *p
     #override: # 修改节点前后缀时，需移除前方的 "#" 符号
       #additional-prefix: "节点前缀"
