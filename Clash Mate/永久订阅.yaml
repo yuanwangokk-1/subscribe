@@ -14,7 +14,7 @@
 p: &p {type: http, interval: 86400, health-check: {enable: true, url: https://8.8.8.8/generate_204, interval: 1800, timeout: 5000}}
 proxy-providers:
   Subscribe: # 在此将 "http://your-service-provider" 替换为你的机场订阅，推荐使用 base64 或者 node list
-    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Fwvsvlees.sosorg.nyc.mn%2Fsub%3Fhost%3Dsocks5-7lt.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
+    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dsocks5-7lt.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
     <<: *p
     #override: # 修改节点前后缀时，需移除前方的 "#" 符号
       #additional-prefix: "节点前缀"
