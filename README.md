@@ -19,8 +19,12 @@ cloudflare邮箱：yuanwangokk@proton.me
 Clash meta 订阅链接：
 
 ```
-https://igdux.top/
+https://catbox.moe/
+```
 
+```
+https://igdux.top/
+```
 https://dpaste.org/
 
 https://pastebin.mozilla.org/
