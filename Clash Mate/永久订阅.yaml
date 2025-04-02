@@ -1,18 +1,26 @@
 # Author:https://github.com/Repcz
 p: &p {type: http, interval: 86400, health-check: {enable: true, url: http://www.google-analytics.com/generate_204, interval: 1800, timeout: 5000}}
 proxy-providers:
-  Subscribe: # 在此将 "http://your-service-provider" 替换为你的机场订阅，推荐使用 base64 或者 node list
+  Subscribe1: # 在此将 "http://your-service-provider" 替换为你的机场订阅，推荐使用 base64 或者 node list
     url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Da.arises.dynv6.net%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
     <<: *p
-  Subscribe1: # 在此将 "http://your-service-provider" 替换为你的机场订阅，推荐使用 base64 或者 node list
+    override: # 修改节点前后缀时，需移除前方的 "#" 符号
+      additional-prefix: "🚀"
+  Subscribe2: # 在此将 "http://your-service-provider" 替换为你的机场订阅，推荐使用 base64 或者 node list
     url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dproxy-34l.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
     <<: *p
-  Subscribe2: # 在此将 "http://your-service-provider" 替换为你的机场订阅，推荐使用 base64 或者 node list
+    override: # 修改节点前后缀时，需移除前方的 "#" 符号
+      additional-prefix: "✨"
+  Subscribe3: # 在此将 "http://your-service-provider" 替换为你的机场订阅，推荐使用 base64 或者 node list
     url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dproxy-1cu.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
     <<: *p
-  Subscribe3: # 在此将 "http://your-service-provider" 替换为你的机场订阅，推荐使用 base64 或者 node list
+    override: # 修改节点前后缀时，需移除前方的 "#" 符号
+      additional-prefix: "☕️"
+  Subscribe4: # 在此将 "http://your-service-provider" 替换为你的机场订阅，推荐使用 base64 或者 node list
     url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dproxy-3us.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
     <<: *p
+    override: # 修改节点前后缀时，需移除前方的 "#" 符号
+      additional-prefix: "🏊🏻‍♂️"
     #override: # 修改节点前后缀时，需移除前方的 "#" 符号
       #additional-prefix: "节点前缀"
       #additional-suffix: "节点后缀"
@@ -32,12 +40,12 @@ find-process-mode: strict
 geodata-mode: true
 geox-url:
   geoip: "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat"
-  geosite: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  geosite: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
   mmdb: "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
   asn: "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-ASN.mmdb"
 
 profile: { store-selected: true, store-fake-ip: false }
-sniffer: { enable: true, sniff: { HTTP: { ports: [80], override-destination: true }, TLS: { ports: [443, 8443] }, QUIC: { ports: [443, 8443] } } }
+sniffer: { enable: true, sniff: { HTTP: { ports: [80, 8080], override-destination: true }, TLS: { ports: [443, 8443] }, QUIC: { ports: [443, 8443] } } }
 
 tun:
   enable: true
