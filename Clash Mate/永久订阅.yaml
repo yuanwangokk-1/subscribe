@@ -8,6 +8,7 @@ use: &use
   - 订阅3
   - 订阅4
   - 订阅5
+  - ★
 
 proxy-providers:
   订阅1:
@@ -49,6 +50,14 @@ proxy-providers:
     override:
       additional-prefix: "订阅5"
       additional-suffix: "订阅5"
+      
+  ★:
+    url: https://subscheck.isfree.pp.ua/all.yaml
+    <<: *p
+    override:
+      additional-prefix: "★"
+      additional-suffix: "★"
+      
       
       
 mixed-port: 7893
@@ -93,7 +102,6 @@ load-balance: &load-balance {type: load-balance, strategy: consistent-hashing, u
 c: &c {type: http, behavior: classical, format: text, interval: 86400}
 
 proxy-groups:
-
   - name: "全自动切换"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
@@ -117,6 +125,7 @@ proxy-groups:
       - 订阅3
       - 订阅4
       - 订阅5
+      - ★
   - name: "🚀 备用链"
     udp-relay: true         # 启用UDP中继
     type: relay             # 链式代理类型
@@ -130,6 +139,7 @@ proxy-groups:
       - 订阅3
       - 订阅4
       - 订阅5
+      - ★
   - name: 订阅1
     type: url-test
     use: 
@@ -200,6 +210,20 @@ proxy-groups:
       enable: true
       interval: 60            # 每1分钟检查一次
       max-failed: 3  # 连续失败3次标记为不可用
+  - name: ★
+    type: url-test
+    use: 
+      - ★
+    url: "http://www.gstatic.com/generate_204"
+    interval: 60            # 每1分钟测速一次
+    timeout: 3000           # 3秒超时
+    tolerance: 250           # 允许250ms波动避免抖动
+    strategy: "top-speed"    # 优选延迟+带宽综合评分
+    max-concurrent: 50       # 最大并发测试数
+    health-check:           # 健康检查（Premium功能）
+      enable: true
+      interval: 60            # 每1分钟检查一次
+      max-failed: 3  # 连续失败3次标记为不可用      
   - name: "看视频<自动负载均衡>"
     type: load-balance
     url: "http://www.gstatic.com/generate_204"
