@@ -234,7 +234,7 @@ proxy-groups:
     use: *use
 
 
-  - {name: 手动切换, type: select, include-all: true, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT], icon: https://down.nigx.cn/github.com/shindgewongxj/WHATSINStash/raw/main/icon/applesafari.png}
+  - {name: 手动切换, type: select, include-all: true, proxies: [全自动切换, 🚀 主链, 🚀 备用链, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT], icon: https://down.nigx.cn/github.com/shindgewongxj/WHATSINStash/raw/main/icon/applesafari.png}
   - {name: 自动切换, type: url-test, include-all: true, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT], icon: https://down.nigx.cn/github.com/shindgewongxj/WHATSINStash/raw/main/icon/applesafari.png}
   - {name: 国外网站, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png}
   - {name: 国际媒体, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png}
