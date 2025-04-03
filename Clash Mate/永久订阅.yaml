@@ -1,33 +1,56 @@
-# Author:https://github.com/Repcz
-p: &p {type: http, interval: 86400, health-check: {enable: true, url: http://www.google-analytics.com/generate_204, interval: 1800, timeout: 5000}}
-proxy-providers:
-  Subscribe1: # 在此将 "http://your-service-provider" 替换为你的机场订阅，推荐使用 base64 或者 node list
-    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Da.arises.dynv6.net%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
-    <<: *p
-    override: # 修改节点前后缀时，需移除前方的 "#" 符号
-      additional-prefix: "🚀"
-  Subscribe2: # 在此将 "http://your-service-provider" 替换为你的机场订阅，推荐使用 base64 或者 node list
-    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dproxy-34l.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
-    <<: *p
-    override: # 修改节点前后缀时，需移除前方的 "#" 符号
-      additional-prefix: "✨"
-  Subscribe3: # 在此将 "http://your-service-provider" 替换为你的机场订阅，推荐使用 base64 或者 node list
-    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dproxy-1cu.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
-    <<: *p
-    override: # 修改节点前后缀时，需移除前方的 "#" 符号
-      additional-prefix: "☕️"
-  Subscribe4: # 在此将 "http://your-service-provider" 替换为你的机场订阅，推荐使用 base64 或者 node list
-    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dproxy-3us.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
-    <<: *p
-    override: # 修改节点前后缀时，需移除前方的 "#" 符号
-      additional-prefix: "🏊🏻‍♂️"
-    #override: # 修改节点前后缀时，需移除前方的 "#" 符号
-      #additional-prefix: "节点前缀"
-      #additional-suffix: "节点后缀"
-  #Subscribe2: {url: http://your-service-provider, <<: *p}
-  #Subscribe3: {url: http://your-service-provider, <<: *p}
-  #Subscribe4: {url: http://your-service-provider, <<: *p}
+# Author:https://down.nigx.cn/github.com/Repcz
 
+p: &p {type: http, interval: 86400, health-check: {enable: true, url: http://www.gstatic.com/generate_204, interval: 1800, timeout: 5000}}
+
+use: &use
+  - 订阅1
+  - 订阅2
+  - 订阅3
+  - 订阅4
+  - 订阅5
+
+proxy-providers:
+  订阅1:
+    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dsocks5-7lt.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
+    <<: *p
+    override:
+      additional-prefix: "订阅1"
+      additional-suffix: "订阅1"
+      
+      
+  订阅2:
+    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Da.arises.dynv6.net%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
+    <<: *p
+    override:
+      additional-prefix: "订阅2"
+      additional-suffix: "订阅2"
+
+
+
+  订阅3:
+    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dproxy-34l.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
+    <<: *p
+    override:
+      additional-prefix: "订阅3"
+      additional-suffix: "订阅3"
+      
+
+
+  订阅4:
+    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dproxy-1cu.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
+    <<: *p
+    override:
+      additional-prefix: "订阅4"
+      additional-suffix: "订阅4"
+      
+  订阅5:
+    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dproxy-3us.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
+    <<: *p
+    override:
+      additional-prefix: "订阅5"
+      additional-suffix: "订阅5"
+      
+      
 mixed-port: 7893
 tcp-concurrent: true
 allow-lan: true
@@ -39,13 +62,13 @@ find-process-mode: strict
 
 geodata-mode: true
 geox-url:
-  geoip: "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat"
-  geosite: "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat"
-  mmdb: "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
-  asn: "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-ASN.mmdb"
+  geoip: "https://down.nigx.cn/raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat"
+  geosite: "https://down.nigx.cn/github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat"
+  mmdb: "https://down.nigx.cn/raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
+  asn: "https://down.nigx.cn/raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-ASN.mmdb"
 
 profile: { store-selected: true, store-fake-ip: false }
-sniffer: { enable: true, sniff: { HTTP: { ports: [80, 8080], override-destination: true }, TLS: { ports: [443, 8443] }, QUIC: { ports: [443, 8443] } } }
+sniffer: { enable: true, sniff: { HTTP: { ports: [80, 8080-8880], override-destination: true }, TLS: { ports: [443, 8443] }, QUIC: { ports: [443, 8443] } } }
 
 tun:
   enable: true
@@ -54,73 +77,177 @@ tun:
         
 dns:
   enable: true
-  listen: 0.0.0.0:1053
   ipv6: true
-  enhanced-mode: redir-host
-  fake-ip-range: 10.100.0.0/8
-  default-nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-  nameserver:
-    - https://120.53.53.53/dns-query
-    - https://223.5.5.5/dns-query
-  proxy-server-nameserver:
-    - https://223.5.5.5/dns-query
-  nameserver-policy:
-    "geosite:cn,private,apple":
-      - https://120.53.53.53/dns-query
-      - https://223.5.5.5/dns-query
-    "geosite:geolocation-!cn,gfw":
-      - "https://dns.cloudflare.com/dns-query#代理设置"
-      - "https://dns.google/dns-query#代理设置"
+  enhanced-mode: fake-ip
+  listen: :1053
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter: ['*', '+.lan', '+.local', '+.direct', '+.msftconnecttest.com', '+.msftncsi.com']
+  nameserver: [223.5.5.5, 119.29.29.29]
 
 # 锚点参数
 pg: &pg {type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
-url-test: &url-test {type: url-test, url: http://www.google-analytics.com/generate_204, interval: 300, tolerance: 0, include-all: true}
+url-test: &url-test {type: url-test, url: http://www.gstatic.com/generate_204, interval: 300, tolerance: 0, include-all: true}
 select: &select {type: select, include-all: true}
-fallback: &fallback {type: fallback, url: http://www.google-analytics.com/generate_204, interval: 300, include-all: true}
-load-balance: &load-balance {type: load-balance, strategy: consistent-hashing, url: http://www.google-analytics.com/generate_204, interval: 300, include-all: true}
+fallback: &fallback {type: fallback, url: http://www.gstatic.com/generate_204, interval: 300, include-all: true}
+load-balance: &load-balance {type: load-balance, strategy: consistent-hashing, url: http://www.gstatic.com/generate_204, interval: 300, include-all: true}
 c: &c {type: http, behavior: classical, format: text, interval: 86400}
 
 proxy-groups:
 
-  - {name: 手动切换, type: select, include-all: true, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT], icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/applesafari.png}
-  - {name: 国外网站, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png}
-  - {name: 国际媒体, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png}
-  - {name: 苹果服务, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png}
-  - {name: 微软服务, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png}
-  - {name: 谷歌服务, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png}
-  - {name: 电报消息, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png}
-  - {name: 推特消息, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png}
-  - {name: AI, <<: *pg, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png}
-  - {name: 游戏平台, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png}
-  - {name: Emby, <<: *pg, include-all: true, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png}
-  - {name: Spotify, <<: *pg, include-all: true, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png}
-  - {name: 兜底分流, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png}
-  - {name: 香港节点, <<: *url-test, filter: "(?i)🇭🇰|香港|(\b(HK|Hong)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png}
-  - {name: 美国节点, <<: *url-test, filter: "(?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png}
-  - {name: 狮城节点, <<: *url-test, filter: "(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png}
-  - {name: 日本节点, <<: *url-test, filter: "(?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png}
-  - {name: 台湾节点, <<: *url-test, filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)", icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png}
+  - name: "全自动切换"
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: 60
+    tolerance: 50
+    lazy: true
+    filter: "packet-loss < 0.15 && latency < 800"
+    proxies: [🚀 主链, 🚀 备用链, 自动切换]
+    enable: true
+  # 链式代理核心组（将多个策略串联）
+  - name: "🚀 主链"
+    udp-relay: true         # 启用UDP中继
+    type: relay             # 链式代理类型
+    fallback: "🚀 备用链"   #不满足条件回退
+    fallback-filter:
+      min-uptime: 5000  # 至少运行5秒才认为稳定
+      max-failures: 1
+    proxies:                # 代理链顺序
+      - 订阅1
+      - 订阅2
+      - 订阅3
+      - 订阅4
+      - 订阅5
+  - name: "🚀 备用链"
+    udp-relay: true         # 启用UDP中继
+    type: relay             # 链式代理类型
+    fallback: "看视频<自动负载均衡>" #  不足回退
+    fallback-filter:
+      min-uptime: 2000  # 至少运行2秒才认为稳定
+      max-failures: 1
+    proxies:                # 代理链顺序
+      - 订阅1
+      - 订阅2
+      - 订阅3
+      - 订阅4
+      - 订阅5
+  - name: 订阅1
+    type: url-test
+    use: 
+      - 订阅1
+    url: "http://www.gstatic.com/generate_204"
+    interval: 60            # 每1分钟测速一次
+    timeout: 3000           # 3秒超时
+    tolerance: 250           # 允许250ms波动避免抖动
+    strategy: "top-speed"    # 优选延迟+带宽综合评分
+    max-concurrent: 50       # 最大并发测试数
+    health-check:           # 健康检查（Premium功能）
+      enable: true
+      interval: 60            # 每1分钟检查一次
+      max-failed: 3  # 连续失败3次标记为不可用
+  - name: 订阅2
+    type: url-test
+    use: 
+      - 订阅2
+    url: "http://www.gstatic.com/generate_204"
+    interval: 60            # 每1分钟测速一次
+    timeout: 3000           # 3秒超时
+    tolerance: 250           # 允许250ms波动避免抖动
+    strategy: "top-speed"    # 优选延迟+带宽综合评分
+    max-concurrent: 50       # 最大并发测试数
+    health-check:           # 健康检查（Premium功能）
+      enable: true
+      interval: 60            # 每1分钟检查一次
+      max-failed: 3  # 连续失败3次标记为不可用
+  - name: 订阅3
+    type: url-test
+    use: 
+      - 订阅3
+    url: "http://www.gstatic.com/generate_204"
+    interval: 60            # 每1分钟测速一次
+    timeout: 3000           # 3秒超时
+    tolerance: 250           # 允许250ms波动避免抖动
+    strategy: "top-speed"    # 优选延迟+带宽综合评分
+    max-concurrent: 50       # 最大并发测试数
+    health-check:           # 健康检查（Premium功能）
+      enable: true
+      interval: 60            # 每1分钟检查一次
+      max-failed: 3  # 连续失败3次标记为不可用
+  - name: 订阅4
+    type: url-test
+    use: 
+      - 订阅4
+    url: "http://www.gstatic.com/generate_204"
+    interval: 60            # 每1分钟测速一次
+    timeout: 3000           # 3秒超时
+    tolerance: 250           # 允许250ms波动避免抖动
+    strategy: "top-speed"    # 优选延迟+带宽综合评分
+    max-concurrent: 50       # 最大并发测试数
+    health-check:           # 健康检查（Premium功能）
+      enable: true
+      interval: 60            # 每1分钟检查一次
+      max-failed: 3  # 连续失败3次标记为不可用
+  - name: 订阅5
+    type: url-test
+    use: 
+      - 订阅5
+    url: "http://www.gstatic.com/generate_204"
+    interval: 60            # 每1分钟测速一次
+    timeout: 3000           # 3秒超时
+    tolerance: 250           # 允许250ms波动避免抖动
+    strategy: "top-speed"    # 优选延迟+带宽综合评分
+    max-concurrent: 50       # 最大并发测试数
+    health-check:           # 健康检查（Premium功能）
+      enable: true
+      interval: 60            # 每1分钟检查一次
+      max-failed: 3  # 连续失败3次标记为不可用
+  - name: "看视频<自动负载均衡>"
+    type: load-balance
+    url: "http://www.gstatic.com/generate_204"
+    interval: 60
+    strategy:
+      - "packet-loss < 10%"  # 只选丢包率 <15% 的节点
+      - "latency < 500ms"    # 只选延迟 <800ms 的节点
+    use: *use
+
+
+  - {name: 手动切换, type: select, include-all: true, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT], icon: https://down.nigx.cn/github.com/shindgewongxj/WHATSINStash/raw/main/icon/applesafari.png}
+  - {name: 自动切换, type: url-test, include-all: true, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT], icon: https://down.nigx.cn/github.com/shindgewongxj/WHATSINStash/raw/main/icon/applesafari.png}
+  - {name: 国外网站, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png}
+  - {name: 国际媒体, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png}
+  - {name: 苹果服务, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png}
+  - {name: 微软服务, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png}
+  - {name: 谷歌服务, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png}
+  - {name: 电报消息, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png}
+  - {name: 推特消息, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png}
+  - {name: AI, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png}
+  - {name: 游戏平台, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png}
+  - {name: Emby, <<: *pg, include-all: true, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png}
+  - {name: Spotify, <<: *pg, include-all: true, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png}
+  - {name: 兜底分流, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png}
+  - {name: 香港节点, <<: *url-test, filter: "(?i)🇭🇰|香港|(\b(HK|Hong)\b)", icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png}
+  - {name: 美国节点, <<: *url-test, filter: "(?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)", icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png}
+  - {name: 狮城节点, <<: *url-test, filter: "(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)", icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png}
+  - {name: 日本节点, <<: *url-test, filter: "(?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)", icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png}
+  - {name: 台湾节点, <<: *url-test, filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)", icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png}
 
 rule-providers:
-  AD: {<<: *c, path: ./rules/AD.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Reject.list}
-  Apple: {<<: *c, path: ./rules/Apple.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Apple.list}
-  YouTube: {<<: *c, path: ./rules/YouTube.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/YouTube.list}
-  Google: {<<: *c, path: ./rules/Google.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Google.list}
-  Telegram: {<<: *c, path: ./rules/Telegram.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Telegram.list}
-  Twitter: {<<: *c, path: ./rules/Twitter.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Twitter.list}
-  Steam: {<<: *c, path: ./rules/Steam.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Steam.list}
-  Epic: {<<: *c, path: ./rules/Epic.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Epic.list}
-  AI: {<<: *c, path: ./rules/AI.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/AI.list}
-  Emby: {<<: *c, path: ./rules/Emby.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Emby.list}
-  Spotify: {<<: *c, path: ./rules/Spotify.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Spotify.list}
-  Bahamut: {<<: *c, path: ./rules/Bahamut.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Bahamut.list}
-  Netflix: {<<: *c, path: ./rules/Netflix.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Netflix.list}
-  Disney: {<<: *c, path: ./rules/Disney.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/Disney.list}
-  PrimeVideo: {<<: *c, path: ./rules/PrimeVideo.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/PrimeVideo.list}
-  HBO: {<<: *c, path: ./rules/HBO.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/HBO.list}
-  TikTok: {<<: *c, path: ./rules/TikTok.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/TikTok.list}
+  AD: {<<: *c, path: ./rules/AD.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/mihomo/Rules/Reject.list}
+  Apple: {<<: *c, path: ./rules/Apple.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/mihomo/Rules/Apple.list}
+  YouTube: {<<: *c, path: ./rules/YouTube.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/mihomo/Rules/YouTube.list}
+  Google: {<<: *c, path: ./rules/Google.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/mihomo/Rules/Google.list}
+  Telegram: {<<: *c, path: ./rules/Telegram.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/mihomo/Rules/Telegram.list}
+  Twitter: {<<: *c, path: ./rules/Twitter.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/mihomo/Rules/Twitter.list}
+  Steam: {<<: *c, path: ./rules/Steam.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/mihomo/Rules/Steam.list}
+  Epic: {<<: *c, path: ./rules/Epic.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/mihomo/Rules/Epic.list}
+  AI: {<<: *c, path: ./rules/AI.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/mihomo/Rules/AI.list}
+  Emby: {<<: *c, path: ./rules/Emby.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/mihomo/Rules/Emby.list}
+  Spotify: {<<: *c, path: ./rules/Spotify.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/mihomo/Rules/Spotify.list}
+  Bahamut: {<<: *c, path: ./rules/Bahamut.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/mihomo/Rules/Bahamut.list}
+  Netflix: {<<: *c, path: ./rules/Netflix.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/mihomo/Rules/Netflix.list}
+  Disney: {<<: *c, path: ./rules/Disney.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/mihomo/Rules/Disney.list}
+  PrimeVideo: {<<: *c, path: ./rules/PrimeVideo.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/mihomo/Rules/PrimeVideo.list}
+  HBO: {<<: *c, path: ./rules/HBO.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/mihomo/Rules/HBO.list}
+  TikTok: {<<: *c, path: ./rules/TikTok.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/mihomo/Rules/TikTok.list}
 
 rules:
   - RULE-SET,AD,REJECT
@@ -129,7 +256,7 @@ rules:
   - RULE-SET,YouTube,谷歌服务
   - RULE-SET,Google,谷歌服务
   - RULE-SET,Telegram,电报消息
-# - PROCESS-NAME,Telegram,REJECT-DROP # For Telegram macOS
+# - PROCESS-NAME,Telegram,REJECT-DROP # For Telegram macOS  
   - RULE-SET,Twitter,推特消息
   - RULE-SET,Steam,游戏平台
   - RULE-SET,Epic,游戏平台
