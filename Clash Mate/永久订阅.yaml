@@ -1,65 +1,80 @@
-# Author:https://down.nigx.cn/github.com/Repcz
-
-p: &p {type: http, interval: 86400, health-check: {enable: true, url: http://www.gstatic.com/generate_204, interval: 1800, timeout: 5000}}
-
-use: &use
-  - 订阅1
-  - 订阅2
-  - 订阅3
-  - 订阅4
-  - 订阅5
-  - ★
+p: &p {type: http, interval: 86400, health-check: {enable: true, url: http://www.google-analytics.com/generate_204, interval: 1800, timeout: 5000}}
 
 proxy-providers:
-  订阅1:
-    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dsocks5-7lt.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
+  ★:
+    url: https://down.nigx.cn/subscheck.isfree.pp.ua/all.yaml
     <<: *p
     override:
-      additional-prefix: "订阅1"
-      additional-suffix: "订阅1"
+      additional-prefix: "🚫测速"
+      additional-suffix: "🚫流量"
       
       
-  订阅2:
-    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Da.arises.dynv6.net%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
+  🏊🏻‍♂️:
+    url: https://down.nigx.cn/raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml
     <<: *p
     override:
-      additional-prefix: "订阅2"
-      additional-suffix: "订阅2"
-
-
-
-  订阅3:
-    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dproxy-34l.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
+      additional-prefix: "🚫测速"
+      additional-suffix: "🚫流量"
+      
+      
+  🔥:
+    url: https://igdux.top/~Clash
     <<: *p
     override:
-      additional-prefix: "订阅3"
-      additional-suffix: "订阅3"
+      additional-prefix: "🚫测速"
+      additional-suffix: "🚫流量"
       
-
-
-  订阅4:
-    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dproxy-1cu.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
-    <<: *p
-    override:
-      additional-prefix: "订阅4"
-      additional-suffix: "订阅4"
       
-  订阅5:
+  订阅一:
     url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dproxy-3us.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
     <<: *p
     override:
-      additional-prefix: "订阅5"
-      additional-suffix: "订阅5"
+      additional-prefix: "🚫测速"
+      additional-suffix: "🚫流量"
       
-  ★:
-    url: https://subscheck.isfree.pp.ua/all.yaml
+      
+  订阅二:
+    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dproxy-1cu.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
     <<: *p
     override:
-      additional-prefix: "★"
-      additional-suffix: "★"
+      additional-prefix: "🚫测速"
+      additional-suffix: "🚫流量"
       
       
+  订阅三:
+    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dproxy-34l.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
+    <<: *p
+    override:
+      additional-prefix: "🚫测速"
+      additional-suffix: "🚫流量"
       
+      
+  订阅四:
+    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Da.arises.dynv6.net%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
+    <<: *p
+    override:
+      additional-prefix: "🚫测速"
+      additional-suffix: "🚫流量"
+      
+      
+  订阅五:
+    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dsocks5-7lt.pages.dev%26uuid%3Dba55ef37-c33c-4a8f-aafa-2abc85312863%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
+    <<: *p
+    override:
+      additional-prefix: "🚫测速"
+      additional-suffix: "🚫流量"
+      
+use: &use
+  - ★
+  - 🏊🏻‍♂️
+  - 🔥
+  - 订阅一
+  - 订阅二
+  - 订阅三
+  - 订阅四
+  - 订阅五
+      
+
 mixed-port: 7893
 tcp-concurrent: true
 allow-lan: true
@@ -93,149 +108,175 @@ dns:
   fake-ip-filter: ['*', '+.lan', '+.local', '+.direct', '+.msftconnecttest.com', '+.msftncsi.com']
   nameserver: [223.5.5.5, 119.29.29.29]
 
-# 锚点参数
 pg: &pg {type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
-url-test: &url-test {type: url-test, url: http://www.gstatic.com/generate_204, interval: 300, tolerance: 0, include-all: true}
+url-test: &url-test {type: url-test, url: http://www.google-analytics.com/generate_204, interval: 300, tolerance: 0, include-all: true}
 select: &select {type: select, include-all: true}
-fallback: &fallback {type: fallback, url: http://www.gstatic.com/generate_204, interval: 300, include-all: true}
-load-balance: &load-balance {type: load-balance, strategy: consistent-hashing, url: http://www.gstatic.com/generate_204, interval: 300, include-all: true}
+fallback: &fallback {type: fallback, url: http://www.google-analytics.com/generate_204, interval: 300, include-all: true}
+load-balance: &load-balance {type: load-balance, strategy: consistent-hashing, url: http://www.google-analytics.com/generate_204, interval: 300, include-all: true}
 c: &c {type: http, behavior: classical, format: text, interval: 86400}
 
 proxy-groups:
+
   - name: "全自动切换"
     type: url-test
-    url: "http://www.gstatic.com/generate_204"
+    url: "http://www.google-analytics.com/generate_204"
     interval: 60
     tolerance: 50
     lazy: true
     filter: "packet-loss < 0.15 && latency < 800"
-    proxies: [🚀 主链, 🚀 备用链, 自动切换]
+    proxies: [🚀 主链, 🚀 备用链]
     enable: true
-  # 链式代理核心组（将多个策略串联）
+                            # 链式代理核心组（将多个策略串联）
   - name: "🚀 主链"
     udp-relay: true         # 启用UDP中继
     type: relay             # 链式代理类型
-    fallback: "🚀 备用链"   #不满足条件回退
+    fallback: "🚀 备用链"     #不满足条件回退
     fallback-filter:
-      min-uptime: 5000  # 至少运行5秒才认为稳定
+      min-uptime: 5000      # 至少运行5秒才认为稳定
       max-failures: 1
     proxies:                # 代理链顺序
-      - 订阅1
-      - 订阅2
-      - 订阅3
-      - 订阅4
-      - 订阅5
       - ★
+      - 🏊🏻‍♂️
+      - 🔥
+      
   - name: "🚀 备用链"
     udp-relay: true         # 启用UDP中继
     type: relay             # 链式代理类型
-    fallback: "看视频<自动负载均衡>" #  不足回退
+    fallback: 自动负载均衡    #  不足回退
     fallback-filter:
-      min-uptime: 2000  # 至少运行2秒才认为稳定
+      min-uptime: 2000      # 至少运行2秒才认为稳定
       max-failures: 1
     proxies:                # 代理链顺序
-      - 订阅1
-      - 订阅2
-      - 订阅3
-      - 订阅4
-      - 订阅5
-      - ★
-  - name: 订阅1
-    type: url-test
-    use: 
-      - 订阅1
-    url: "http://www.gstatic.com/generate_204"
-    interval: 60            # 每1分钟测速一次
-    timeout: 3000           # 3秒超时
-    tolerance: 250           # 允许250ms波动避免抖动
-    strategy: "top-speed"    # 优选延迟+带宽综合评分
-    max-concurrent: 50       # 最大并发测试数
-    health-check:           # 健康检查（Premium功能）
-      enable: true
-      interval: 60            # 每1分钟检查一次
-      max-failed: 3  # 连续失败3次标记为不可用
-  - name: 订阅2
-    type: url-test
-    use: 
-      - 订阅2
-    url: "http://www.gstatic.com/generate_204"
-    interval: 60            # 每1分钟测速一次
-    timeout: 3000           # 3秒超时
-    tolerance: 250           # 允许250ms波动避免抖动
-    strategy: "top-speed"    # 优选延迟+带宽综合评分
-    max-concurrent: 50       # 最大并发测试数
-    health-check:           # 健康检查（Premium功能）
-      enable: true
-      interval: 60            # 每1分钟检查一次
-      max-failed: 3  # 连续失败3次标记为不可用
-  - name: 订阅3
-    type: url-test
-    use: 
-      - 订阅3
-    url: "http://www.gstatic.com/generate_204"
-    interval: 60            # 每1分钟测速一次
-    timeout: 3000           # 3秒超时
-    tolerance: 250           # 允许250ms波动避免抖动
-    strategy: "top-speed"    # 优选延迟+带宽综合评分
-    max-concurrent: 50       # 最大并发测试数
-    health-check:           # 健康检查（Premium功能）
-      enable: true
-      interval: 60            # 每1分钟检查一次
-      max-failed: 3  # 连续失败3次标记为不可用
-  - name: 订阅4
-    type: url-test
-    use: 
-      - 订阅4
-    url: "http://www.gstatic.com/generate_204"
-    interval: 60            # 每1分钟测速一次
-    timeout: 3000           # 3秒超时
-    tolerance: 250           # 允许250ms波动避免抖动
-    strategy: "top-speed"    # 优选延迟+带宽综合评分
-    max-concurrent: 50       # 最大并发测试数
-    health-check:           # 健康检查（Premium功能）
-      enable: true
-      interval: 60            # 每1分钟检查一次
-      max-failed: 3  # 连续失败3次标记为不可用
-  - name: 订阅5
-    type: url-test
-    use: 
-      - 订阅5
-    url: "http://www.gstatic.com/generate_204"
-    interval: 60            # 每1分钟测速一次
-    timeout: 3000           # 3秒超时
-    tolerance: 250           # 允许250ms波动避免抖动
-    strategy: "top-speed"    # 优选延迟+带宽综合评分
-    max-concurrent: 50       # 最大并发测试数
-    health-check:           # 健康检查（Premium功能）
-      enable: true
-      interval: 60            # 每1分钟检查一次
-      max-failed: 3  # 连续失败3次标记为不可用
+      - 订阅一
+      - 订阅二
+      - 订阅三
+      - 订阅四
+      - 订阅五
+
   - name: ★
     type: url-test
     use: 
       - ★
-    url: "http://www.gstatic.com/generate_204"
-    interval: 60            # 每1分钟测速一次
-    timeout: 3000           # 3秒超时
-    tolerance: 250           # 允许250ms波动避免抖动
-    strategy: "top-speed"    # 优选延迟+带宽综合评分
-    max-concurrent: 50       # 最大并发测试数
-    health-check:           # 健康检查（Premium功能）
+    url: "http://www.google-analytics.com/generate_204"
+    interval: 60                # 每1分钟测速一次
+    timeout: 3000               # 3秒超时
+    tolerance: 250              # 允许250ms波动避免抖动
+    strategy: "top-speed"       # 优选延迟+带宽综合评分
+    max-concurrent: 50          # 最大并发测试数
+    health-check:               # 健康检查（Premium功能）
       enable: true
-      interval: 60            # 每1分钟检查一次
-      max-failed: 3  # 连续失败3次标记为不可用      
-  - name: "看视频<自动负载均衡>"
+      interval: 60              # 每1分钟检查一次
+      max-failed: 3             # 连续失败3次标记为不可用      
+  - name: 🏊🏻‍♂️
+    type: url-test
+    use: 
+      - 🏊🏻‍♂️
+    url: "http://www.google-analytics.com/generate_204"
+    interval: 60                # 每1分钟测速一次
+    timeout: 3000               # 3秒超时
+    tolerance: 250              # 允许250ms波动避免抖动
+    strategy: "top-speed"       # 优选延迟+带宽综合评分
+    max-concurrent: 50          # 最大并发测试数
+    health-check:               # 健康检查（Premium功能）
+      enable: true
+      interval: 60              # 每1分钟检查一次
+      max-failed: 3             # 连续失败3次标记为不可用      
+  - name: 🔥
+    type: url-test
+    use: 
+      - 🔥
+    url: "http://www.google-analytics.com/generate_204"
+    interval: 60                # 每1分钟测速一次
+    timeout: 3000               # 3秒超时
+    tolerance: 250              # 允许250ms波动避免抖动
+    strategy: "top-speed"       # 优选延迟+带宽综合评分
+    max-concurrent: 50          # 最大并发测试数
+    health-check:               # 健康检查（Premium功能）
+      enable: true
+      interval: 60              # 每1分钟检查一次
+      max-failed: 3             # 连续失败3次标记为不可用      
+  - name: 订阅一
+    type: url-test
+    use: 
+      - 订阅一
+    url: "http://www.google-analytics.com/generate_204"
+    interval: 60                # 每1分钟测速一次
+    timeout: 3000               # 3秒超时
+    tolerance: 250              # 允许250ms波动避免抖动
+    strategy: "top-speed"       # 优选延迟+带宽综合评分
+    max-concurrent: 50          # 最大并发测试数
+    health-check:               # 健康检查（Premium功能）
+      enable: true
+      interval: 60              # 每1分钟检查一次
+      max-failed: 3             # 连续失败3次标记为不可用      
+  - name: 订阅二
+    type: url-test
+    use: 
+      - 订阅二
+    url: "http://www.google-analytics.com/generate_204"
+    interval: 60                # 每1分钟测速一次
+    timeout: 3000               # 3秒超时
+    tolerance: 250              # 允许250ms波动避免抖动
+    strategy: "top-speed"       # 优选延迟+带宽综合评分
+    max-concurrent: 50          # 最大并发测试数
+    health-check:               # 健康检查（Premium功能）
+      enable: true
+      interval: 60              # 每1分钟检查一次
+      max-failed: 3             # 连续失败3次标记为不可用      
+  - name: 订阅三
+    type: url-test
+    use: 
+      - 订阅三
+    url: "http://www.google-analytics.com/generate_204"
+    interval: 60                # 每1分钟测速一次
+    timeout: 3000               # 3秒超时
+    tolerance: 250              # 允许250ms波动避免抖动
+    strategy: "top-speed"       # 优选延迟+带宽综合评分
+    max-concurrent: 50          # 最大并发测试数
+    health-check:               # 健康检查（Premium功能）
+      enable: true
+      interval: 60              # 每1分钟检查一次
+      max-failed: 3             # 连续失败3次标记为不可用      
+  - name: 订阅四
+    type: url-test
+    use: 
+      - 订阅四
+    url: "http://www.google-analytics.com/generate_204"
+    interval: 60                # 每1分钟测速一次
+    timeout: 3000               # 3秒超时
+    tolerance: 250              # 允许250ms波动避免抖动
+    strategy: "top-speed"       # 优选延迟+带宽综合评分
+    max-concurrent: 50          # 最大并发测试数
+    health-check:               # 健康检查（Premium功能）
+      enable: true
+      interval: 60              # 每1分钟检查一次
+      max-failed: 3             # 连续失败3次标记为不可用      
+  - name: 订阅五
+    type: url-test
+    use: 
+      - 订阅五
+    url: "http://www.google-analytics.com/generate_204"
+    interval: 60                # 每1分钟测速一次
+    timeout: 3000               # 3秒超时
+    tolerance: 250              # 允许250ms波动避免抖动
+    strategy: "top-speed"       # 优选延迟+带宽综合评分
+    max-concurrent: 50          # 最大并发测试数
+    health-check:               # 健康检查（Premium功能）
+      enable: true
+      interval: 60              # 每1分钟检查一次
+      max-failed: 3             # 连续失败3次标记为不可用      
+  - name: 自动负载均衡
     type: load-balance
-    url: "http://www.gstatic.com/generate_204"
+    url: "http://www.google-analytics.com/generate_204"
     interval: 60
     strategy:
-      - "packet-loss < 10%"  # 只选丢包率 <15% 的节点
-      - "latency < 500ms"    # 只选延迟 <800ms 的节点
+      - "packet-loss < 10%"     # 只选丢包率 <15% 的节点
+      - "latency < 500ms"       # 只选延迟 <800ms 的节点
     use: *use
 
 
-  - {name: 手动切换, type: select, include-all: true, proxies: [全自动切换, 🚀 主链, 🚀 备用链, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT], icon: https://down.nigx.cn/github.com/shindgewongxj/WHATSINStash/raw/main/icon/applesafari.png}
   - {name: 自动切换, type: url-test, include-all: true, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT], icon: https://down.nigx.cn/github.com/shindgewongxj/WHATSINStash/raw/main/icon/applesafari.png}
+  - {name: 手动切换, type: select, include-all: true, proxies: [全自动切换, 🚀 主链, 自动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT], icon: https://down.nigx.cn/github.com/shindgewongxj/WHATSINStash/raw/main/icon/applesafari.png}  
   - {name: 国外网站, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png}
   - {name: 国际媒体, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png}
   - {name: 苹果服务, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png}
@@ -280,7 +321,6 @@ rules:
   - RULE-SET,YouTube,谷歌服务
   - RULE-SET,Google,谷歌服务
   - RULE-SET,Telegram,电报消息
-# - PROCESS-NAME,Telegram,REJECT-DROP # For Telegram macOS  
   - RULE-SET,Twitter,推特消息
   - RULE-SET,Steam,游戏平台
   - RULE-SET,Epic,游戏平台
