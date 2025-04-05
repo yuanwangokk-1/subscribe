@@ -1,0 +1,50 @@
+;设置规则标志位
+ruleset=📺Youtube,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
+ruleset=🍿Netflix,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml
+ruleset=🎵TikTok,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
+ruleset=💬OpenAI,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
+ruleset=💬OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Copilot/Copilot.list
+ruleset=💬OpenAI,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.yaml
+ruleset=💬OpenAI,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.yaml
+ruleset=💬OpenAI,https://raw.githubusercontent.com/Alizhangs/clashrules/refs/heads/main/clash/perplexity.list
+ruleset=🇭🇰 香港,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/HKproxy.list
+ruleset=🅱️Bilibili,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml
+ruleset=🅱️Bilibili,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/bili.list
+ruleset=⚡模式选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+ruleset=🛡直接连接,https://raw.githubusercontent.com/Alizhangs/clashrules/refs/heads/main/clash/zhilian.list
+ruleset=🛡直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+ruleset=🛡直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🛡直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=🛡直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+ruleset=🛡直接连接,[]GEOIP,LAN
+ruleset=🛡直接连接,[]GEOIP,CN
+ruleset=🐟漏网之鱼,[]FINAL
+;设置规则标志位
+
+;设置分组标志位
+custom_proxy_group=⚡模式选择`select`[]🌟手动选择`[]✨自动选择`[]❄️冷门地区`[]🇰🇷 韩国`[]🇸🇬 新加坡`[]🇭🇰 香港`[]🇯🇵 日本`[]🇨🇳 台湾`[]🇺🇲 美国`[]⚖️负载均衡
+custom_proxy_group=🌟手动选择`select`(?=.*(香港|日本|新加坡|台湾|韩国|美国))^((?!(0.1)).)
+custom_proxy_group=❄️冷门地区`select`(?=.*(法国|英国|德国|澳大利亚|荷兰|巴西|迪拜|印度))^((?!(0.1)).)
+custom_proxy_group=🛩️下载专用`select`(0.1倍)
+custom_proxy_group=📺Youtube`select`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`[]🇰🇷 韩国`[]🇸🇬 新加坡
+custom_proxy_group=🍿Netflix`select`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`[]🇰🇷 韩国`[]🇸🇬 新加坡
+custom_proxy_group=🎵TikTok`select`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`[]🇰🇷 韩国`[]🇸🇬 新加坡`[]🇺🇲 美国
+custom_proxy_group=💬OpenAI`select`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`[]🇰🇷 韩国`[]🇸🇬 新加坡`[]🇺🇲 美国
+custom_proxy_group=🅱️Bilibili`select`[]DIRECT`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`[]❄️冷门地区
+custom_proxy_group=🇭🇰 香港`url-test`(香港)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇯🇵 日本`url-test`(日本)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇸🇬 新加坡`url-test`(新加坡)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇨🇳 台湾`url-test`(台湾)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇰🇷 韩国`url-test`(韩国)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇺🇲 美国`url-test`(?=.*(美国))^((?!(0.1)).)*$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=✨自动选择`url-test`(?=.*(日本|新加坡|韩国))^((?!(0.1)).)*$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=⚖️负载均衡`load-balance`(?=.*(日本|新加坡|韩国))^((?!(0.1)).)*$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🐟漏网之鱼`select`[]⚡模式选择`[]🌟手动选择
+custom_proxy_group=🛡直接连接`select`[]DIRECT`[]⚡模式选择`[]🌟手动选择
+;设置分组标志位
+
+enable_rule_generator=true
+overwrite_original_rules=true
+clash_rule_base=https://raw.githubusercontent.com/moistrr/Clashruleset/main/config/clashdns.yml
+
+;luck
