@@ -1,0 +1,46 @@
+geox-url:
+  geoip: >-
+    https://down.nigx.cn/github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat
+  geosite: >-
+    https://down.nigx.cn/github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
+  mmdb: >-
+    https://down.nigx.cn/github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb
+  asn: >-
+    https://down.nigx.cn/github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb
+
+# 健康检测
+my-check: &my-check
+  interval: 3600
+  health-check:
+    enable: true
+    url: https://www.google.com/generate_204
+    interval: 300
+    timeout: 5000
+
+# 定义自动测速节点
+auto-test: &auto-test
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 1800
+
+
+mixed-port: 7890
+allow-lan: true
+external-controller: '127.0.0.1:9090'
+ipv6: true
+tcp-concurrent: true
+unified-delay: true
+global-client-fingerprint: chrome
+keep-alive-interval: 15
+geodata-mode: true
+
+dns:
+    enable: true
+    ipv6: true
+    default-nameserver: [223.5.5.5, 119.29.29.29]
+    enhanced-mode: fake-ip
+    fake-ip-range: 198.18.0.1/16
+    use-hosts: true
+    nameserver: ['https://dns.alidns.com/dns-query', 'https://doh.pub/dns-query']
+    fallback: ['https://dns.alidns.com/dns-query', 'https://doh.pub/dns-query']
+    fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }

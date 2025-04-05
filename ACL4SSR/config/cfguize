@@ -1,0 +1,54 @@
+[custom]
+;设置规则标志位
+ruleset=📺Youtube,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
+ruleset=🍿Netflix,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml
+ruleset=🎵TikTok,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml
+ruleset=💬OpenAI,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
+ruleset=💬OpenAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Copilot/Copilot.list
+ruleset=💬OpenAI,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.yaml
+ruleset=💬OpenAI,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.yaml
+ruleset=💬OpenAI,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/openai.list
+ruleset=📲Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+ruleset=Ⓜ️Google服务,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/googleplay.list
+ruleset=Ⓜ️Google服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+ruleset=🍎Apple,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+ruleset=🅱️Bilibili,clash-classic:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml
+ruleset=🅱️Bilibili,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/bili.list
+ruleset=⚡模式选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+ruleset=🛡直接连接,https://raw.githubusercontent.com/moistrr/Clashruleset/refs/heads/main/config/zhilian.list
+ruleset=🛡直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+ruleset=🛡直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🛡直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=🛡直接连接,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+ruleset=🛡直接连接,[]GEOIP,LAN
+ruleset=🛡直接连接,[]GEOIP,CN
+ruleset=🐟漏网之鱼,[]FINAL
+;设置规则标志位
+
+;设置分组标志位
+custom_proxy_group=⚡模式选择`select`[]✨自动选择`[]🌟手动选择`[]🇨🇳 官方自动`[]🇭🇰 香港`[]🇯🇵 日本`[]🇸🇬 新加坡`[]🇨🇳 台湾`[]🇺🇲 美国`[]🇨🇳 亚洲自动`[]🇺🇲 美洲自动`[]🇩🇪 欧洲自动`[]⚖️负载均衡
+custom_proxy_group=🌟手动选择`select`(?=.*.)^((?!(订阅免费谨防受骗)).)*$
+custom_proxy_group=📺Youtube`select`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`[]🇨🇳 官方自动`[]🇭🇰 香港`[]🇯🇵 日本`[]🇸🇬 新加坡`[]🇨🇳 台湾`[]🇺🇲 美国`[]🇨🇳 亚洲自动`[]🇺🇲 美洲自动`[]🇩🇪 欧洲自动`[]⚖️负载均衡
+custom_proxy_group=🍿Netflix`select`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`[]🇨🇳 官方自动`[]🇭🇰 香港`[]🇯🇵 日本`[]🇸🇬 新加坡`[]🇨🇳 台湾`[]🇺🇲 美国`[]🇨🇳 亚洲自动`[]🇺🇲 美洲自动`[]🇩🇪 欧洲自动`[]⚖️负载均衡
+custom_proxy_group=🎵TikTok`select`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`[]🇨🇳 官方自动`[]🇭🇰 香港`[]🇯🇵 日本`[]🇸🇬 新加坡`[]🇨🇳 台湾`[]🇺🇲 美国`[]🇨🇳 亚洲自动`[]🇺🇲 美洲自动`[]🇩🇪 欧洲自动`[]⚖️负载均衡
+custom_proxy_group=💬OpenAI`select`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`[]🇨🇳 官方自动`[]🇭🇰 香港`[]🇯🇵 日本`[]🇸🇬 新加坡`[]🇨🇳 台湾`[]🇺🇲 美国`[]🇨🇳 亚洲自动`[]🇺🇲 美洲自动`[]🇩🇪 欧洲自动`[]⚖️负载均衡
+custom_proxy_group=📲Telegram`select`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`[]🇨🇳 官方自动`[]🇭🇰 香港`[]🇯🇵 日本`[]🇸🇬 新加坡`[]🇨🇳 台湾`[]🇺🇲 美国`[]🇨🇳 亚洲自动`[]🇺🇲 美洲自动`[]🇩🇪 欧洲自动`[]⚖️负载均衡`[]DIRECT
+custom_proxy_group=Ⓜ️Google服务`select`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`[]🇨🇳 官方自动`[]🇭🇰 香港`[]🇯🇵 日本`[]🇸🇬 新加坡`[]🇨🇳 台湾`[]🇺🇲 美国`[]🇨🇳 亚洲自动`[]🇺🇲 美洲自动`[]🇩🇪 欧洲自动`[]⚖️负载均衡
+custom_proxy_group=🅱️Bilibili`select`[]DIRECT`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`[]🇨🇳 官方自动`[]🇭🇰 香港`[]🇯🇵 日本`[]🇸🇬 新加坡`[]🇨🇳 台湾`[]🇺🇲 美国`[]🇨🇳 亚洲自动`[]🇺🇲 美洲自动`[]🇩🇪 欧洲自动`[]⚖️负载均衡
+custom_proxy_group=🍎Apple`select`[]DIRECT`[]⚡模式选择`[]✨自动选择`[]🌟手动选择`[]🇨🇳 官方自动`[]🇭🇰 香港`[]🇯🇵 日本`[]🇸🇬 新加坡`[]🇨🇳 台湾`[]🇺🇲 美国`[]🇨🇳 亚洲自动`[]🇺🇲 美洲自动`[]🇩🇪 欧洲自动`[]⚖️负载均衡
+custom_proxy_group=🇭🇰 香港`url-test`(?=.*(香港))^((?!(家宽)).)*$`http://www.google.com/generate_204`300,,50
+custom_proxy_group=🇯🇵 日本`url-test`(?=.*(日本))^((?!(家宽)).)*$`http://www.google.com/generate_204`300,,50
+custom_proxy_group=🇸🇬 新加坡`url-test`(?=.*(新加坡))^((?!(家宽)).)*$`http://www.google.com/generate_204`300,,50
+custom_proxy_group=🇨🇳 台湾`url-test`(?=.*(台湾))^((?!(家宽).)*$`http://www.google.com/generate_204`300,,50
+custom_proxy_group=🇺🇲 美国`url-test`(?=.*(美国))^((?!(家宽)).)*$`http://www.google.com/generate_204`300,,50
+custom_proxy_group=🇨🇳 官方自动`url-test`(移动|联通|电信|IPV6)`http://www.google.com/generate_204`300,,50
+custom_proxy_group=🇨🇳 亚洲自动`url-test`(香港|韩国|台湾|日本|新加坡)`http://www.google.com/generate_204`300,,50
+custom_proxy_group=🇺🇲 美洲自动`url-test`(美国|加拿大|澳大利亚)`http://www.google.com/generate_204`300,,50
+custom_proxy_group=🇩🇪 欧洲自动`url-test`(英国|法国|意大利|荷兰|德国|挪威|芬兰|瑞典|丹麦|立陶宛|俄罗斯|土耳其|波兰|奥地利|西班牙|罗马尼亚|都柏林|捷克|爱沙尼亚|拉脱维亚)`http://www.google.com/generate_204`300,,50
+custom_proxy_group=✨自动选择`url-test`(?=.*(移动|联通|电信|IPV6|香港|韩国|台湾|日本|新加坡))^((?!(订阅免费谨防受骗)).)*$`http://www.google.com/generate_204`300,,50
+custom_proxy_group=⚖️负载均衡`load-balance`(移动|联通|电信|IPV6|香港|韩国|台湾|日本|新加坡)`http://www.google.com/generate_204`300,,50
+custom_proxy_group=🐟漏网之鱼`select`[]⚡模式选择`[]🌟手动选择
+custom_proxy_group=🛡直接连接`select`[]DIRECT`[]⚡模式选择`[]🌟手动选择
+
+enable_rule_generator=true
+overwrite_original_rules=true
