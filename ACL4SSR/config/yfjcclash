@@ -63,6 +63,6 @@ custom_proxy_group=🛡直接连接`select`[]DIRECT`[]⚡模式选择`[]🌟手�
 enable_rule_generator=true
 overwrite_original_rules=true
 clash_rule_base=
-https://down.nigx.cn/raw.githubusercontent.com/moistrr/Clashruleset/main/config/clashdns.yml
+https://down.nigx.cn/raw.githubusercontent.com/yuanwangokk-1/subscribe/refs/heads/main/ACL4SSR/config/clashdns.yml
 
 ;luck
