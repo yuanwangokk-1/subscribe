@@ -22,7 +22,7 @@ fi
 
 # 下载 argosb.sh 脚本
 echo "下载 argosb.sh..."
-wget -O /tmp/argosb.sh https://raw.githubusercontent.com/yonggekkk/ArgoSB-script/main/argosb.sh
+wget -O /tmp/argosb.sh https://raw.githubusercontent.com/yonggekkk/argosb/main/argosb.sh
 chmod +x /tmp/argosb.sh
 
 # 运行脚本并捕获输出
