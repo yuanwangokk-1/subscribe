@@ -40,7 +40,7 @@ detect_system() {
     local os_release
     os_release=$(cat /etc/os-release 2>/dev/null | grep -i pretty_name | cut -d\" -f2)
     
-    if [[ -f /etc/redhat-release || "$os_release" =~ CentOS|Red Hat ]]; then
+    if [[ -f /etc/redhat-release || "$os_release" =~ CentOS|RedHat ]]; then
         SYSTEM="Centos"
         PKG_MANAGER="yum"
     elif [[ "$os_release" =~ Ubuntu ]]; then
