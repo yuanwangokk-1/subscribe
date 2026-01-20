@@ -1,0 +1,207 @@
+pr:
+  &pr {
+    type: select,
+    proxies:
+      [
+        节点选择,
+        香港,
+        台湾,
+        日本,
+        新加坡,
+        美国,
+        其它地区,
+        全部节点,
+        自动选择,
+        DIRECT,
+      ],
+  }
+p: &p
+  type: http
+  interval: 3600
+  health-check:
+    enable: true
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 1000
+    tolerance: 100
+use: &use
+  type: url-test
+  use:
+    - ✨
+    - 🌊
+proxy-providers:
+  ✨:
+    <<: *p
+    url: "https://gist.githubusercontent.com/yuanwangokk-1/9ffc923a50b5e069261f3b388ba965a7/raw/947b2c0bdf632e7d8901e4d3c5bec53aa765aaf8/vless.json"
+  🌊:
+    <<: *p
+    url: "https://gist.githubusercontent.com/yuanwangokk-1/9ffc923a50b5e069261f3b388ba965a7/raw/947b2c0bdf632e7d8901e4d3c5bec53aa765aaf8/vless.json"
+rule-providers:
+  AWAvenue-Ads:
+    type: http
+    behavior: domain
+    format: yaml
+    path: ./rule_provider/AWAvenue-Ads.yaml
+    url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/refs/heads/main/Filters/AWAvenue-Ads-Rule-Clash-Classical.yaml"
+    interval: 600
+mode: rule
+ipv6: true
+log-level: info
+allow-lan: true
+mixed-port: 7890
+unified-delay: true
+tcp-concurrent: true
+external-controller: :9090
+geodata-mode: true
+geox-url:
+  geoip: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
+  geosite: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb"
+find-process-mode: strict
+keep-alive-interval: 1800
+global-client-fingerprint: random # 随机指纹
+profile:
+  store-selected: true
+  store-fake-ip: true
+ntp:
+  enable: true
+  write-to-system: false
+  server: time.apple.com
+  port: 123
+  interval: 30
+sniffer:
+  enable: true
+  sniff:
+    TLS:
+      ports: [443, 8443]
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+tun:
+  enable: false  # enable 'true'
+  stack: system  # or 'gvisor'
+  dns-hijack:
+    - "any:53"
+    - "tcp://any:53"
+  auto-route: true
+  auto-detect-interface: true
+dns:
+  enable: true
+  listen: :1053
+  ipv6: true
+  enhanced-mode: redir-host
+  fake-ip-range: 28.0.0.1/8
+  fake-ip-filter:
+    - '*'
+    - '+.lan'
+    - '+.local'
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 114.114.114.114
+    - '[2402:4e00::]'
+    - '[2400:3200::1]'
+  nameserver:
+    - 'tls://8.8.4.4#dns'
+    - 'tls://1.0.0.1#dns'
+    - 'tls://[2001:4860:4860::8844]#dns'
+    - 'tls://[2606:4700:4700::1001]#dns'
+  proxy-server-nameserver:
+    - https://doh.pub/dns-query
+  nameserver-policy:
+    "geosite:cn,private":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "geosite:!cn,!private": 
+      - "tls://dns.google"
+      - "tls://cloudflare-dns.com"
+proxies:
+proxy-groups:
+  - {
+      name: 节点选择,
+      type: select,
+      proxies:
+        [全部节点, 自动选择, 香港, 台湾, 日本, 新加坡, 美国, 其它地区, DIRECT],
+    }
+  - { name: dns, <<: *pr }
+  - { name: 广告拦截, type: select, proxies: [REJECT, DIRECT, 节点选择] }
+  - { name: 境外AI, <<: *pr }
+  - { name: Apple, <<: *pr }
+  - { name: Google, <<: *pr }
+  - { name: Telegram, <<: *pr }
+  - { name: Twitter, <<: *pr }
+  - { name: Pixiv, <<: *pr }
+  - { name: ehentai, <<: *pr }
+  - { name: 巴哈姆特, <<: *pr }
+  - { name: YouTube, <<: *pr }
+  - { name: NETFLIX, <<: *pr }
+  - { name: TikTok, <<: *pr }
+  - { name: Spotify, <<: *pr }
+  - { name: Github, <<: *pr }
+  - { name: Steam, <<: *pr }
+  - { name: OneDrive, <<: *pr }
+  - { name: 微软服务, <<: *pr }
+  - {
+      name: 国内,
+      type: select,
+      proxies:
+        [
+          DIRECT,
+          节点选择,
+          香港,
+          台湾,
+          日本,
+          新加坡,
+          美国,
+          其它地区,
+          全部节点,
+          自动选择,
+        ],
+    }
+  - { name: 其他, <<: *pr }
+  - { name: 香港, <<: *use, filter: "(?i)港|hk|hongkong|hong kong" }
+  - { name: 台湾, <<: *use, filter: "(?i)台|tw|taiwan" }
+  - { name: 日本, <<: *use, filter: "(?i)日本|jp|japan" }
+  - { name: 美国, <<: *use, filter: "(?i)美|us|unitedstates|united states" }
+  - { name: 新加坡, <<: *use, filter: "(?i)(新|sg|singapore)" }
+  - {
+      name: 其它地区,
+      <<: *use,
+      filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*",
+    }
+  - { name: 全部节点, <<: *use }
+  - { name: 自动选择, <<: *use, tolerance: 2, type: url-test }
+rules:
+  - RULE-SET,AWAvenue-Ads,广告拦截
+  - GEOSITE,category-scholar-!cn,境外AI
+  - GEOSITE,apple,Apple
+  - GEOSITE,apple-cn,Apple
+  - GEOSITE,ehentai,ehentai
+  - GEOSITE,github,Github
+  - GEOSITE,twitter,Twitter
+  - GEOSITE,youtube,YouTube
+  - GEOSITE,google,Google
+  - GEOSITE,google-cn,Google # Google CN 不走代理会导致香港等地区节点 Play Store 异常
+  - GEOSITE,telegram,Telegram
+  - GEOSITE,netflix,NETFLIX
+  - GEOSITE,tiktok,TikTok
+  - GEOSITE,bahamut,巴哈姆特
+  - GEOSITE,spotify,Spotify
+  - GEOSITE,pixiv,Pixiv
+  - GEOSITE,steam@cn,DIRECT
+  - GEOSITE,steam,Steam
+  - GEOSITE,onedrive,OneDrive
+  - GEOSITE,microsoft,微软服务
+  - GEOSITE,geolocation-!cn,其他
+  - GEOIP,google,Google
+  - GEOIP,netflix,NETFLIX
+  - GEOIP,telegram,Telegram
+  - GEOIP,twitter,Twitter
+  - GEOSITE,CN,国内
+  - GEOIP,CN,国内
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - MATCH,其他
