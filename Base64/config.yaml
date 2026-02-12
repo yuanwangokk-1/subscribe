@@ -16,261 +16,261 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 原生地址-443-WS-TLS, server: proxyip.yuanwangokk.dynv6.net, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 移动-SEA-443-WS-TLS, server: 104.18.176.32, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 移动-SJC-443-WS-TLS, server: 104.16.89.166, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 移动-LHR-443-WS-TLS, server: 104.18.113.78, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 🇭🇰 移动-HKG-443-WS-TLS, server: 104.17.126.194, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 🇭🇰 移动-HKG-443-WS-TLS 2, server: 104.17.221.14, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 联通-SJC-443-WS-TLS, server: 104.16.42.135, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 联通-SJC-443-WS-TLS 2, server: 104.18.233.174, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 联通-SJC-443-WS-TLS 3, server: 104.16.139.94, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 联通-LAX-443-WS-TLS, server: 162.159.6.120, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 联通-SJC-443-WS-TLS 4, server: 104.16.118.43, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 电信-SIN-443-WS-TLS, server: 173.245.58.190, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 电信-SIN-443-WS-TLS 2, server: 162.159.4.96, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 电信-SIN-443-WS-TLS 3, server: 162.159.4.213, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 电信-SIN-443-WS-TLS 4, server: 172.64.41.159, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 电信-SIN-443-WS-TLS 5, server: 162.159.11.7, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 移动-LAX-443-WS-TLS, server: 2a06:98c1:3109::2815:3b99, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 🇭🇰 移动-HKG-443-WS-TLS 3, server: 2606:4700:57::a0d7:ad56, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 🇭🇰 移动-HKG-443-WS-TLS 4, server: 2606:4700:57::89c0:b6bc, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 🇭🇰 移动-HKG-443-WS-TLS 5, server: 2606:4700:57::794:75aa, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 🇭🇰 移动-HKG-443-WS-TLS 6, server: 2606:4700:57::7f22:7a9d, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 电信-NRT-443-WS-TLS, server: 2606:4700:5a::184e:19df, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 电信-NRT-443-WS-TLS 2, server: 2606:4700:5a::9a50:4d0e, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 电信-NRT-443-WS-TLS 3, server: 2606:4700:57::dd4a:c3f4, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 电信-NRT-443-WS-TLS 4, server: 2606:4700:57::7f22:7a9d, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 电信-NRT-443-WS-TLS 5, server: 2606:4700:52::180:e70d, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
-  - {name: 加入频道@kejiland00-443-WS-TLS, server: saas.sin.fan, port: 443, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 原生地址-2096-WS-TLS, server: proxyip.yuanwangokk.dynv6.net, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 移动-SEA-2096-WS-TLS, server: 104.18.176.32, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 移动-SJC-2096-WS-TLS, server: 104.16.89.166, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 移动-LHR-2096-WS-TLS, server: 104.18.113.78, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 🇭🇰 移动-HKG-2096-WS-TLS, server: 104.17.126.194, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 🇭🇰 移动-HKG-2096-WS-TLS 2, server: 104.17.221.14, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 联通-SJC-2096-WS-TLS, server: 104.16.42.135, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 联通-SJC-2096-WS-TLS 2, server: 104.18.233.174, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 联通-SJC-2096-WS-TLS 3, server: 104.16.139.94, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 联通-LAX-2096-WS-TLS, server: 162.159.6.120, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 联通-SJC-2096-WS-TLS 4, server: 104.16.118.43, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 电信-SIN-2096-WS-TLS, server: 173.245.58.190, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 电信-SIN-2096-WS-TLS 2, server: 162.159.4.96, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 电信-SIN-2096-WS-TLS 3, server: 162.159.4.213, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 电信-SIN-2096-WS-TLS 4, server: 172.64.41.159, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 电信-SIN-2096-WS-TLS 5, server: 162.159.11.7, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 移动-LAX-2096-WS-TLS, server: 2a06:98c1:3109::2815:3b99, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 🇭🇰 移动-HKG-2096-WS-TLS 3, server: 2606:4700:57::a0d7:ad56, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 🇭🇰 移动-HKG-2096-WS-TLS 4, server: 2606:4700:57::89c0:b6bc, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 🇭🇰 移动-HKG-2096-WS-TLS 5, server: 2606:4700:57::794:75aa, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 🇭🇰 移动-HKG-2096-WS-TLS 6, server: 2606:4700:57::7f22:7a9d, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 电信-NRT-2096-WS-TLS, server: 2606:4700:5a::184e:19df, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 电信-NRT-2096-WS-TLS 2, server: 2606:4700:5a::9a50:4d0e, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 电信-NRT-2096-WS-TLS 3, server: 2606:4700:57::dd4a:c3f4, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 电信-NRT-2096-WS-TLS 4, server: 2606:4700:57::7f22:7a9d, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 电信-NRT-2096-WS-TLS 5, server: 2606:4700:52::180:e70d, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
+  - {name: 加入频道@kejiland00-2096-WS-TLS, server: saas.sin.fan, port: 2096, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], tfo: false, skip-cert-verify: false, servername: proxyip.yuanwangokk.dynv6.net, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: proxyip.yuanwangokk.dynv6.net}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 原生地址-443-WS-TLS
-      - 移动-SEA-443-WS-TLS
-      - 移动-SJC-443-WS-TLS
-      - 移动-LHR-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS 2
-      - 联通-SJC-443-WS-TLS
-      - 联通-SJC-443-WS-TLS 2
-      - 联通-SJC-443-WS-TLS 3
-      - 联通-LAX-443-WS-TLS
-      - 联通-SJC-443-WS-TLS 4
-      - 电信-SIN-443-WS-TLS
-      - 电信-SIN-443-WS-TLS 2
-      - 电信-SIN-443-WS-TLS 3
-      - 电信-SIN-443-WS-TLS 4
-      - 电信-SIN-443-WS-TLS 5
-      - 移动-LAX-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS 3
-      - 🇭🇰 移动-HKG-443-WS-TLS 4
-      - 🇭🇰 移动-HKG-443-WS-TLS 5
-      - 🇭🇰 移动-HKG-443-WS-TLS 6
-      - 电信-NRT-443-WS-TLS
-      - 电信-NRT-443-WS-TLS 2
-      - 电信-NRT-443-WS-TLS 3
-      - 电信-NRT-443-WS-TLS 4
-      - 电信-NRT-443-WS-TLS 5
-      - 加入频道@kejiland00-443-WS-TLS
+      - 原生地址-2096-WS-TLS
+      - 移动-SEA-2096-WS-TLS
+      - 移动-SJC-2096-WS-TLS
+      - 移动-LHR-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS 2
+      - 联通-SJC-2096-WS-TLS
+      - 联通-SJC-2096-WS-TLS 2
+      - 联通-SJC-2096-WS-TLS 3
+      - 联通-LAX-2096-WS-TLS
+      - 联通-SJC-2096-WS-TLS 4
+      - 电信-SIN-2096-WS-TLS
+      - 电信-SIN-2096-WS-TLS 2
+      - 电信-SIN-2096-WS-TLS 3
+      - 电信-SIN-2096-WS-TLS 4
+      - 电信-SIN-2096-WS-TLS 5
+      - 移动-LAX-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS 3
+      - 🇭🇰 移动-HKG-2096-WS-TLS 4
+      - 🇭🇰 移动-HKG-2096-WS-TLS 5
+      - 🇭🇰 移动-HKG-2096-WS-TLS 6
+      - 电信-NRT-2096-WS-TLS
+      - 电信-NRT-2096-WS-TLS 2
+      - 电信-NRT-2096-WS-TLS 3
+      - 电信-NRT-2096-WS-TLS 4
+      - 电信-NRT-2096-WS-TLS 5
+      - 加入频道@kejiland00-2096-WS-TLS
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 原生地址-443-WS-TLS
-      - 移动-SEA-443-WS-TLS
-      - 移动-SJC-443-WS-TLS
-      - 移动-LHR-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS 2
-      - 联通-SJC-443-WS-TLS
-      - 联通-SJC-443-WS-TLS 2
-      - 联通-SJC-443-WS-TLS 3
-      - 联通-LAX-443-WS-TLS
-      - 联通-SJC-443-WS-TLS 4
-      - 电信-SIN-443-WS-TLS
-      - 电信-SIN-443-WS-TLS 2
-      - 电信-SIN-443-WS-TLS 3
-      - 电信-SIN-443-WS-TLS 4
-      - 电信-SIN-443-WS-TLS 5
-      - 移动-LAX-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS 3
-      - 🇭🇰 移动-HKG-443-WS-TLS 4
-      - 🇭🇰 移动-HKG-443-WS-TLS 5
-      - 🇭🇰 移动-HKG-443-WS-TLS 6
-      - 电信-NRT-443-WS-TLS
-      - 电信-NRT-443-WS-TLS 2
-      - 电信-NRT-443-WS-TLS 3
-      - 电信-NRT-443-WS-TLS 4
-      - 电信-NRT-443-WS-TLS 5
-      - 加入频道@kejiland00-443-WS-TLS
+      - 原生地址-2096-WS-TLS
+      - 移动-SEA-2096-WS-TLS
+      - 移动-SJC-2096-WS-TLS
+      - 移动-LHR-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS 2
+      - 联通-SJC-2096-WS-TLS
+      - 联通-SJC-2096-WS-TLS 2
+      - 联通-SJC-2096-WS-TLS 3
+      - 联通-LAX-2096-WS-TLS
+      - 联通-SJC-2096-WS-TLS 4
+      - 电信-SIN-2096-WS-TLS
+      - 电信-SIN-2096-WS-TLS 2
+      - 电信-SIN-2096-WS-TLS 3
+      - 电信-SIN-2096-WS-TLS 4
+      - 电信-SIN-2096-WS-TLS 5
+      - 移动-LAX-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS 3
+      - 🇭🇰 移动-HKG-2096-WS-TLS 4
+      - 🇭🇰 移动-HKG-2096-WS-TLS 5
+      - 🇭🇰 移动-HKG-2096-WS-TLS 6
+      - 电信-NRT-2096-WS-TLS
+      - 电信-NRT-2096-WS-TLS 2
+      - 电信-NRT-2096-WS-TLS 3
+      - 电信-NRT-2096-WS-TLS 4
+      - 电信-NRT-2096-WS-TLS 5
+      - 加入频道@kejiland00-2096-WS-TLS
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 原生地址-443-WS-TLS
-      - 移动-SEA-443-WS-TLS
-      - 移动-SJC-443-WS-TLS
-      - 移动-LHR-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS 2
-      - 联通-SJC-443-WS-TLS
-      - 联通-SJC-443-WS-TLS 2
-      - 联通-SJC-443-WS-TLS 3
-      - 联通-LAX-443-WS-TLS
-      - 联通-SJC-443-WS-TLS 4
-      - 电信-SIN-443-WS-TLS
-      - 电信-SIN-443-WS-TLS 2
-      - 电信-SIN-443-WS-TLS 3
-      - 电信-SIN-443-WS-TLS 4
-      - 电信-SIN-443-WS-TLS 5
-      - 移动-LAX-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS 3
-      - 🇭🇰 移动-HKG-443-WS-TLS 4
-      - 🇭🇰 移动-HKG-443-WS-TLS 5
-      - 🇭🇰 移动-HKG-443-WS-TLS 6
-      - 电信-NRT-443-WS-TLS
-      - 电信-NRT-443-WS-TLS 2
-      - 电信-NRT-443-WS-TLS 3
-      - 电信-NRT-443-WS-TLS 4
-      - 电信-NRT-443-WS-TLS 5
-      - 加入频道@kejiland00-443-WS-TLS
+      - 原生地址-2096-WS-TLS
+      - 移动-SEA-2096-WS-TLS
+      - 移动-SJC-2096-WS-TLS
+      - 移动-LHR-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS 2
+      - 联通-SJC-2096-WS-TLS
+      - 联通-SJC-2096-WS-TLS 2
+      - 联通-SJC-2096-WS-TLS 3
+      - 联通-LAX-2096-WS-TLS
+      - 联通-SJC-2096-WS-TLS 4
+      - 电信-SIN-2096-WS-TLS
+      - 电信-SIN-2096-WS-TLS 2
+      - 电信-SIN-2096-WS-TLS 3
+      - 电信-SIN-2096-WS-TLS 4
+      - 电信-SIN-2096-WS-TLS 5
+      - 移动-LAX-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS 3
+      - 🇭🇰 移动-HKG-2096-WS-TLS 4
+      - 🇭🇰 移动-HKG-2096-WS-TLS 5
+      - 🇭🇰 移动-HKG-2096-WS-TLS 6
+      - 电信-NRT-2096-WS-TLS
+      - 电信-NRT-2096-WS-TLS 2
+      - 电信-NRT-2096-WS-TLS 3
+      - 电信-NRT-2096-WS-TLS 4
+      - 电信-NRT-2096-WS-TLS 5
+      - 加入频道@kejiland00-2096-WS-TLS
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 原生地址-443-WS-TLS
-      - 移动-SEA-443-WS-TLS
-      - 移动-SJC-443-WS-TLS
-      - 移动-LHR-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS 2
-      - 联通-SJC-443-WS-TLS
-      - 联通-SJC-443-WS-TLS 2
-      - 联通-SJC-443-WS-TLS 3
-      - 联通-LAX-443-WS-TLS
-      - 联通-SJC-443-WS-TLS 4
-      - 电信-SIN-443-WS-TLS
-      - 电信-SIN-443-WS-TLS 2
-      - 电信-SIN-443-WS-TLS 3
-      - 电信-SIN-443-WS-TLS 4
-      - 电信-SIN-443-WS-TLS 5
-      - 移动-LAX-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS 3
-      - 🇭🇰 移动-HKG-443-WS-TLS 4
-      - 🇭🇰 移动-HKG-443-WS-TLS 5
-      - 🇭🇰 移动-HKG-443-WS-TLS 6
-      - 电信-NRT-443-WS-TLS
-      - 电信-NRT-443-WS-TLS 2
-      - 电信-NRT-443-WS-TLS 3
-      - 电信-NRT-443-WS-TLS 4
-      - 电信-NRT-443-WS-TLS 5
-      - 加入频道@kejiland00-443-WS-TLS
+      - 原生地址-2096-WS-TLS
+      - 移动-SEA-2096-WS-TLS
+      - 移动-SJC-2096-WS-TLS
+      - 移动-LHR-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS 2
+      - 联通-SJC-2096-WS-TLS
+      - 联通-SJC-2096-WS-TLS 2
+      - 联通-SJC-2096-WS-TLS 3
+      - 联通-LAX-2096-WS-TLS
+      - 联通-SJC-2096-WS-TLS 4
+      - 电信-SIN-2096-WS-TLS
+      - 电信-SIN-2096-WS-TLS 2
+      - 电信-SIN-2096-WS-TLS 3
+      - 电信-SIN-2096-WS-TLS 4
+      - 电信-SIN-2096-WS-TLS 5
+      - 移动-LAX-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS 3
+      - 🇭🇰 移动-HKG-2096-WS-TLS 4
+      - 🇭🇰 移动-HKG-2096-WS-TLS 5
+      - 🇭🇰 移动-HKG-2096-WS-TLS 6
+      - 电信-NRT-2096-WS-TLS
+      - 电信-NRT-2096-WS-TLS 2
+      - 电信-NRT-2096-WS-TLS 3
+      - 电信-NRT-2096-WS-TLS 4
+      - 电信-NRT-2096-WS-TLS 5
+      - 加入频道@kejiland00-2096-WS-TLS
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 原生地址-443-WS-TLS
-      - 移动-SEA-443-WS-TLS
-      - 移动-SJC-443-WS-TLS
-      - 移动-LHR-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS 2
-      - 联通-SJC-443-WS-TLS
-      - 联通-SJC-443-WS-TLS 2
-      - 联通-SJC-443-WS-TLS 3
-      - 联通-LAX-443-WS-TLS
-      - 联通-SJC-443-WS-TLS 4
-      - 电信-SIN-443-WS-TLS
-      - 电信-SIN-443-WS-TLS 2
-      - 电信-SIN-443-WS-TLS 3
-      - 电信-SIN-443-WS-TLS 4
-      - 电信-SIN-443-WS-TLS 5
-      - 移动-LAX-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS 3
-      - 🇭🇰 移动-HKG-443-WS-TLS 4
-      - 🇭🇰 移动-HKG-443-WS-TLS 5
-      - 🇭🇰 移动-HKG-443-WS-TLS 6
-      - 电信-NRT-443-WS-TLS
-      - 电信-NRT-443-WS-TLS 2
-      - 电信-NRT-443-WS-TLS 3
-      - 电信-NRT-443-WS-TLS 4
-      - 电信-NRT-443-WS-TLS 5
-      - 加入频道@kejiland00-443-WS-TLS
+      - 原生地址-2096-WS-TLS
+      - 移动-SEA-2096-WS-TLS
+      - 移动-SJC-2096-WS-TLS
+      - 移动-LHR-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS 2
+      - 联通-SJC-2096-WS-TLS
+      - 联通-SJC-2096-WS-TLS 2
+      - 联通-SJC-2096-WS-TLS 3
+      - 联通-LAX-2096-WS-TLS
+      - 联通-SJC-2096-WS-TLS 4
+      - 电信-SIN-2096-WS-TLS
+      - 电信-SIN-2096-WS-TLS 2
+      - 电信-SIN-2096-WS-TLS 3
+      - 电信-SIN-2096-WS-TLS 4
+      - 电信-SIN-2096-WS-TLS 5
+      - 移动-LAX-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS 3
+      - 🇭🇰 移动-HKG-2096-WS-TLS 4
+      - 🇭🇰 移动-HKG-2096-WS-TLS 5
+      - 🇭🇰 移动-HKG-2096-WS-TLS 6
+      - 电信-NRT-2096-WS-TLS
+      - 电信-NRT-2096-WS-TLS 2
+      - 电信-NRT-2096-WS-TLS 3
+      - 电信-NRT-2096-WS-TLS 4
+      - 电信-NRT-2096-WS-TLS 5
+      - 加入频道@kejiland00-2096-WS-TLS
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 原生地址-443-WS-TLS
-      - 移动-SEA-443-WS-TLS
-      - 移动-SJC-443-WS-TLS
-      - 移动-LHR-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS 2
-      - 联通-SJC-443-WS-TLS
-      - 联通-SJC-443-WS-TLS 2
-      - 联通-SJC-443-WS-TLS 3
-      - 联通-LAX-443-WS-TLS
-      - 联通-SJC-443-WS-TLS 4
-      - 电信-SIN-443-WS-TLS
-      - 电信-SIN-443-WS-TLS 2
-      - 电信-SIN-443-WS-TLS 3
-      - 电信-SIN-443-WS-TLS 4
-      - 电信-SIN-443-WS-TLS 5
-      - 移动-LAX-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS 3
-      - 🇭🇰 移动-HKG-443-WS-TLS 4
-      - 🇭🇰 移动-HKG-443-WS-TLS 5
-      - 🇭🇰 移动-HKG-443-WS-TLS 6
-      - 电信-NRT-443-WS-TLS
-      - 电信-NRT-443-WS-TLS 2
-      - 电信-NRT-443-WS-TLS 3
-      - 电信-NRT-443-WS-TLS 4
-      - 电信-NRT-443-WS-TLS 5
-      - 加入频道@kejiland00-443-WS-TLS
+      - 原生地址-2096-WS-TLS
+      - 移动-SEA-2096-WS-TLS
+      - 移动-SJC-2096-WS-TLS
+      - 移动-LHR-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS 2
+      - 联通-SJC-2096-WS-TLS
+      - 联通-SJC-2096-WS-TLS 2
+      - 联通-SJC-2096-WS-TLS 3
+      - 联通-LAX-2096-WS-TLS
+      - 联通-SJC-2096-WS-TLS 4
+      - 电信-SIN-2096-WS-TLS
+      - 电信-SIN-2096-WS-TLS 2
+      - 电信-SIN-2096-WS-TLS 3
+      - 电信-SIN-2096-WS-TLS 4
+      - 电信-SIN-2096-WS-TLS 5
+      - 移动-LAX-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS 3
+      - 🇭🇰 移动-HKG-2096-WS-TLS 4
+      - 🇭🇰 移动-HKG-2096-WS-TLS 5
+      - 🇭🇰 移动-HKG-2096-WS-TLS 6
+      - 电信-NRT-2096-WS-TLS
+      - 电信-NRT-2096-WS-TLS 2
+      - 电信-NRT-2096-WS-TLS 3
+      - 电信-NRT-2096-WS-TLS 4
+      - 电信-NRT-2096-WS-TLS 5
+      - 加入频道@kejiland00-2096-WS-TLS
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 原生地址-443-WS-TLS
-      - 移动-SEA-443-WS-TLS
-      - 移动-SJC-443-WS-TLS
-      - 移动-LHR-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS 2
-      - 联通-SJC-443-WS-TLS
-      - 联通-SJC-443-WS-TLS 2
-      - 联通-SJC-443-WS-TLS 3
-      - 联通-LAX-443-WS-TLS
-      - 联通-SJC-443-WS-TLS 4
-      - 电信-SIN-443-WS-TLS
-      - 电信-SIN-443-WS-TLS 2
-      - 电信-SIN-443-WS-TLS 3
-      - 电信-SIN-443-WS-TLS 4
-      - 电信-SIN-443-WS-TLS 5
-      - 移动-LAX-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS 3
-      - 🇭🇰 移动-HKG-443-WS-TLS 4
-      - 🇭🇰 移动-HKG-443-WS-TLS 5
-      - 🇭🇰 移动-HKG-443-WS-TLS 6
-      - 电信-NRT-443-WS-TLS
-      - 电信-NRT-443-WS-TLS 2
-      - 电信-NRT-443-WS-TLS 3
-      - 电信-NRT-443-WS-TLS 4
-      - 电信-NRT-443-WS-TLS 5
-      - 加入频道@kejiland00-443-WS-TLS
+      - 原生地址-2096-WS-TLS
+      - 移动-SEA-2096-WS-TLS
+      - 移动-SJC-2096-WS-TLS
+      - 移动-LHR-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS 2
+      - 联通-SJC-2096-WS-TLS
+      - 联通-SJC-2096-WS-TLS 2
+      - 联通-SJC-2096-WS-TLS 3
+      - 联通-LAX-2096-WS-TLS
+      - 联通-SJC-2096-WS-TLS 4
+      - 电信-SIN-2096-WS-TLS
+      - 电信-SIN-2096-WS-TLS 2
+      - 电信-SIN-2096-WS-TLS 3
+      - 电信-SIN-2096-WS-TLS 4
+      - 电信-SIN-2096-WS-TLS 5
+      - 移动-LAX-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS 3
+      - 🇭🇰 移动-HKG-2096-WS-TLS 4
+      - 🇭🇰 移动-HKG-2096-WS-TLS 5
+      - 🇭🇰 移动-HKG-2096-WS-TLS 6
+      - 电信-NRT-2096-WS-TLS
+      - 电信-NRT-2096-WS-TLS 2
+      - 电信-NRT-2096-WS-TLS 3
+      - 电信-NRT-2096-WS-TLS 4
+      - 电信-NRT-2096-WS-TLS 5
+      - 加入频道@kejiland00-2096-WS-TLS
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -293,33 +293,33 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 原生地址-443-WS-TLS
-      - 移动-SEA-443-WS-TLS
-      - 移动-SJC-443-WS-TLS
-      - 移动-LHR-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS 2
-      - 联通-SJC-443-WS-TLS
-      - 联通-SJC-443-WS-TLS 2
-      - 联通-SJC-443-WS-TLS 3
-      - 联通-LAX-443-WS-TLS
-      - 联通-SJC-443-WS-TLS 4
-      - 电信-SIN-443-WS-TLS
-      - 电信-SIN-443-WS-TLS 2
-      - 电信-SIN-443-WS-TLS 3
-      - 电信-SIN-443-WS-TLS 4
-      - 电信-SIN-443-WS-TLS 5
-      - 移动-LAX-443-WS-TLS
-      - 🇭🇰 移动-HKG-443-WS-TLS 3
-      - 🇭🇰 移动-HKG-443-WS-TLS 4
-      - 🇭🇰 移动-HKG-443-WS-TLS 5
-      - 🇭🇰 移动-HKG-443-WS-TLS 6
-      - 电信-NRT-443-WS-TLS
-      - 电信-NRT-443-WS-TLS 2
-      - 电信-NRT-443-WS-TLS 3
-      - 电信-NRT-443-WS-TLS 4
-      - 电信-NRT-443-WS-TLS 5
-      - 加入频道@kejiland00-443-WS-TLS
+      - 原生地址-2096-WS-TLS
+      - 移动-SEA-2096-WS-TLS
+      - 移动-SJC-2096-WS-TLS
+      - 移动-LHR-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS 2
+      - 联通-SJC-2096-WS-TLS
+      - 联通-SJC-2096-WS-TLS 2
+      - 联通-SJC-2096-WS-TLS 3
+      - 联通-LAX-2096-WS-TLS
+      - 联通-SJC-2096-WS-TLS 4
+      - 电信-SIN-2096-WS-TLS
+      - 电信-SIN-2096-WS-TLS 2
+      - 电信-SIN-2096-WS-TLS 3
+      - 电信-SIN-2096-WS-TLS 4
+      - 电信-SIN-2096-WS-TLS 5
+      - 移动-LAX-2096-WS-TLS
+      - 🇭🇰 移动-HKG-2096-WS-TLS 3
+      - 🇭🇰 移动-HKG-2096-WS-TLS 4
+      - 🇭🇰 移动-HKG-2096-WS-TLS 5
+      - 🇭🇰 移动-HKG-2096-WS-TLS 6
+      - 电信-NRT-2096-WS-TLS
+      - 电信-NRT-2096-WS-TLS 2
+      - 电信-NRT-2096-WS-TLS 3
+      - 电信-NRT-2096-WS-TLS 4
+      - 电信-NRT-2096-WS-TLS 5
+      - 加入频道@kejiland00-2096-WS-TLS
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
