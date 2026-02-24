@@ -84,7 +84,6 @@
       "type": "selector",
       "outbounds": ["auto", "direct", "{all}"]
     },
-    /* 注意：在此处填入你的实际节点 outbound 信息 */
     {
       "tag": "auto",
       "type": "urltest",
