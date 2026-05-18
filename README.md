@@ -40,7 +40,7 @@ https://igdux.top/
 
 https://dpaste.org/
 
-https://pastebin.mozilla.org/
+https://pastebin.aries-bot.eu.org/
 ```
 
 Acl4ssr配置文件:
