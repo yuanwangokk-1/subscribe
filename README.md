@@ -28,7 +28,7 @@ https://igdux.top/
 ```js
 https://dpaste.org/
 
-https://pastebin.mozilla.org/
+https://pastebin.aries-bot.eu.org/
 
 https://URL/sub?host=[域名]&uuid=[UUID]&path=[路径]
 ```
