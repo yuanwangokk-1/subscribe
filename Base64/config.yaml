@@ -51,33 +51,21 @@ dns:
     ipcidr:
       - 240.0.0.0/4
 proxies:
-  - {name: 真香定律, server: 104.16.14.45, port: 443, type: vless, uuid: c96d0548-82ac-4f27-b6b8-7c492a219cf6, tls: true, alpn: [h3], skip-cert-verify: true, servername: porsche.aries-bot.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: porsche.aries-bot.us.ci}}, udp: true}
-  - {name: 真香定律 2, server: 104.16.16.124, port: 443, type: vless, uuid: c96d0548-82ac-4f27-b6b8-7c492a219cf6, tls: true, alpn: [h3], skip-cert-verify: true, servername: porsche.aries-bot.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: porsche.aries-bot.us.ci}}, udp: true}
-  - {name: 真香定律 3, server: 104.16.17.217, port: 443, type: vless, uuid: c96d0548-82ac-4f27-b6b8-7c492a219cf6, tls: true, alpn: [h3], skip-cert-verify: true, servername: porsche.aries-bot.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: porsche.aries-bot.us.ci}}, udp: true}
-  - {name: 真香定律 4, server: 104.16.19.126, port: 443, type: vless, uuid: c96d0548-82ac-4f27-b6b8-7c492a219cf6, tls: true, alpn: [h3], skip-cert-verify: true, servername: porsche.aries-bot.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: porsche.aries-bot.us.ci}}, udp: true}
-  - {name: 真香定律 5, server: 104.16.37.141, port: 443, type: vless, uuid: c96d0548-82ac-4f27-b6b8-7c492a219cf6, tls: true, alpn: [h3], skip-cert-verify: true, servername: porsche.aries-bot.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: porsche.aries-bot.us.ci}}, udp: true}
+  - {name: 优选域名, server: shopify.com, port: 443, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: pages.aries-bot.eu.org, client-fingerprint: firefox, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: pages.aries-bot.eu.org}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 真香定律
-      - 真香定律 2
-      - 真香定律 3
-      - 真香定律 4
-      - 真香定律 5
+      - 优选域名
   - name: ♻️ 自动选择
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 真香定律
-      - 真香定律 2
-      - 真香定律 3
-      - 真香定律 4
-      - 真香定律 5
+      - 优选域名
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -95,11 +83,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 真香定律
-      - 真香定律 2
-      - 真香定律 3
-      - 真香定律 4
-      - 真香定律 5
+      - 优选域名
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
