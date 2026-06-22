@@ -140,13 +140,6 @@ proxy-groups:
       - DIRECT
       - 手动选择
 
-  - name: 全局代理
-    type: select
-    proxies:
-      - 自动选择
-      - DIRECT
-      - 手动选择
-
   - name: 自动选择
     type: url-test
     use:
