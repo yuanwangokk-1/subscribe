@@ -9,7 +9,6 @@ pr: &pr
     - 新加坡
     - 美国
     - 其它地区
-    - 全部节点
     - 自动选择
     - DIRECT
 
@@ -32,7 +31,7 @@ use: &use
 proxy-providers:
   Aries:
     <<: *p
-    url: "订阅"
+    url: "URL"
 
 # ==================== 规则集 ====================
 rule-providers:
@@ -134,7 +133,6 @@ proxy-groups:
   - name: 节点选择
     type: select
     proxies:
-      - 全部节点
       - 自动选择
       - 香港
       - 台湾
@@ -178,12 +176,12 @@ proxy-groups:
     <<: *use
     filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*"
 
-  - name: 全部节点
-    <<: *use
-
   - name: 自动选择
     <<: *use
-    tolerance: 2
+    type: url-test
+    url: https://cp.cloudflare.com
+    interval: 300
+    tolerance: 200
 
 # ==================== 规则 ====================
 rules:
