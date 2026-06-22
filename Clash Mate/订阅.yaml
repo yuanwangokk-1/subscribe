@@ -6,13 +6,8 @@ p: &p
     enable: true
     url: https://www.gstatic.com/generate_204
     interval: 300
-    timeout: 1000
+    timeout: 500
     tolerance: 100
-
-use: &use
-  type: url-test
-  use:
-    - Aries
 
 # ==================== 代理订阅 ====================
 proxy-providers:
@@ -100,23 +95,24 @@ dns:
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29
-    - 114.114.114.114
-    - '[2402:4e00::]'
-    - '[2400:3200::1]'
   nameserver:
-    - 'tls://8.8.8.8'
-    - 'tls://1.1.1.1'
-    - 'tls://[2001:4860:4860::8844]'
-    - 'tls://[2606:4700:4700::1001]'
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
   proxy-server-nameserver:
     - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
   nameserver-policy:
     "geosite:cn,private":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
-    "geosite:!cn,!private":
-      - "tls://dns.google"
-      - "tls://cloudflare-dns.com"
+    "geosite:!cn":
+      - tls://8.8.8.8
+      - tls://1.1.1.1
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - gfw
 
 # ==================== 代理组 ====================
 proxy-groups:
@@ -124,14 +120,9 @@ proxy-groups:
     type: select
     proxies:
       - 自动选择
-      - 手动选择节点
       - DIRECT
-
-  - name: 手动选择节点
-    type: select
     use:
       - Aries
-    proxies: []
 
   - name: 广告拦截
     type: select
