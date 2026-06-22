@@ -1,0 +1,162 @@
+# ==================== 锚点定义 ====================
+p: &p
+  type: http
+  interval: 3600
+  health-check:
+    enable: true
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 1000
+    tolerance: 100
+
+use: &use
+  type: url-test
+  use:
+    - Aries
+
+# ==================== 代理订阅 ====================
+proxy-providers:
+  Aries:
+    <<: *p
+    url: "https://shz.ceo-bot.kdns.fr/MzhZXH7h7tpBSNcasrZ6Q3xZ"
+
+# ==================== 规则集 ====================
+rule-providers:
+  AWAvenue-Ads:
+    type: http
+    behavior: domain
+    format: yaml
+    path: ./rule_provider/AWAvenue-Ads.yaml
+    url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/refs/heads/main/Filters/AWAvenue-Ads-Rule-Clash-Classical.yaml"
+    interval: 600
+
+# ==================== 基础设置 ====================
+mode: rule
+ipv6: true
+log-level: warning
+allow-lan: true
+mixed-port: 7890
+unified-delay: true
+tcp-concurrent: true
+external-controller: :9090
+geodata-mode: true
+find-process-mode: strict
+keep-alive-interval: 1800
+global-client-fingerprint: random
+
+# ==================== GEO数据 ====================
+geox-url:
+  geoip: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
+  geosite: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb"
+
+# ==================== 配置存储 ====================
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+# ==================== NTP时间同步 ====================
+ntp:
+  enable: true
+  write-to-system: false
+  server: time.apple.com
+  port: 123
+  interval: 30
+
+# ==================== 流量嗅探 ====================
+sniffer:
+  enable: true
+  sniff:
+    TLS:
+      ports: [443, 8443]
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+
+# ==================== TUN虚拟网卡 ====================
+tun:
+  enable: false
+  stack: system
+  dns-hijack:
+    - any:53
+  auto-route: true
+  auto-detect-interface: true
+
+# ==================== DNS配置 ====================
+dns:
+  enable: true
+  listen: :1053
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '+.lan'
+    - '+.local'
+    - '+.arpa'
+    - 'clock.apple.com'
+    - 'time.apple.com'
+    - 'time.windows.com'
+    - 'pool.ntp.org'
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 114.114.114.114
+    - '[2402:4e00::]'
+    - '[2400:3200::1]'
+  nameserver:
+    - 'tls://8.8.8.8'
+    - 'tls://1.1.1.1'
+    - 'tls://[2001:4860:4860::8844]'
+    - 'tls://[2606:4700:4700::1001]'
+  proxy-server-nameserver:
+    - https://doh.pub/dns-query
+  nameserver-policy:
+    "geosite:cn,private":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "geosite:!cn,!private":
+      - "tls://dns.google"
+      - "tls://cloudflare-dns.com"
+
+# ==================== 代理组 ====================
+proxy-groups:
+  - name: 手动选择
+    type: select
+    proxies:
+      - 自动选择
+      - 手动选择节点
+      - DIRECT
+
+  - name: 手动选择节点
+    type: select
+    use:
+      - Aries
+    proxies: []
+
+  - name: 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      - 手动选择
+
+  - name: 全局代理
+    type: select
+    proxies:
+      - 自动选择
+      - DIRECT
+      - 手动选择
+
+  - name: 自动选择
+    type: url-test
+    use:
+      - Aries
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 200
+
+# ==================== 规则 ====================
+rules:
+  - RULE-SET,AWAvenue-Ads,广告拦截
+  - GEOIP,CN,DIRECT
+  - MATCH,手动选择
