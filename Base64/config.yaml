@@ -1,147 +1,19 @@
-port: 7890
-socks-port: 7891
-allow-lan: true
-bind-address: "*"
-ipv6: false
-mode: Rule
-log-level: info
-external-controller: 127.0.0.1:9090
-dns:
-  enable: true
-  ipv6: false
-  listen: 0.0.0.0:53
-  fake-ip-range: 198.18.0.1/16
-  use-hosts: true
-  fake-ip-filter:
-    - "*.lan"
-    - "*.local"
-    - "*.arpa"
-    - time.*.com
-    - ntp.*.com
-    - +.market.xiaomi.com
-    - localhost.ptlogin2.qq.com
-    - "*.msftncsi.com"
-    - www.msftconnecttest.com
-  default-nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-  nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-  nameserver-policy:
-    geosite:cn:
-      - 119.29.29.29
-      - 223.5.5.5
-    geosite:geolocation-!cn:
-      - tls://1.0.0.1:853
-      - tls://dns.google:853
-  proxy-server-nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 1.1.1.1
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    geosite:
-      - gfw
-    ipcidr:
-      - 240.0.0.0/4
 proxies:
-  - {name: shopify.com, server: shopify.com, port: 2096, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: v.xn-vcsu3ij51bmna.cyou, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: v.xn-vcsu3ij51bmna.cyou}}, udp: true}
-  - {name: time.is, server: time.is, port: 2096, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: v.xn-vcsu3ij51bmna.cyou, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: v.xn-vcsu3ij51bmna.cyou}}, udp: true}
-  - {name: icook.hk, server: icook.hk, port: 2096, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: v.xn-vcsu3ij51bmna.cyou, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: v.xn-vcsu3ij51bmna.cyou}}, udp: true}
-  - {name: icook.tw, server: icook.tw, port: 2096, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: v.xn-vcsu3ij51bmna.cyou, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: v.xn-vcsu3ij51bmna.cyou}}, udp: true}
-  - {name: ip.sb, server: ip.sb, port: 2096, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: v.xn-vcsu3ij51bmna.cyou, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: v.xn-vcsu3ij51bmna.cyou}}, udp: true}
-  - {name: japan.com, server: japan.com, port: 2096, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: v.xn-vcsu3ij51bmna.cyou, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: v.xn-vcsu3ij51bmna.cyou}}, udp: true}
-  - {name: malaysia.com, server: malaysia.com, port: 2096, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: v.xn-vcsu3ij51bmna.cyou, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: v.xn-vcsu3ij51bmna.cyou}}, udp: true}
-  - {name: russia.com, server: russia.com, port: 2096, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: v.xn-vcsu3ij51bmna.cyou, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: v.xn-vcsu3ij51bmna.cyou}}, udp: true}
-  - {name: singapore.com, server: singapore.com, port: 2096, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: v.xn-vcsu3ij51bmna.cyou, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: v.xn-vcsu3ij51bmna.cyou}}, udp: true}
-  - {name: skk.moe, server: skk.moe, port: 2096, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: v.xn-vcsu3ij51bmna.cyou, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: v.xn-vcsu3ij51bmna.cyou}}, udp: true}
-  - {name: www.visa.com.sg, server: www.visa.com.sg, port: 2096, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: v.xn-vcsu3ij51bmna.cyou, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: v.xn-vcsu3ij51bmna.cyou}}, udp: true}
-  - {name: www.visa.com.hk, server: www.visa.com.hk, port: 2096, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: v.xn-vcsu3ij51bmna.cyou, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: v.xn-vcsu3ij51bmna.cyou}}, udp: true}
-  - {name: www.visa.com.tw, server: www.visa.com.tw, port: 2096, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: v.xn-vcsu3ij51bmna.cyou, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: v.xn-vcsu3ij51bmna.cyou}}, udp: true}
-  - {name: www.visa.co.jp, server: www.visa.co.jp, port: 2096, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: v.xn-vcsu3ij51bmna.cyou, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: v.xn-vcsu3ij51bmna.cyou}}, udp: true}
-  - {name: www.visakorea.com, server: www.visakorea.com, port: 2096, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: v.xn-vcsu3ij51bmna.cyou, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: v.xn-vcsu3ij51bmna.cyou}}, udp: true}
-  - {name: www.gco.gov.qa, server: www.gco.gov.qa, port: 2096, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: v.xn-vcsu3ij51bmna.cyou, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: v.xn-vcsu3ij51bmna.cyou}}, udp: true}
-  - {name: www.gov.se, server: www.gov.se, port: 2096, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: v.xn-vcsu3ij51bmna.cyou, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: v.xn-vcsu3ij51bmna.cyou}}, udp: true}
-  - {name: www.gov.ua, server: www.gov.ua, port: 2096, type: vless, uuid: 0c5d7cdd-424e-4e43-92e0-b0b04964bc97, tls: true, skip-cert-verify: true, servername: v.xn-vcsu3ij51bmna.cyou, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: v.xn-vcsu3ij51bmna.cyou}}, udp: true}
-proxy-groups:
-- name: 负载均衡
-  type: load-balance
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  proxies:
-    - shopify.com
-    - time.is
-    - icook.hk
-    - icook.tw
-    - ip.sb
-    - japan.com
-    - malaysia.com
-    - russia.com
-    - singapore.com
-    - skk.moe
-    - www.visa.com.sg
-    - www.visa.com.hk
-    - www.visa.com.tw
-    - www.visa.co.jp
-    - www.visakorea.com
-    - www.gco.gov.qa
-    - www.gov.se
-    - www.gov.ua
-- name: 自动选择
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  tolerance: 50
-  proxies:
-    - shopify.com
-    - time.is
-    - icook.hk
-    - icook.tw
-    - ip.sb
-    - japan.com
-    - malaysia.com
-    - russia.com
-    - singapore.com
-    - skk.moe
-    - www.visa.com.sg
-    - www.visa.com.hk
-    - www.visa.com.tw
-    - www.visa.co.jp
-    - www.visakorea.com
-    - www.gco.gov.qa
-    - www.gov.se
-    - www.gov.ua
-- name: 🌍选择代理
-  type: select
-  proxies:
-    - 负载均衡
-    - 自动选择
-    - DIRECT
-    - shopify.com
-    - time.is
-    - icook.hk
-    - icook.tw
-    - ip.sb
-    - japan.com
-    - malaysia.com
-    - russia.com
-    - singapore.com
-    - skk.moe
-    - www.visa.com.sg
-    - www.visa.com.hk
-    - www.visa.com.tw
-    - www.visa.co.jp
-    - www.visakorea.com
-    - www.gco.gov.qa
-    - www.gov.se
-    - www.gov.ua
-rules:
-  - GEOIP,LAN,DIRECT
-  - GEOIP,CN,DIRECT
-  - MATCH,🌍选择代理
+  - {name: shopify.com, server: shopify.com, port: 2096, type: vless, uuid: a4120e0c-eb45-4ec2-bece-4b3bb4fb42f4, tls: true, tfo: false, skip-cert-verify: false, servername: pg.ceo-bot.kdns.fr, client-fingerprint: edge, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: pg.ceo-bot.kdns.fr}}}
+  - {name: 🇮🇸 time.is, server: time.is, port: 2096, type: vless, uuid: a4120e0c-eb45-4ec2-bece-4b3bb4fb42f4, tls: true, tfo: false, skip-cert-verify: false, servername: pg.ceo-bot.kdns.fr, client-fingerprint: edge, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: pg.ceo-bot.kdns.fr}}}
+  - {name: 🇭🇰 icook.hk, server: icook.hk, port: 2096, type: vless, uuid: a4120e0c-eb45-4ec2-bece-4b3bb4fb42f4, tls: true, tfo: false, skip-cert-verify: false, servername: pg.ceo-bot.kdns.fr, client-fingerprint: edge, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: pg.ceo-bot.kdns.fr}}}
+  - {name: 🇹🇼 icook.tw, server: icook.tw, port: 2096, type: vless, uuid: a4120e0c-eb45-4ec2-bece-4b3bb4fb42f4, tls: true, tfo: false, skip-cert-verify: false, servername: pg.ceo-bot.kdns.fr, client-fingerprint: edge, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: pg.ceo-bot.kdns.fr}}}
+  - {name: ip.sb, server: ip.sb, port: 2096, type: vless, uuid: a4120e0c-eb45-4ec2-bece-4b3bb4fb42f4, tls: true, tfo: false, skip-cert-verify: false, servername: pg.ceo-bot.kdns.fr, client-fingerprint: edge, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: pg.ceo-bot.kdns.fr}}}
+  - {name: 🇯🇵 japan.com, server: japan.com, port: 2096, type: vless, uuid: a4120e0c-eb45-4ec2-bece-4b3bb4fb42f4, tls: true, tfo: false, skip-cert-verify: false, servername: pg.ceo-bot.kdns.fr, client-fingerprint: edge, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: pg.ceo-bot.kdns.fr}}}
+  - {name: malaysia.com, server: malaysia.com, port: 2096, type: vless, uuid: a4120e0c-eb45-4ec2-bece-4b3bb4fb42f4, tls: true, tfo: false, skip-cert-verify: false, servername: pg.ceo-bot.kdns.fr, client-fingerprint: edge, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: pg.ceo-bot.kdns.fr}}}
+  - {name: 🇷🇺 russia.com, server: russia.com, port: 2096, type: vless, uuid: a4120e0c-eb45-4ec2-bece-4b3bb4fb42f4, tls: true, tfo: false, skip-cert-verify: false, servername: pg.ceo-bot.kdns.fr, client-fingerprint: edge, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: pg.ceo-bot.kdns.fr}}}
+  - {name: 🇸🇬 singapore.com, server: singapore.com, port: 2096, type: vless, uuid: a4120e0c-eb45-4ec2-bece-4b3bb4fb42f4, tls: true, tfo: false, skip-cert-verify: false, servername: pg.ceo-bot.kdns.fr, client-fingerprint: edge, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: pg.ceo-bot.kdns.fr}}}
+  - {name: skk.moe, server: skk.moe, port: 2096, type: vless, uuid: a4120e0c-eb45-4ec2-bece-4b3bb4fb42f4, tls: true, tfo: false, skip-cert-verify: false, servername: pg.ceo-bot.kdns.fr, client-fingerprint: edge, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: pg.ceo-bot.kdns.fr}}}
+  - {name: 🇸🇬 www.visa.com.sg, server: www.visa.com.sg, port: 2096, type: vless, uuid: a4120e0c-eb45-4ec2-bece-4b3bb4fb42f4, tls: true, tfo: false, skip-cert-verify: false, servername: pg.ceo-bot.kdns.fr, client-fingerprint: edge, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: pg.ceo-bot.kdns.fr}}}
+  - {name: 🇭🇰 www.visa.com.hk, server: www.visa.com.hk, port: 2096, type: vless, uuid: a4120e0c-eb45-4ec2-bece-4b3bb4fb42f4, tls: true, tfo: false, skip-cert-verify: false, servername: pg.ceo-bot.kdns.fr, client-fingerprint: edge, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: pg.ceo-bot.kdns.fr}}}
+  - {name: 🇹🇼 www.visa.com.tw, server: www.visa.com.tw, port: 2096, type: vless, uuid: a4120e0c-eb45-4ec2-bece-4b3bb4fb42f4, tls: true, tfo: false, skip-cert-verify: false, servername: pg.ceo-bot.kdns.fr, client-fingerprint: edge, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: pg.ceo-bot.kdns.fr}}}
+  - {name: 🇯🇵 www.visa.co.jp, server: www.visa.co.jp, port: 2096, type: vless, uuid: a4120e0c-eb45-4ec2-bece-4b3bb4fb42f4, tls: true, tfo: false, skip-cert-verify: false, servername: pg.ceo-bot.kdns.fr, client-fingerprint: edge, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: pg.ceo-bot.kdns.fr}}}
+  - {name: 🇰🇷 www.visakorea.com, server: www.visakorea.com, port: 2096, type: vless, uuid: a4120e0c-eb45-4ec2-bece-4b3bb4fb42f4, tls: true, tfo: false, skip-cert-verify: false, servername: pg.ceo-bot.kdns.fr, client-fingerprint: edge, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: pg.ceo-bot.kdns.fr}}}
+  - {name: www.gco.gov.qa, server: www.gco.gov.qa, port: 2096, type: vless, uuid: a4120e0c-eb45-4ec2-bece-4b3bb4fb42f4, tls: true, tfo: false, skip-cert-verify: false, servername: pg.ceo-bot.kdns.fr, client-fingerprint: edge, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: pg.ceo-bot.kdns.fr}}}
+  - {name: www.gov.se, server: www.gov.se, port: 2096, type: vless, uuid: a4120e0c-eb45-4ec2-bece-4b3bb4fb42f4, tls: true, tfo: false, skip-cert-verify: false, servername: pg.ceo-bot.kdns.fr, client-fingerprint: edge, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: pg.ceo-bot.kdns.fr}}}
+  - {name: www.gov.ua, server: www.gov.ua, port: 2096, type: vless, uuid: a4120e0c-eb45-4ec2-bece-4b3bb4fb42f4, tls: true, tfo: false, skip-cert-verify: false, servername: pg.ceo-bot.kdns.fr, client-fingerprint: edge, network: ws, ws-opts: {path: "/?ed=2048&https://doh.pub/dns-query", headers: {Host: pg.ceo-bot.kdns.fr}}}
