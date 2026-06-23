@@ -1,0 +1,461 @@
+# Clash Meta 配置文件
+# 基于 ACL4SSR_Online_Full_Dream.ini 生成
+# 适用于 Clash Meta 内核
+
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+ipv6: false
+external-controller: 127.0.0.1:9090
+external-ui: ui
+secret: ""
+
+# DNS 配置（Clash Meta 推荐使用）
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: false
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback:
+    - https://1.0.0.1/dns-query
+    - https://dns.google/dns-query
+    - tls://dns.google:853
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+
+# ============ 代理节点（请在此处填写你的节点） ============
+proxies:
+  # 示例节点格式：
+  # - name: "🇭🇰 香港节点01"
+  #   type: vmess
+  #   server: example.com
+  #   port: 443
+  #   uuid: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+  #   alterId: 0
+  #   cipher: auto
+  #   tls: true
+  #   skip-cert-verify: true
+  #   network: ws
+  #   ws-opts:
+  #     path: /path
+  #     headers:
+  #       Host: example.com
+  # 
+  # - name: "🇯🇵 日本节点01"
+  #   type: trojan
+  #   server: example.com
+  #   port: 443
+  #   password: your_password
+  #   sni: example.com
+  #   skip-cert-verify: true
+  #   network: grpc
+  #   grpc-opts:
+  #     grpc-service-name: /servicel
+  
+proxy-providers:
+  subscribe:
+    type: http
+    url: "你的订阅链接"
+    interval: 3600
+    path: ./providers/subscribe.yaml
+    health-check:
+      enable: true
+      url: https://cp.cloudflare.com
+      interval: 300
+
+# ============ 代理组（策略组） ============
+proxy-groups:
+  # ---------- 主策略组 ----------
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇺🇲 美国自动
+      - 🇭🇰 香港自动
+      - 🇨🇳 台湾自动
+      - 🇸🇬 狮城自动
+      - 🇯🇵 日本自动
+      - 🚀 手动切换
+      - DIRECT
+
+  - name: 🚀 手动切换
+    type: select
+    proxies:
+      - .*
+    use:
+      - all-providers
+
+  - name: ♻️ 自动选择
+    type: url-test
+    proxies:
+      - .*
+    url: https://cp.cloudflare.com
+    interval: 300
+    tolerance: 200
+    use:
+      - all-providers
+
+  # ---------- 地区自动测速组 ----------
+  - name: 🇺🇲 美国自动
+    type: url-test
+    proxies:
+      - ^((?!AUS).)*(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|UnitedStates|USA|US|United States|America|California)((?!AUS).)*$
+    url: https://cp.cloudflare.com
+    interval: 300
+    tolerance: 250
+    use:
+      - all-providers
+
+  - name: 🇭🇰 香港自动
+    type: url-test
+    proxies:
+      - (香港|HK|Hong Kong|Hongkong)
+    url: https://cp.cloudflare.com
+    interval: 300
+    tolerance: 150
+    use:
+      - all-providers
+
+  - name: 🇨🇳 台湾自动
+    type: url-test
+    proxies:
+      - (台|新北|彰化|TW|Taiwan)
+    url: https://cp.cloudflare.com
+    interval: 300
+    tolerance: 150
+    use:
+      - all-providers
+
+  - name: 🇸🇬 狮城自动
+    type: url-test
+    proxies:
+      - (新加坡|坡|狮城|SG|Singapore)
+    url: https://cp.cloudflare.com
+    interval: 300
+    tolerance: 150
+    use:
+      - all-providers
+
+  - name: 🇯🇵 日本自动
+    type: url-test
+    proxies:
+      - (日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|Tokyo)
+    url: https://cp.cloudflare.com
+    interval: 300
+    tolerance: 150
+    use:
+      - all-providers
+
+  # ---------- 业务策略组 ----------
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - 🇺🇲 美国自动
+      - 🇭🇰 香港自动
+      - 🇨🇳 台湾自动
+      - 🇸🇬 狮城自动
+      - 🇯🇵 日本自动
+      - 🚀 手动切换
+
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - 🇺🇲 美国自动
+      - 🇭🇰 香港自动
+      - 🇨🇳 台湾自动
+      - 🇸🇬 狮城自动
+      - 🇯🇵 日本自动
+      - 🚀 手动切换
+
+  - name: Ⓜ️ 微软云盘
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - 🇺🇲 美国自动
+      - 🇭🇰 香港自动
+      - 🇨🇳 台湾自动
+      - 🇸🇬 狮城自动
+      - 🇯🇵 日本自动
+      - 🚀 手动切换
+
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - 🇺🇲 美国自动
+      - 🇭🇰 香港自动
+      - 🇨🇳 台湾自动
+      - 🇸🇬 狮城自动
+      - 🇯🇵 日本自动
+      - 🚀 手动切换
+
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - 🇺🇲 美国自动
+      - 🇭🇰 香港自动
+      - 🇨🇳 台湾自动
+      - 🇸🇬 狮城自动
+      - 🇯🇵 日本自动
+      - 🚀 手动切换
+
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - 🇺🇲 美国自动
+      - 🇭🇰 香港自动
+      - 🇨🇳 台湾自动
+      - 🇸🇬 狮城自动
+      - 🇯🇵 日本自动
+      - 🚀 手动切换
+
+  - name: 🔑 RemoteSSH
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - 🇺🇲 美国自动
+      - 🇭🇰 香港自动
+      - 🇨🇳 台湾自动
+      - 🇸🇬 狮城自动
+      - 🇯🇵 日本自动
+      - 🚀 手动切换
+
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🚀 手动切换
+
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+      - 🇺🇲 美国自动
+      - 🇭🇰 香港自动
+      - 🇨🇳 台湾自动
+      - 🇸🇬 狮城自动
+      - 🇯🇵 日本自动
+      - 🚀 手动切换
+
+# ============ 规则集 ============
+rules:
+  # 局域网 & 解封域名
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,UnBan,🎯 全球直连
+
+  # Google FCM
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+
+  # SSH
+  - RULE-SET,SSH,🔑 RemoteSSH
+
+  # 微软
+  - RULE-SET,OneDrive,Ⓜ️ 微软云盘
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+
+  # 苹果
+  - RULE-SET,Apple,🍎 苹果服务
+
+  # 游戏平台
+  - RULE-SET,Epic,🎮 游戏平台
+  - RULE-SET,Sony,🎮 游戏平台
+  - RULE-SET,Steam,🎮 游戏平台
+  - RULE-SET,SteamCN,🎯 全球直连
+
+  # 国外媒体
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+
+  # GFW & 代理列表
+  - RULE-SET,ProxyGFWlist,🚀 节点选择
+  - RULE-SET,ProxyCustom,🚀 节点选择
+  - RULE-SET,Global,🚀 节点选择
+
+  # 国内直连
+  - RULE-SET,Domestic,🎯 全球直连
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,ChinaIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
+
+  # 国内 IP 直连
+  - GEOIP,CN,🎯 全球直连
+
+  # 最终默认
+  - MATCH,🐟 漏网之鱼
+
+# ============ 规则集定义（在线规则） ============
+rule-providers:
+  # 局域网
+  LocalAreaNetwork:
+    type: remote
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+    path: ./ruleset/LocalAreaNetwork.yaml
+    interval: 86400
+
+  UnBan:
+    type: remote
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+    path: ./ruleset/UnBan.yaml
+    interval: 86400
+
+  # Google FCM
+  GoogleFCM:
+    type: remote
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+    path: ./ruleset/GoogleFCM.yaml
+    interval: 86400
+
+  # SSH
+  SSH:
+    type: remote
+    behavior: domain
+    url: https://raw.githubusercontent.com/WC-Dream/ACL4SSR/WD/Clash/ssh.list
+    path: ./ruleset/SSH.yaml
+    interval: 86400
+
+  # 微软
+  OneDrive:
+    type: remote
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
+    path: ./ruleset/OneDrive.yaml
+    interval: 86400
+
+  Microsoft:
+    type: remote
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+    path: ./ruleset/Microsoft.yaml
+    interval: 86400
+
+  # 苹果
+  Apple:
+    type: remote
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    path: ./ruleset/Apple.yaml
+    interval: 86400
+
+  # 游戏
+  Epic:
+    type: remote
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
+    path: ./ruleset/Epic.yaml
+    interval: 86400
+
+  Sony:
+    type: remote
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
+    path: ./ruleset/Sony.yaml
+    interval: 86400
+
+  Steam:
+    type: remote
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
+    path: ./ruleset/Steam.yaml
+    interval: 86400
+
+  SteamCN:
+    type: remote
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    path: ./ruleset/SteamCN.yaml
+    interval: 86400
+
+  # 国外媒体
+  ProxyMedia:
+    type: remote
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    path: ./ruleset/ProxyMedia.yaml
+    interval: 86400
+
+  # GFW & 代理
+  ProxyGFWlist:
+    type: remote
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    path: ./ruleset/ProxyGFWlist.yaml
+    interval: 86400
+
+  ProxyCustom:
+    type: remote
+    behavior: domain
+    url: https://raw.githubusercontent.com/WC-Dream/ACL4SSR/WD/Clash/proxy.list
+    path: ./ruleset/ProxyCustom.yaml
+    interval: 86400
+
+  Global:
+    type: remote
+    behavior: domain
+    url: https://ruleset.skk.moe/List/non_ip/global.conf
+    path: ./ruleset/Global.yaml
+    interval: 86400
+
+  # 国内直连
+  Domestic:
+    type: remote
+    behavior: domain
+    url: https://ruleset.skk.moe/List/non_ip/domestic.conf
+    path: ./ruleset/Domestic.yaml
+    interval: 86400
+
+  ChinaDomain:
+    type: remote
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+    path: ./ruleset/ChinaDomain.yaml
+    interval: 86400
+
+  ChinaCompanyIp:
+    type: remote
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+    path: ./ruleset/ChinaCompanyIp.yaml
+    interval: 86400
+
+  ChinaIp:
+    type: remote
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+    path: ./ruleset/ChinaIp.yaml
+    interval: 86400
+
+  Download:
+    type: remote
+    behavior: domain
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+    path: ./ruleset/Download.yaml
+    interval: 86400
