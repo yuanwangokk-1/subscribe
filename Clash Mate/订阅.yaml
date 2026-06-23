@@ -4,7 +4,7 @@ p: &p
   interval: 3600
   health-check:
     enable: true
-    url: https://www.gstatic.com/generate_204
+    url: https://cp.cloudflare.com/generate_204  # 改用 HTTPS，与代理组 url-test 保持一致
     interval: 300
     timeout: 500
     tolerance: 100
@@ -13,7 +13,8 @@ p: &p
 proxy-providers:
   Aries:
     <<: *p
-    url: "https://shz.ceo-bot.kdns.fr/4N7T"
+    url: "https://shz.ceo-bot.kdns.fr/WG78"
+    proxy: 🚀 代理  # 订阅更新走代理，防止境外订阅地址直连被干扰
 
 # ==================== 规则集 ====================
 rule-providers:
@@ -70,6 +71,8 @@ sniffer:
     HTTP:
       ports: [80, 8080-8880]
       override-destination: true
+    QUIC:                        # 新增：识别基于 UDP 443 的 QUIC 流量（YouTube、Cloudflare 等）
+      ports: [443, 8443]
 
 # ==================== TUN ====================
 tun:
@@ -98,6 +101,8 @@ dns:
     - "clock.apple.com"
     - "time.apple.com"
     - "time.windows.com"
+    - "time.cloudflare.com"
+    - "ntp.aliyun.com"
     - "pool.ntp.org"
     - "*.msftncsi.com"
     - "*.msftconnecttest.com"
@@ -113,6 +118,7 @@ dns:
   proxy-server-nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
+    - tls://dns.google             # 防止境外订阅域名被污染
 
   nameserver-policy:
     "geosite:cn,private":
@@ -147,14 +153,9 @@ dns:
       - 192.168.0.0/16
       - 224.0.0.0/4
       - 240.0.0.0/4
-
-    domain:
-      - "+.google.com"
-      - "+.youtube.com"
-      - "+.github.com"
-      - "+.facebook.com"
-      - "+.twitter.com"
-      - "+.wikipedia.org"
+    # 移除了原来的 domain 白名单块
+    # 这些域名已由 nameserver-policy 的 geosite:!cn 覆盖
+    # 保留 domain 块反而会让其绕过 nameserver-policy 直接走 fallback
 
 # ==================== 代理组 ====================
 proxy-groups:
@@ -163,21 +164,16 @@ proxy-groups:
     proxies:
       - ⚡ 自动选择
       - DIRECT
-    use:
-      - Aries
+    # 移除了 use: [Aries]
+    # 节点展示交由子组（⚡ 自动选择）管理，避免顶层 select 出现大量重复节点
 
   - name: ⚡ 自动选择
     type: url-test
     use:
       - Aries
-    url: https://www.gstatic.com/generate_204
+    url: https://cp.cloudflare.com/generate_204  # 改用 HTTPS，与锚点保持一致
     interval: 300
     tolerance: 200
-
-  - name: 🇨🇳 国内直连
-    type: select
-    proxies:
-      - DIRECT
 
   - name: 🌍 国外网站
     type: select
@@ -195,26 +191,32 @@ proxy-groups:
 
 # ==================== 规则 ====================
 rules:
-  # 内网直连
-  - DOMAIN-KEYWORD,lan,DIRECT
-  - DOMAIN-KEYWORD,local,DIRECT
+  # 内网域名直连
+  - DOMAIN-SUFFIX,lan,DIRECT
+  - DOMAIN-SUFFIX,local,DIRECT
   - DOMAIN-SUFFIX,arpa,DIRECT
 
+  # 内网 IPv4 直连
   - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
   - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
   - IP-CIDR,169.254.0.0/16,DIRECT,no-resolve
   - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
   - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
 
-  # 广告拦截
-  - RULE-SET,AWAvenue-Ads,🛑 广告拦截
+  # 内网 IPv6 直连（新增，已开启 ipv6: true 时需要）
+  - IP-CIDR6,::1/128,DIRECT,no-resolve
+  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
 
-  # BT
+  # BT 流量直连（移至广告拦截前，避免被规则集误匹配）
   - DST-PORT,6881-6889,DIRECT
   - DST-PORT,6969,DIRECT
 
-  # 国内流量
-  - GEOIP,CN,🇨🇳 国内直连,no-resolve
+  # 广告拦截
+  - RULE-SET,AWAvenue-Ads,🛑 广告拦截
+
+  # 国内流量直连
+  - GEOIP,CN,DIRECT,no-resolve
 
   # 默认代理
   - MATCH,🌍 国外网站
