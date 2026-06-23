@@ -13,7 +13,7 @@ p: &p
 proxy-providers:
   Aries:
     <<: *p
-    url: "https://shz.ceo-bot.kdns.fr/Zs56byzGpYbmjrKddj8X4wyf"
+    url: "https://shz.ceo-bot.kdns.fr/4N7T"
 
 # ==================== 规则集 ====================
 rule-providers:
@@ -31,13 +31,16 @@ ipv6: true
 log-level: warning
 allow-lan: true
 mixed-port: 7890
+
 unified-delay: true
 tcp-concurrent: true
-external-controller: 127.0.0.1:9090  # ✅ 改为仅本机访问，更安全
-geodata-mode: true
 find-process-mode: strict
 keep-alive-interval: 1800
+
+external-controller: 127.0.0.1:9090
 global-client-fingerprint: random
+
+geodata-mode: true
 
 # ==================== GEO数据 ====================
 geox-url:
@@ -50,7 +53,7 @@ profile:
   store-selected: true
   store-fake-ip: true
 
-# ==================== NTP时间同步 ====================
+# ==================== NTP ====================
 ntp:
   enable: true
   write-to-system: false
@@ -68,59 +71,74 @@ sniffer:
       ports: [80, 8080-8880]
       override-destination: true
 
-# ==================== TUN虚拟网卡 ====================
+# ==================== TUN ====================
 tun:
-  enable: false
-  stack: system
+  enable: true
+  stack: mixed
   dns-hijack:
     - any:53
   auto-route: true
   auto-detect-interface: true
 
-# ==================== DNS配置（优化版） ====================
+# ==================== DNS ====================
 dns:
   enable: true
-  listen: 127.0.0.1:1053  # ✅ 改为仅本机监听
+  listen: 127.0.0.1:1053
+
   ipv6: true
+
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
+
   fake-ip-filter:
-    - '+.lan'
-    - '+.local'
-    - '+.arpa'
-    - 'clock.apple.com'
-    - 'time.apple.com'
-    - 'time.windows.com'
-    - 'pool.ntp.org'
-    - '*.msftncsi.com'      # ✅ 新增：Windows网络检测
-    - '*.msftconnecttest.com'  # ✅ 新增
+    - "+.lan"
+    - "+.local"
+    - "+.arpa"
+    - "localhost.ptlogin2.qq.com"
+    - "clock.apple.com"
+    - "time.apple.com"
+    - "time.windows.com"
+    - "pool.ntp.org"
+    - "*.msftncsi.com"
+    - "*.msftconnecttest.com"
+
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29
+
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
+
   proxy-server-nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
+
   nameserver-policy:
     "geosite:cn,private":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
+
     "geosite:!cn":
-      - tls://dns.google          # ✅ 改为稳定域名
-      - https://cloudflare-dns.com/dns-query  # ✅ 新增DoH备用
+      - tls://dns.google
       - tls://1.1.1.1
-  fallback:  # ✅ 新增回退DNS
+      - https://cloudflare-dns.com/dns-query
+
+  fallback:
     - tls://dns.google
+    - tls://1.1.1.1
     - https://cloudflare-dns.com/dns-query
+    - https://dns.quad9.net/dns-query
+
   fallback-filter:
     geoip: true
     geoip-code: CN
+
     geosite:
       - gfw
-      - geolocation-!cn  # ✅ 新增：非中国地区强制回退
-    ipcidr:  # ✅ 新增IP段过滤
+      - geolocation-!cn
+
+    ipcidr:
       - 0.0.0.0/8
       - 10.0.0.0/8
       - 127.0.0.0/8
@@ -129,15 +147,16 @@ dns:
       - 192.168.0.0/16
       - 224.0.0.0/4
       - 240.0.0.0/4
-    domain:  # ✅ 新增强制回退域名
-      - '+.google.com'
-      - '+.facebook.com'
-      - '+.youtube.com'
-      - '+.twitter.com'
-      - '+.github.com'
-      - '+.wikipedia.org'
 
-# ==================== 代理组（优化版） ====================
+    domain:
+      - "+.google.com"
+      - "+.youtube.com"
+      - "+.github.com"
+      - "+.facebook.com"
+      - "+.twitter.com"
+      - "+.wikipedia.org"
+
+# ==================== 代理组 ====================
 proxy-groups:
   - name: 🚀 代理
     type: select
@@ -159,7 +178,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      # ✅ 已移除 🚀 代理，避免循环引用
 
   - name: 🌍 国外网站
     type: select
@@ -175,27 +193,28 @@ proxy-groups:
       - DIRECT
       - 🚀 代理
 
-# ==================== 规则（优化版） ====================
+# ==================== 规则 ====================
 rules:
-  # ✅ 新增：内网地址直连
+  # 内网直连
   - DOMAIN-KEYWORD,lan,DIRECT
   - DOMAIN-KEYWORD,local,DIRECT
   - DOMAIN-SUFFIX,arpa,DIRECT
-  - IP-CIDR,10.0.0.0/8,DIRECT
-  - IP-CIDR,127.0.0.0/8,DIRECT
-  - IP-CIDR,169.254.0.0/16,DIRECT
-  - IP-CIDR,172.16.0.0/12,DIRECT
-  - IP-CIDR,192.168.0.0/16,DIRECT
+
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,169.254.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
 
   # 广告拦截
   - RULE-SET,AWAvenue-Ads,🛑 广告拦截
 
-  # ✅ 新增：BT下载直连（避免代理浪费流量）
+  # BT
   - DST-PORT,6881-6889,DIRECT
   - DST-PORT,6969,DIRECT
 
-  # 国内流量直连
-  - GEOIP,CN,🇨🇳 国内直连
+  # 国内流量
+  - GEOIP,CN,🇨🇳 国内直连,no-resolve
 
-  # 默认走代理
+  # 默认代理
   - MATCH,🌍 国外网站
