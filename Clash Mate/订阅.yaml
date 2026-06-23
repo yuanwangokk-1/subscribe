@@ -13,7 +13,7 @@ p: &p
 proxy-providers:
   Aries:
     <<: *p
-    url: "https://shz.ceo-bot.kdns.fr/MzhZXH7h7tpBSNcasrZ6Q3xZ"
+    url: "https://shz.ceo-bot.kdns.fr/Zs56byzGpYbmjrKddj8X4wyf"
 
 # ==================== 规则集 ====================
 rule-providers:
@@ -33,7 +33,7 @@ allow-lan: true
 mixed-port: 7890
 unified-delay: true
 tcp-concurrent: true
-external-controller: :9090
+external-controller: 127.0.0.1:9090  # ✅ 改为仅本机访问，更安全
 geodata-mode: true
 find-process-mode: strict
 keep-alive-interval: 1800
@@ -77,10 +77,10 @@ tun:
   auto-route: true
   auto-detect-interface: true
 
-# ==================== DNS配置 ====================
+# ==================== DNS配置（优化版） ====================
 dns:
   enable: true
-  listen: :1053
+  listen: 127.0.0.1:1053  # ✅ 改为仅本机监听
   ipv6: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
@@ -92,6 +92,8 @@ dns:
     - 'time.apple.com'
     - 'time.windows.com'
     - 'pool.ntp.org'
+    - '*.msftncsi.com'      # ✅ 新增：Windows网络检测
+    - '*.msftconnecttest.com'  # ✅ 新增
   default-nameserver:
     - 223.5.5.5
     - 119.29.29.29
@@ -106,32 +108,46 @@ dns:
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
     "geosite:!cn":
-      - tls://8.8.8.8
+      - tls://dns.google          # ✅ 改为稳定域名
+      - https://cloudflare-dns.com/dns-query  # ✅ 新增DoH备用
       - tls://1.1.1.1
+  fallback:  # ✅ 新增回退DNS
+    - tls://dns.google
+    - https://cloudflare-dns.com/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
     geosite:
       - gfw
+      - geolocation-!cn  # ✅ 新增：非中国地区强制回退
+    ipcidr:  # ✅ 新增IP段过滤
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.168.0.0/16
+      - 224.0.0.0/4
+      - 240.0.0.0/4
+    domain:  # ✅ 新增强制回退域名
+      - '+.google.com'
+      - '+.facebook.com'
+      - '+.youtube.com'
+      - '+.twitter.com'
+      - '+.github.com'
+      - '+.wikipedia.org'
 
-# ==================== 代理组 ====================
+# ==================== 代理组（优化版） ====================
 proxy-groups:
-  - name: 手动选择
+  - name: 🚀 代理
     type: select
     proxies:
-      - 自动选择
+      - ⚡ 自动选择
       - DIRECT
     use:
       - Aries
 
-  - name: 广告拦截
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-      - 手动选择
-
-  - name: 自动选择
+  - name: ⚡ 自动选择
     type: url-test
     use:
       - Aries
@@ -139,8 +155,47 @@ proxy-groups:
     interval: 300
     tolerance: 200
 
-# ==================== 规则 ====================
+  - name: 🇨🇳 国内直连
+    type: select
+    proxies:
+      - DIRECT
+      # ✅ 已移除 🚀 代理，避免循环引用
+
+  - name: 🌍 国外网站
+    type: select
+    proxies:
+      - 🚀 代理
+      - ⚡ 自动选择
+      - DIRECT
+
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      - 🚀 代理
+
+# ==================== 规则（优化版） ====================
 rules:
-  - RULE-SET,AWAvenue-Ads,广告拦截
-  - GEOIP,CN,DIRECT
-  - MATCH,手动选择
+  # ✅ 新增：内网地址直连
+  - DOMAIN-KEYWORD,lan,DIRECT
+  - DOMAIN-KEYWORD,local,DIRECT
+  - DOMAIN-SUFFIX,arpa,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,169.254.0.0/16,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+
+  # 广告拦截
+  - RULE-SET,AWAvenue-Ads,🛑 广告拦截
+
+  # ✅ 新增：BT下载直连（避免代理浪费流量）
+  - DST-PORT,6881-6889,DIRECT
+  - DST-PORT,6969,DIRECT
+
+  # 国内流量直连
+  - GEOIP,CN,🇨🇳 国内直连
+
+  # 默认走代理
+  - MATCH,🌍 国外网站
