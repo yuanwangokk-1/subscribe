@@ -1,0 +1,175 @@
+proxy-providers:
+  Aries:
+    type: http
+    url: "https://shz.ceo-bot.kdns.fr/bQCK"
+    interval: 3600
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+      timeout: 200
+      tolerance: 200
+
+rule-providers:
+  AWAvenue-Ads:
+    type: http
+    behavior: domain
+    format: yaml
+    url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/refs/heads/main/Filters/AWAvenue-Ads-Rule-Clash-Classical.yaml"
+    interval: 600
+
+mode: rule
+geodata-mode: true
+ipv6: true
+log-level: info
+allow-lan: true
+mixed-port: 7890
+external-controller: :9090
+unified-delay: true
+tcp-concurrent: true
+find-process-mode: strict
+global-client-fingerprint: random
+
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+dns:
+  enable: true
+  listen: :1053
+  ipv6: true
+  enhanced-mode: redir-host
+  fake-ip-range: 28.0.0.1/8
+  fake-ip-filter: ['*', '+.lan', '+.local']
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 114.114.114.114
+    - 1.1.1.1
+    - 8.8.8.8
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    - https://1.12.12.12/dns-query
+    - https://doh.dns.sb/dns-query
+  proxy-server-nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  nameserver-policy:
+    "geosite:cn,private":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+      - https://1.12.12.12/dns-query
+    "geosite:!cn,!private":
+      - https://doh.dns.sb/dns-query
+      - https://dns.google/dns-query
+      - https://cloudflare-dns.com/dns-query
+
+tun:
+  enable: false
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - "any:53"
+    - "tcp://any:53"
+
+proxy-groups:
+  # 主策略组 - 手动选择
+  - name: 手动选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国
+      - 🇹🇼 台湾
+      - 🌍 其它地区
+      - DIRECT
+
+  # 自动选择 - 延迟最低
+  - name: ♻️ 自动选择
+    type: url-test
+    use: [Aries]
+    tolerance: 200
+
+  # 地区分组 - 香港
+  - name: 🇭🇰 香港
+    type: url-test
+    use: [Aries]
+    filter: "(?i)港|hk|hongkong"
+    tolerance: 200
+
+  # 地区分组 - 日本
+  - name: 🇯🇵 日本
+    type: url-test
+    use: [Aries]
+    filter: "(?i)日本|jp|japan"
+    tolerance: 200
+
+  # 地区分组 - 新加坡
+  - name: 🇸🇬 新加坡
+    type: url-test
+    use: [Aries]
+    filter: "(?i)新|sg|singapore"
+    tolerance: 200
+
+  # 地区分组 - 美国
+  - name: 🇺🇸 美国
+    type: url-test
+    use: [Aries]
+    filter: "(?i)美|us|unitedstates"
+    tolerance: 200
+
+  # 地区分组 - 台湾
+  - name: 🇹🇼 台湾
+    type: url-test
+    use: [Aries]
+    filter: "(?i)台|tw|taiwan"
+    tolerance: 200
+
+  # 地区分组 - 其它地区
+  - name: 🌍 其它地区
+    type: url-test
+    use: [Aries]
+    filter: "(?i)^(?!.*(?:港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*"
+    tolerance: 200
+
+  # 广告拦截
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  # 国内直连
+  - name: 🇨🇳 国内
+    type: select
+    proxies:
+      - DIRECT
+
+  # 兜底策略 - 其他流量
+  - name: 🌐 其他
+    type: select
+    proxies:
+      - 手动选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港
+      - 🇯🇵 日本
+      - 🇸🇬 新加坡
+      - 🇺🇸 美国
+      - 🇹🇼 台湾
+      - 🌍 其它地区
+      - DIRECT
+
+rules:
+  - RULE-SET,AWAvenue-Ads,🛑 广告拦截
+  - GEOSITE,CN,🇨🇳 国内
+  - GEOIP,CN,🇨🇳 国内
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - MATCH,🌐 其他
