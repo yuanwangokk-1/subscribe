@@ -1,7 +1,7 @@
 proxy-providers:
   Aries:
     type: http
-    url: "https://shz.ceo-bot.kdns.fr/bQCK"
+    url: "https://shz.ceo-bot.kdns.fr/disF"
     interval: 3600
     health-check:
       enable: true
@@ -66,7 +66,7 @@ dns:
       - https://cloudflare-dns.com/dns-query
 
 tun:
-  enable: false
+  enable: true
   stack: system
   auto-route: true
   auto-detect-interface: true
@@ -80,6 +80,7 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
+      - 🫵 手动选择
       - 🇭🇰 香港
       - 🇯🇵 日本
       - 🇸🇬 新加坡
@@ -93,48 +94,83 @@ proxy-groups:
     type: url-test
     use: [Aries]
     tolerance: 200
+    
+  # 手动选择 - 延迟最低
+  - name: 🫵 手动选择
+    type: select
+    use: [Aries]
 
   # 地区分组 - 香港
   - name: 🇭🇰 香港
     type: url-test
     use: [Aries]
     filter: "(?i)港|hk|hongkong"
-    tolerance: 200
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+      timeout: 200
+      tolerance: 200
 
   # 地区分组 - 日本
   - name: 🇯🇵 日本
     type: url-test
     use: [Aries]
     filter: "(?i)日本|jp|japan"
-    tolerance: 200
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+      timeout: 200
+      tolerance: 200
 
   # 地区分组 - 新加坡
   - name: 🇸🇬 新加坡
     type: url-test
     use: [Aries]
     filter: "(?i)新|sg|singapore"
-    tolerance: 200
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+      timeout: 200
+      tolerance: 200
 
   # 地区分组 - 美国
   - name: 🇺🇸 美国
     type: url-test
     use: [Aries]
     filter: "(?i)美|us|unitedstates"
-    tolerance: 200
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+      timeout: 200
+      tolerance: 200
 
   # 地区分组 - 台湾
   - name: 🇹🇼 台湾
     type: url-test
     use: [Aries]
     filter: "(?i)台|tw|taiwan"
-    tolerance: 200
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+      timeout: 200
+      tolerance: 200
 
   # 地区分组 - 其它地区
   - name: 🌍 其它地区
     type: url-test
     use: [Aries]
     filter: "(?i)^(?!.*(?:港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*"
-    tolerance: 200
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+      timeout: 200
+      tolerance: 200
 
   # 广告拦截
   - name: 🛑 广告拦截
@@ -153,8 +189,8 @@ proxy-groups:
   - name: 🌐 其他
     type: select
     proxies:
-      - 手动选择
       - ♻️ 自动选择
+      - 🫵 手动选择
       - 🇭🇰 香港
       - 🇯🇵 日本
       - 🇸🇬 新加坡
