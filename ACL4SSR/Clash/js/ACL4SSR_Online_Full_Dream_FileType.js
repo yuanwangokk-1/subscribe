@@ -146,6 +146,12 @@ async function main(config) {
         "auto-detect-interface": true
     }
 
+    const proxyServerNameserver = config.dns?.["proxy-server-nameserver"] ?? [
+        "https://doh.pub/dns-query",
+        //"https://223.5.5.5/dns-query",
+        "https://dns.alidns.com/dns-query"
+    ];
+
     config.dns = {
         enable: true,
         ipv6: false,
@@ -173,11 +179,7 @@ async function main(config) {
             "https://public.dns.iij.jp/dns-query",
             "https://dns.google/dns-query"
         ],*/
-        "proxy-server-nameserver": [
-            "https://doh.pub/dns-query",
-            //"https://223.5.5.5/dns-query",
-            "https://dns.alidns.com/dns-query"
-        ],
+        "proxy-server-nameserver": proxyServerNameserver,
         /*"fallback-filter": {
             "domain": [
                 "+.google.com",
@@ -823,4 +825,67 @@ async function main(config) {
     };
 
     return config;
+}
+
+async function processFileContent(raw) {
+    const config = ProxyUtils.yaml.safeLoad(raw);
+    if (!config || typeof config !== "object") {
+        throw new Error("Invalid Mihomo config content");
+    }
+
+    const processed = await main(config);
+    return ProxyUtils.yaml.safeDump(processed);
+}
+
+function extractText(value) {
+    if (typeof value === "string") {
+        return value;
+    }
+
+    if (value instanceof Uint8Array) {
+        return new TextDecoder().decode(value);
+    }
+
+    if (value instanceof ArrayBuffer) {
+        return new TextDecoder().decode(new Uint8Array(value));
+    }
+
+    if (value && typeof value === "object") {
+        return extractText(value.content ?? value.body ?? value.data ?? value.value ?? "");
+    }
+
+    return "";
+}
+
+function readFileInput(content) {
+    const direct = extractText(content);
+    if (direct.trim()) return direct;
+
+    if (typeof $content !== "undefined") {
+        const fromContent = extractText($content);
+        if (fromContent.trim()) return fromContent;
+    }
+
+    if (typeof $files !== "undefined") {
+        const files = Array.isArray($files) ? $files : [$files];
+        for (const file of files) {
+            const fromFile = extractText(file);
+            if (fromFile.trim()) return fromFile;
+        }
+    }
+
+    throw new Error("No file content found");
+}
+
+async function operator(content) {
+    const raw = readFileInput(content);
+    const output = await processFileContent(raw);
+    if (typeof $content !== "undefined") {
+        $content = output;
+    }
+    return output;
+}
+
+if (typeof $content !== "undefined" || typeof $files !== "undefined") {
+    $content = await operator();
 }

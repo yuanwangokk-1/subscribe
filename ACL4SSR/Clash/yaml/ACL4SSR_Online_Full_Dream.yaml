@@ -16,7 +16,7 @@ proxy-groups:
   - name: ♻️ 自动选择
     include-all: true
     type: url-test
-    url: https://cp.cloudflare.com
+    url: https://cp.cloudflare.com/generate_204
     interval: 300
     tolerance: 200
     lazy: true
@@ -38,6 +38,7 @@ proxy-groups:
   - name: 📢 谷歌FCM
     type: select
     proxies:
+      - DIRECT
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🚀 手动切换1
@@ -46,7 +47,7 @@ proxy-groups:
       - 🇨🇳 台湾自动
       - 🇸🇬 狮城自动
       - 🇯🇵 日本自动
-      - DIRECT
+
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
@@ -138,7 +139,7 @@ proxy-groups:
     include-all: true
     filter: (?i)香港|港|HK|hk|Hong Kong|HongKong|hongkong
     type: url-test
-    url: https://cp.cloudflare.com
+    url: https://cp.cloudflare.com/generate_204
     interval: 300
     tolerance: 150
     lazy: true
@@ -148,7 +149,7 @@ proxy-groups:
     include-all: true
     filter: (?i)台|新北|彰化|TW|Taiwan
     type: url-test
-    url: https://cp.cloudflare.com
+    url: https://cp.cloudflare.com/generate_204
     interval: 300
     tolerance: 150
     lazy: true
@@ -158,7 +159,7 @@ proxy-groups:
     include-all: true
     filter: (?i)(?:美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(?<![A-Za-z])US(?:(?=\s*x\d)|(?![A-Za-z]))|USA|UnitedStates|United States|America|California)
     type: url-test
-    url: https://cp.cloudflare.com
+    url: https://cp.cloudflare.com/generate_204
     interval: 300
     tolerance: 250
     lazy: true
@@ -168,7 +169,7 @@ proxy-groups:
     include-all: true
     filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
     type: url-test
-    url: https://cp.cloudflare.com
+    url: https://cp.cloudflare.com/generate_204
     interval: 300
     tolerance: 150
     lazy: true
@@ -178,7 +179,7 @@ proxy-groups:
     include-all: true
     filter: (?i)新加坡|坡|狮城|SG|Singapore
     type: url-test
-    url: https://cp.cloudflare.com
+    url: https://cp.cloudflare.com/generate_204
     interval: 300
     tolerance: 150
     lazy: true
@@ -311,7 +312,7 @@ rules:
   - "GEOIP,LAN,🎯 全球直连,no-resolve"
   - "RULE-SET,MyProxy,🚀 节点选择"
   - "RULE-SET,FCM,📢 谷歌FCM"
-  - "RULE-SET,SSH,🔑 RemoteSSH"
+  #- "RULE-SET,SSH,🔑 RemoteSSH"
   - "RULE-SET,GoogleFCM,📢 谷歌FCM"
   - "RULE-SET,Onedrive,Ⓜ️ 微软云盘"
   - "RULE-SET,Microsoft,Ⓜ️ 微软服务"
@@ -342,28 +343,80 @@ rules:
   - "GEOIP,CN,🎯 全球直连,no-resolve"
   #- DST-PORT,22,SSH(22端口)
   - "MATCH,🚀 节点选择"
-#sniffer:
-#  sniff:
-#    TLS:
-#      ports:
-#        - 443
-#        - 8443
-#    HTTP:
-#      ports:
-#        - 80
-#        - 8080
-#        - 8880
-#    QUIC:
-#      ports:
-#        - 443
-#        - 8443
-#  override-destination: false
-#  enable: true
-#  force-dns-mapping: true
-#  skip-domain:
-#    - Mijia Cloud
-#    - dlg.io.mi.com
-#    - +.push.apple.com
+
+
+sniffer:
+  enable: true
+  override-destination: false
+  parse-pure-ip: false
+  force-dns-mapping: true
+
+  sniff:
+    TLS:
+      ports:
+        - 443
+        - 8443
+    HTTP:
+      ports:
+        - 80
+        - 8080
+        - 8880
+    # QUIC:
+    #   ports:
+    #     - 443
+    #     - 8443
+
+  skip-domain:
+    - Mijia Cloud
+    - dlg.io.mi.com
+    - +.push.apple.com
+    - +.lan
+    - +.local
+    - +.home
+    - +.arpa
+    - localhost
+    - time.*.com
+    - ntp.*.com
+    - stun.*.*
+    - stun.*
+    - +.market.xiaomi.com
+    - localhost.ptlogin2.qq.com
+    - +.msftncsi.com
+    - www.msftconnecttest.com
+    - mtalk.google.com
+    - mtalk4.google.com
+    - mtalk-staging.google.com
+    - mtalk-dev.google.com
+    - alt1-mtalk.google.com
+    - alt2-mtalk.google.com
+    - alt3-mtalk.google.com
+    - alt4-mtalk.google.com
+    - alt5-mtalk.google.com
+    - alt6-mtalk.google.com
+    - alt7-mtalk.google.com
+    - alt8-mtalk.google.com
+
+  skip-dst-address:
+    - 0.0.0.0/8
+    - 10.0.0.0/8
+    - 100.64.0.0/10
+    - 127.0.0.0/8
+    - 169.254.0.0/16
+    - 172.16.0.0/12
+    - 192.168.0.0/16
+    - 224.0.0.0/4
+    - 240.0.0.0/4
+
+  skip-src-address:
+    - 0.0.0.0/8
+    - 10.0.0.0/8
+    - 100.64.0.0/10
+    - 127.0.0.0/8
+    - 169.254.0.0/16
+    - 172.16.0.0/12
+    - 192.168.0.0/16
+    - 224.0.0.0/4
+    - 240.0.0.0/4
 tun:
   enable: true
   stack: system
