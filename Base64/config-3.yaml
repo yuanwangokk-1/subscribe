@@ -33,6 +33,7 @@ proxy-providers:
   Aries:
     <<: *p
     url: "https://gist.githubusercontent.com/yuanwangokk-1/51ae278f2a2d697a9f32e983f3275b7c/raw/ec88b831c107fb8112b9b8100261f3906de6dd38/config.json"
+    path: ./proxy_provider/Aries.yaml
 
 # ==================== 规则提供者 ====================
 rule-providers:
@@ -103,7 +104,7 @@ dns:
   enable: true
   listen: :1053
   ipv6: true
-  enhanced-mode: redir-host
+  enhanced-mode: fake-ip
   fake-ip-range: 28.0.0.1/8
   fake-ip-filter:
     - '*'
