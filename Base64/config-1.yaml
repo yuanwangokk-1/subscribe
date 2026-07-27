@@ -82,7 +82,8 @@ dns:
     "rule-set:cn_domain":
       - 223.5.5.5
   nameserver:
-    - 8.8.8.8
+      - https://dns.alidns.com/dns-query
+      - https://dns.cloudflare.com/dns-query
 
 proxies:
   - {name: DNS_Hijack, type: dns}

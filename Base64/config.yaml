@@ -102,7 +102,7 @@ dns:
     - https://223.5.5.5/dns-query
   nameserver:
     - https://dns.alidns.com/dns-query
-    - https://xxxxxxxxxx.cloudflare-gateway.com/dns-query
+    # - https://xxxxxxxxxx.cloudflare-gateway.com/dns-query
   proxy-server-nameserver:
     - https://doh.pub/dns-query
   nameserver-policy:
@@ -111,7 +111,7 @@ dns:
       - https://dns.alidns.com/dns-query
     "geosite:geolocation-!cn,gfw,!cn":
       - https://dns.google/dns-query
-      - https://xxxxxxxxxx.cloudflare-gateway.com/dns-query
+      # - https://xxxxxxxxxx.cloudflare-gateway.com/dns-query
 
 
 proxies:
@@ -240,7 +240,6 @@ rules:
   - GEOSITE,category-httpdns-cn,屏蔽 #屏蔽httpdns防止去广告失效
   - RULE-SET,AWAvenue,屏蔽 #去广告
   - IP-CIDR,203.107.1.0/24,屏蔽,no-resolve # 阿里云ip httpdns
-
   - GEOSITE,private,国内分流
   - GEOSITE,connectivity-check,国内分流
   - GEOSITE,googlefcm,国内分流
