@@ -71,8 +71,8 @@ rules:
   - RULE-SET,private_domain,DIRECT
   - RULE-SET,cn_ip,DIRECT
   - RULE-SET,cn_domain,DIRECT
+  - RULE-SET,Fake-IP-Filter,DIRECT
   - RULE-SET,proxy_domain,节点选择
-  - RULE-SET,Fake-IP-Filter,节点选择
   - GEOSITE,category-scholar-!cn,学术
   - GEOSITE,category-ai-!cn,境外AI
   - GEOSITE,apple,Apple
