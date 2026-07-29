@@ -22,7 +22,7 @@ mixed-port: 7890
 unified-delay: true
 tcp-concurrent: true
 external-controller: :9090
-geodata-mode: false  # 改为false，避免与rule-providers冲突
+geodata-mode: false
 geox-url: {geoip: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat", geosite: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat", mmdb: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"}
 find-process-mode: strict
 keep-alive-interval: 1800
@@ -38,11 +38,10 @@ dns:
   ipv6: true
   enhanced-mode: fake-ip
   fake-ip-range: 28.0.0.1/8
-  fake-ip-filter: ['+.lan', '+.local']  # 移除 '*'，避免匹配所有域名
+  fake-ip-filter: ['+.lan', '+.local']
   default-nameserver: [223.5.5.5, 119.29.29.29, 114.114.114.114, '[2402:4e00::]', '[2400:3200::1]']
   nameserver: ['tls://8.8.4.4', 'tls://1.0.0.1', 'tls://[2001:4860:4860::8844]', 'tls://[2606:4700:4700::1001]']
   proxy-server-nameserver: [https://doh.pub/dns-query, https://dns.alidns.com/dns-query]
-  # 拆分逗号分隔的标签，分别定义策略
   nameserver-policy: 
     "geosite:cn": [https://doh.pub/dns-query, https://dns.alidns.com/dns-query]
     "geosite:private": [https://doh.pub/dns-query, https://dns.alidns.com/dns-query]
@@ -52,31 +51,198 @@ dns:
 proxies: []
 
 proxy-groups:
-  # 将引用的组提前定义，确保节点选择能正确引用
-  - {name: 全部节点, <<: *use}
-  - {name: 自动选择, <<: *use, tolerance: 2, type: url-test}
-  - {name: 节点选择, type: select, proxies: [全部节点, 自动选择, DIRECT]}
-  - {name: dns, <<: *pr}
-  - {name: 广告拦截, type: select, proxies: [REJECT, DIRECT, 节点选择]}
-  - {name: 学术, <<: *pr}
-  - {name: 境外AI, <<: *pr}
-  - {name: Apple, <<: *pr}
-  - {name: Google, <<: *pr}
-  - {name: Telegram, <<: *pr}
-  - {name: Twitter, <<: *pr}
-  - {name: Pixiv, <<: *pr}
-  - {name: ehentai, <<: *pr}
-  - {name: 巴哈姆特, <<: *pr}
-  - {name: YouTube, <<: *pr}
-  - {name: NETFLIX, <<: *pr}
-  - {name: TikTok, <<: *pr}
-  - {name: Spotify, <<: *pr}
-  - {name: Github, <<: *pr}
-  - {name: Steam, <<: *pr}
-  - {name: OneDrive, <<: *pr}
-  - {name: 微软服务, <<: *pr}
-  - {name: 国内, type: select, proxies: [DIRECT, 节点选择, 全部节点, 自动选择]}
-  - {name: 其他, <<: *pr}
+  # ==================== 基础节点组 ====================
+  - name: 全部节点
+    type: url-test
+    use: [Aries]
+    interval: 3600
+
+  - name: 自动选择
+    type: url-test
+    use: [Aries]
+    tolerance: 2
+    interval: 3600
+
+  - name: 节点选择
+    type: select
+    proxies:
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  # ==================== DNS 专用组 ====================
+  - name: dns
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  # ==================== 广告拦截 ====================
+  - name: 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      - 节点选择
+
+  # ==================== 学术与 AI ====================
+  - name: 学术
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  - name: 境外AI
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  # ==================== 国际服务 ====================
+  - name: Apple
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  - name: Google
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  - name: Telegram
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  - name: Twitter
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  - name: Pixiv
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  - name: ehentai
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  - name: 巴哈姆特
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  - name: YouTube
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  - name: NETFLIX
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  - name: TikTok
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  - name: Spotify
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  # ==================== 开发者服务 ====================
+  - name: Github
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  - name: Steam
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  - name: OneDrive
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  - name: 微软服务
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
+
+  # ==================== 国内流量 ====================
+  - name: 国内
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 全部节点
+      - 自动选择
+
+  # ==================== 其他流量（默认） ====================
+  - name: 其他
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 自动选择
+      - DIRECT
 
 rules:
   - RULE-SET,AWAvenue-Ads,广告拦截
