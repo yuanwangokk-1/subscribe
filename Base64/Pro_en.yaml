@@ -1,55 +1,24 @@
-# >>=====================================<<
-# ||                                     ||
-# ||      ██████╗  ██████╗  ██████╗      ||
-# ||     ██╔════╝ ██╔════╝ ██╔════╝      ||
-# ||     ███████╗ ███████╗ ███████╗      ||
-# ||     ██╔═══██╗██╔═══██╗██╔═══██╗     ||
-# ||     ╚██████╔╝╚██████╔╝╚██████╔╝     ||
-# ||      ╚═════╝  ╚═════╝  ╚═════╝      ||
-# ||                                     ||
-# >>=====================================<<
-# Pro_en Edition v2.0.6 by YYDS666 (2026-07-11)
-# Repo: https://github.com/666OS/YYDS | Channel: https://t.me/Pinched666
-# Add your subscription links in proxy-providers, or insert custom nodes under proxies
-
-# Anchors
 x-base-provider: &base-provider {type: http, interval: 86400, proxy: DIRECT, health-check: {enable: true, url: 'https://www.google.com/generate_204', interval: 300}, filter: '^(?!.*(群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author))'}
-
 x-url-test:     &url-test     { type: url-test, url: "https://www.gstatic.com/generate_204", interval: 300, empty-fallback: REJECT, include-all: true, hidden: true, tolerance: 50 }
 x-load-balance: &load-balance { type: load-balance, url: "https://www.gstatic.com/generate_204", interval: 300, empty-fallback: REJECT, include-all: true, hidden: true, strategy: consistent-hashing }
 x-fallback:     &fallback     { type: fallback, url: "https://www.gstatic.com/generate_204", interval: 300, empty-fallback: REJECT }
-
 x-filter-hk:    &filter-hk    "^(?i)(?=.*(香港|港深|深港|沪港|广港|陆港|(?<![a-zA-Z])(hk|hkg)(?![a-zA-Z])|hongkong|hong kong|🇭🇰))(?!.*(排除)).*$"
 x-filter-tw:    &filter-tw    "^(?i)(?=.*(台湾|台北|台中|台南|台东|湾湾|(?<![a-zA-Z])(tw|tpe|khh|tsa)(?![a-zA-Z])|taiwan|taipei|🇹🇼|🇼🇸))(?!.*(排除)).*$"
 x-filter-jp:    &filter-jp    "^(?i)(?=.*(日本|东京|大阪|京都|神奈川|琦玉|(?<![a-zA-Z])(jp|nrt|hnd|kix|cts|fuk)(?![a-zA-Z])|japan|tokyo|🇯🇵))(?!.*(排除)).*$"
 x-filter-sg:    &filter-sg    "^(?i)(?=.*(新加坡|坡县|坡|狮城|(?<![a-zA-Z])(sg|sin|xsp)(?![a-zA-Z])|singapore|🇸🇬))(?!.*(排除)).*$"
 x-filter-kr:    &filter-kr    "^(?i)(?=.*(韩国|韓國|首尔|首爾|南朝鲜|(?<![a-zA-Z])(kr|icn|gmp|pus)(?![a-zA-Z])|korea|seoul|🇰🇷))(?!.*(排除)).*$"
 x-filter-us:    &filter-us    "^(?i)(?=.*(美国|美东|美西|美中|美南|美港|美日|中美|美专|(?<![a-zA-Z])(us|usa|lax|sfo|jfk|sjc)(?![a-zA-Z])|america|united states|🇺🇸))(?!.*(排除)).*$"
-
-x-oversea:      &oversea      [FALLBACK, MANUAL, HK, TW, JP, SG, KR, US, DIRECT]
-x-direct:       &direct       [DIRECT, FALLBACK, MANUAL, HK, TW, JP, SG, KR, US]
-x-us-first:     &us-first     [US, FALLBACK, MANUAL, HK, TW, JP, SG, KR, DIRECT]
-x-hk-first:     &hk-first     [HK, FALLBACK, MANUAL, TW, JP, SG, KR, US, DIRECT]
-x-sg-first:     &sg-first     [SG, FALLBACK, MANUAL, HK, TW, JP, KR, US, DIRECT]
-x-jp-first:     &jp-first     [JP, FALLBACK, MANUAL, HK, TW, SG, KR, US, DIRECT]
-
+x-oversea:      &oversea      [FALLBACK, 👉MANUAL👈, HK, TW, JP, SG, KR, US, DIRECT]
+x-direct:       &direct       [DIRECT, FALLBACK, 👉MANUAL👈, HK, TW, JP, SG, KR, US]
+x-us-first:     &us-first     [US, FALLBACK, 👉MANUAL👈, HK, TW, JP, SG, KR, DIRECT]
+x-hk-first:     &hk-first     [HK, FALLBACK, 👉MANUAL👈, TW, JP, SG, KR, US, DIRECT]
+x-sg-first:     &sg-first     [SG, FALLBACK, 👉MANUAL👈, HK, TW, JP, KR, US, DIRECT]
+x-jp-first:     &jp-first     [JP, FALLBACK, 👉MANUAL👈, HK, TW, SG, KR, US, DIRECT]
 x-rule-set-domain: &rule-set-domain { type: http, behavior: domain, format: mrs, interval: 86400 }
 x-rule-set-ipcidr: &rule-set-ipcidr { type: http, behavior: ipcidr, format: mrs, interval: 86400 }
-
 proxy-providers:
-  Aries: {<<: *base-provider, url: 'https://gist.githubusercontent.com/yuanwangokk-1/51ae278f2a2d697a9f32e983f3275b7c/raw/ec88b831c107fb8112b9b8100261f3906de6dd38/config.json', override: {additional-prefix: '[A] '}}
-  # Backup:   {<<: *base-provider, url: 'YOUR_BACKUP_URL',  override: {additional-prefix: '[B] '}}
-
-# Custom Proxies
+  Primary: {<<: *base-provider, url: 'https://xhjho.daozhangnb.dpdns.org/clash', override: {additional-prefix: 'Aries | '}}
 proxies:
-  # - name: "ss1"
-  #   type: ss
-  #   server: server
-  #   port: 443
-  #   cipher: aes-128-gcm
-  #   password: password
-
-# General
 mode: rule
 port: 7890
 socks-port: 7891
@@ -65,19 +34,15 @@ bind-address: '*'
 find-process-mode: 'always'
 keep-alive-interval: 15
 keep-alive-idle: 600
-authentication: [mihomo:yyds666]
+authentication: [mihomo:aries]
 skip-auth-prefixes: [127.0.0.1/8, '::1/128']
 experimental: {quic-go-disable-gso: true}
-
-# Dashboard
 external-ui-url: https://github.com/Zephyruso/zashboard/releases/latest/download/dist.zip
 external-ui-name: zashboard
 external-ui: ui
 external-controller: 127.0.0.1:9090
-secret: yyds666
+secret: aries
 profile: {store-selected: true, store-fake-ip: true}
-
-# Sniffer
 sniffer:
   enable: true
   sniff:
@@ -85,17 +50,13 @@ sniffer:
     TLS:   {ports: [443, 8443]}
     QUIC:  {ports: [443, 8443]}
   skip-domain: ["Mijia Cloud", "+.push.apple.com"]
-
-# TUN
 tun:
-  enable: false
+  enable: true
   stack: mixed
   dns-hijack: ["any:53", "tcp://any:53"]
   auto-route: true
   auto-redirect: true
   auto-detect-interface: true
-
-# DNS
 dns:
   enable: true
   ipv6: false
@@ -104,9 +65,7 @@ dns:
   default-nameserver: [119.29.29.29, 180.184.1.1, 223.5.5.5]
   nameserver: [https://dns.alidns.com/dns-query, https://doh.pub/dns-query]
   fake-ip-filter: ["+.lan", "*.local", "+.gstatic.com", "+.miwifi.com", "+.market.xiaomi.com", "+.push.apple.com"]
-
 proxy-groups:
-  # routing
   - { name: GUARD,     type: select, proxies: [REJECT-DROP, REJECT, DIRECT], icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Reject.png }
   - { name: SPEEDTEST, type: select, proxies: *oversea, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Speedtest.png }
   - { name: TM,        type: select, proxies: *sg-first, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Telegram_X.png }
@@ -124,95 +83,56 @@ proxy-groups:
   - { name: OUTCN,     type: select, proxies: *oversea, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Global.png }
   - { name: CN,        type: select, proxies: *direct, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/China.png }
   - { name: MATCH,     type: select, proxies: *oversea, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Final.png }
-  
-  # fallback
   - { name: FALLBACK, <<: *fallback, proxies: [US, JP, SG, KR, HK, TW], icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/ULB.png }
-
-  # manual
-  - { name: MANUAL,    type: select, include-all: true, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Clubhouse.png }
-  
-  # region
+  - { name: 👉MANUAL👈,    type: select, include-all: true, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Clubhouse.png }
   - { name: HK,      type: select, include-all: true, filter: *filter-hk, proxies: [HK-AUTO, HK-BALANCE], icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Hong_Kong.png }
   - { name: TW,      type: select, include-all: true, filter: *filter-tw, proxies: [TW-AUTO, TW-BALANCE], icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Taiwan.png }
   - { name: JP,      type: select, include-all: true, filter: *filter-jp, proxies: [JP-AUTO, JP-BALANCE], icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Japan.png }
   - { name: SG,      type: select, include-all: true, filter: *filter-sg, proxies: [SG-AUTO, SG-BALANCE], icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Singapore.png }
   - { name: KR,      type: select, include-all: true, filter: *filter-kr, proxies: [KR-AUTO, KR-BALANCE], icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Korea.png }
   - { name: US,      type: select, include-all: true, filter: *filter-us, proxies: [US-AUTO, US-BALANCE], icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/United_States.png }
-
-  # latency-test
   - { name: HK-AUTO, <<: *url-test, filter: *filter-hk, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Auto.png }
   - { name: TW-AUTO, <<: *url-test, filter: *filter-tw, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Auto.png }
   - { name: JP-AUTO, <<: *url-test, filter: *filter-jp, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Auto.png }
   - { name: SG-AUTO, <<: *url-test, filter: *filter-sg, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Auto.png }
   - { name: KR-AUTO, <<: *url-test, filter: *filter-kr, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Auto.png }
   - { name: US-AUTO, <<: *url-test, filter: *filter-us, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Auto.png }
-
-  # load-balance
   - { name: HK-BALANCE,   <<: *load-balance, filter: *filter-hk, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Round_Robin_1.png }
   - { name: TW-BALANCE,   <<: *load-balance, filter: *filter-tw, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Round_Robin_1.png }
   - { name: JP-BALANCE,   <<: *load-balance, filter: *filter-jp, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Round_Robin_1.png }
   - { name: SG-BALANCE,   <<: *load-balance, filter: *filter-sg, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Round_Robin_1.png }
   - { name: KR-BALANCE,   <<: *load-balance, filter: *filter-kr, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Round_Robin_1.png }
   - { name: US-BALANCE,   <<: *load-balance, filter: *filter-us, icon: https://github.com/Koolson/Qure/raw/master/IconSet/Color/Round_Robin_1.png }
-
 rules:
-  # guard
   - RULE-SET,Tracking,GUARD
   - RULE-SET,Advertising,GUARD
-  
-  # local
   - RULE-SET,Private,DIRECT
   - RULE-SET,PrivateIP,DIRECT,no-resolve
-
-  # speedtest
   - RULE-SET,Speedtest,SPEEDTEST
-
-  # tm
   - RULE-SET,TM,TM
   - RULE-SET,Telegram,TM
   - RULE-SET,TelegramIP,TM,no-resolve
-
-  # social
   - RULE-SET,SocialMedia,SOCIAL
   - RULE-SET,SocialMediaIP,SOCIAL,no-resolve
-
-  # ai
   - RULE-SET,AI,AI
   - RULE-SET,AIIP,AI,no-resolve
-
-  # dev
   - RULE-SET,Dev,DEV
-
-  # streaming
   - RULE-SET,Emby,EMBY
   - RULE-SET,EmbyIP,EMBY,no-resolve
   - RULE-SET,Streaming,STREAMING
   - RULE-SET,StreamingIP,STREAMING,no-resolve
-
-  #games
   - RULE-SET,Games,GAMES
-
-  # crypto
   - RULE-SET,Crypto,CRYPTO
-
-  # platform
   - RULE-SET,Google,GOOGLE
   - RULE-SET,GoogleIP,GOOGLE,no-resolve
   - RULE-SET,Microsoft,MICROSOFT
   - RULE-SET,Facebook,FACEBOOK
   - RULE-SET,Apple,APPLE
-
-  # outcn
   - RULE-SET,Proxy,OUTCN
   - RULE-SET,ProxyIP,OUTCN,no-resolve
-
-  # cn
   - RULE-SET,China,CN
   - RULE-SET,ChinaIP,CN,no-resolve
-
-  # match
   - MATCH,MATCH
-
 rule-providers:
   Tracking:       { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Tracking.mrs }
   Advertising:    { <<: *rule-set-domain, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Advertising.mrs } 
